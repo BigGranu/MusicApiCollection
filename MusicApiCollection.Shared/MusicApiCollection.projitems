@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>050b2eb9-758b-40a0-bae3-07b0d126e9dc</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MusicApiCollection</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Artist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Disc.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\Exceptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Events\Logging.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\AcoustID\Data\Lookup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\AcoustID\Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\CoverArtArchive\Data\Covers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\CoverArtArchive\Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\Discogs\Data\AllLabelReleases.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\Discogs\Data\Artist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\Discogs\Data\ArtistRelease.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\Discogs\Data\Global.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\Discogs\Data\Label.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\Discogs\Data\MasterRelease.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\Discogs\Data\MasterReleaseVersion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\Discogs\Data\Query.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\Discogs\Data\Release.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\Discogs\Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\FanartTv\Data\Movie.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\FanartTv\Data\Music.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\FanartTv\Data\TvShow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\FanartTv\Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\FreeDB\Commands.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\FreeDB\Data\Disk.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\FreeDB\Data\FreeDbResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\FreeDB\Data\Query.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\FreeDB\Parser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\FreeDB\Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\GraceNote\Commands.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\GraceNote\Data\Album.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\GraceNote\Option.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\GraceNote\Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\Lyrics\Lyric.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\Lyrics\LyricsOverload\Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Annotation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Area.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Artist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Cdstub.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Freedb.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Global.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Label.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\LookupArea.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\LookupRelease.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\LookupReleaseGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\LookupUrl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\LookupWork.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Place.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Recording.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Release.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Releasegroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Tag.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Data\Work.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Help.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Lookup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\MusicBrainz\Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\TheAudioDB\AlbumId.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\TheAudioDB\ArtistId.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\TheAudioDB\Data\AlbumList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\TheAudioDB\Data\ArtistList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\TheAudioDB\Data\DiscographyList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\TheAudioDB\Data\TrackList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\TheAudioDB\Data\VideoList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\TheAudioDB\Search.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sites\TheAudioDB\TrackId.cs" />
+  </ItemGroup>
+</Project>
