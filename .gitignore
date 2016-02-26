@@ -74,5 +74,6 @@ nuget
 GUIs
 *.licenseheader
 *.psd
+*.png
 .gitattributes
 .gitignore
