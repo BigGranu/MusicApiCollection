@@ -85,7 +85,7 @@ namespace MusicApiCollection.Sites.CoverArtArchive.Data
         ///     List of Coverimages
         /// </summary>
         [DataMember(Name = "images")]
-        public List<Cover> Images { get; set; } = new List<Cover>();
+        public List<Cover> Images { get; set; } = new List<Cover> {new Cover()};
 
         /// <summary>
         ///     Release
@@ -104,7 +104,7 @@ namespace MusicApiCollection.Sites.CoverArtArchive.Data
         ///     List of Imagetypes
         /// </summary>
         [DataMember(Name = "types")]
-        public List<string> Types { get; set; } = new List<string>();
+        public List<string> Types { get; set; } = new List<string> {""};
 
         /// <summary>
         ///     Frontimage

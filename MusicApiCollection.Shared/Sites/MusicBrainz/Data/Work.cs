@@ -91,7 +91,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("work")]
-        public List<WorkData> Data { get; set; } = new List<WorkData>();
+        public List<WorkData> Data { get; set; } = new List<WorkData> {new WorkData()};
 
         /// <remarks />
         [XmlAttribute("count")]
@@ -163,7 +163,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("relation")]
-        public List<WorkRelation> Relation { get; set; } = new List<WorkRelation>();
+        public List<WorkRelation> Relation { get; set; } = new List<WorkRelation> {new WorkRelation()};
 
         /// <remarks />
         [XmlAttribute("target-type")]

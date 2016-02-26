@@ -35,7 +35,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
 
         /// <remarks />
         [XmlElement("release")]
-        public List<ReleaseData> Data { get; set; } = new List<ReleaseData>();
+        public List<ReleaseData> Data { get; set; } = new List<ReleaseData> {new ReleaseData()};
 
         /// <summary>
         ///     Error Message

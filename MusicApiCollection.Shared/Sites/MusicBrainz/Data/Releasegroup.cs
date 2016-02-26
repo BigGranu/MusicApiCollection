@@ -91,7 +91,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("release-group")]
-        public List<ReleasegroupData> Data { get; set; } = new List<ReleasegroupData>();
+        public List<ReleasegroupData> Data { get; set; } = new List<ReleasegroupData> {new ReleasegroupData()};
 
         /// <remarks />
         [XmlAttribute("count")]
@@ -123,7 +123,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
 
         /// <remarks/>
         [XmlElement("first-release-date", DataType = "date")]
-        public System.DateTime firstreleasedate { get; set; }
+        public System.DateTime Firstreleasedate { get; set; }
 
          /// <remarks />
         [XmlAttribute("id")]
@@ -171,7 +171,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
 
         /// <remarks />
         [XmlArray("alias-list"), XmlArrayItem("alias", IsNullable = false)]
-        public List<Alias> Aliaslist { get; set; } = new List<Alias>();
+        public List<Alias> Aliaslist { get; set; } = new List<Alias> {new Alias()};
 
         /// <remarks />
         [XmlAttribute("id")]
@@ -183,7 +183,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("release")]
-        public List<ReleasegroupRelease> Release { get; set; } = new List<ReleasegroupRelease>();
+        public List<ReleasegroupRelease> Release { get; set; } = new List<ReleasegroupRelease> {new ReleasegroupRelease()};
 
         /// <remarks />
         [XmlAttribute("count")]

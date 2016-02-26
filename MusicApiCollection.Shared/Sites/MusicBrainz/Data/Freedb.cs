@@ -91,7 +91,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("freedb-disc")]
-        public List<FreedbData> Data { get; set; } = new List<FreedbData>();
+        public List<FreedbData> Data { get; set; } = new List<FreedbData> {new FreedbData()};
 
         /// <remarks />
         [XmlAttribute("count")]

@@ -91,7 +91,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("cdstub")]
-        public List<CdstubData> Data { get; set; } = new List<CdstubData>();
+        public List<CdstubData> Data { get; set; } = new List<CdstubData> {new CdstubData()};
 
         /// <remarks />
         [XmlAttribute("count")]

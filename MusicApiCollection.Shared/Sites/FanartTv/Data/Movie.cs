@@ -92,39 +92,39 @@ namespace MusicApiCollection.Sites.FanartTv.Data
 
         /// <remarks />
         [DataMember(Name = "hdmovieclearart")]
-        public List<MovieArt> Hdmovieclearart { get; set; } = new List<MovieArt>();
+        public List<MovieArt> Hdmovieclearart { get; set; } = new List<MovieArt> {new MovieArt()};
 
         /// <remarks />
         [DataMember(Name = "hdmovielogo")]
-        public List<MovieArt> Hdmovielogo { get; set; } = new List<MovieArt>();
+        public List<MovieArt> Hdmovielogo { get; set; } = new List<MovieArt> { new MovieArt() };
 
         /// <remarks />
         [DataMember(Name = "movieart")]
-        public List<MovieArt> Movieart { get; set; } = new List<MovieArt>();
+        public List<MovieArt> Movieart { get; set; } = new List<MovieArt> { new MovieArt() };
 
         /// <remarks />
         [DataMember(Name = "moviebackground")]
-        public List<MovieArt> Moviebackground { get; set; } = new List<MovieArt>();
+        public List<MovieArt> Moviebackground { get; set; } = new List<MovieArt> { new MovieArt() };
 
         /// <remarks />
         [DataMember(Name = "movieposter")]
-        public List<MovieArt> Movieposter { get; set; } = new List<MovieArt>();
+        public List<MovieArt> Movieposter { get; set; } = new List<MovieArt> { new MovieArt() };
 
         /// <remarks />
         [DataMember(Name = "movielogo")]
-        public List<MovieArt> Movielogo { get; set; } = new List<MovieArt>();
+        public List<MovieArt> Movielogo { get; set; } = new List<MovieArt> { new MovieArt() };
 
         /// <remarks />
         [DataMember(Name = "moviedisc")]
-        public List<MovieDisc> Moviedisc { get; set; } = new List<MovieDisc>();
+        public List<MovieDisc> Moviedisc { get; set; } = new List<MovieDisc> {new MovieDisc()};
 
         /// <remarks />
         [DataMember(Name = "moviethumb")]
-        public List<MovieArt> Moviethumb { get; set; } = new List<MovieArt>();
+        public List<MovieArt> Moviethumb { get; set; } = new List<MovieArt> { new MovieArt() };
 
         /// <remarks />
         [DataMember(Name = "moviebanner")]
-        public List<MovieArt> Moviebanner { get; set; } = new List<MovieArt>();
+        public List<MovieArt> Moviebanner { get; set; } = new List<MovieArt> { new MovieArt() };
     }
 
     /// <remarks />
@@ -211,7 +211,7 @@ namespace MusicApiCollection.Sites.FanartTv.Data
         /// <summary>
         ///     All possible Data
         /// </summary>
-        public List<MovieLatestResult> Data { get; set; } = new List<MovieLatestResult>();
+        public List<MovieLatestResult> Data { get; set; } = new List<MovieLatestResult> {new MovieLatestResult()};
 
         /// <summary>
         ///     Error Message

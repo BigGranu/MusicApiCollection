@@ -103,7 +103,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("tag")]
-        public List<TagTags> Tag { get; set; } = new List<TagTags>();
+        public List<TagTags> Tag { get; set; } = new List<TagTags> {new TagTags()};
 
         /// <remarks />
         [XmlAttribute("count")]

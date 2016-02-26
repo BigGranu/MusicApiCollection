@@ -69,3 +69,10 @@ Icon
 *.user
 .vs
 /.vs/config/applicationhost.config
+packages
+nuget
+GUIs
+*.licenseheader
+*.psd
+.gitattributes
+.gitignore

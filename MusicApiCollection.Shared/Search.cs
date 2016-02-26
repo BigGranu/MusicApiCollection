@@ -37,19 +37,5 @@ namespace MusicApiCollection
     public class Search
     {
 
-        /// <summary>
-        /// Search Album
-        /// </summary>
-        /// <param name="artist">Artist</param>
-        /// <param name="album">Album</param>
-        /// <returns></returns>
-        public static Disc Disc(string artist, string album)
-        {
-            var rel = Sites.MusicBrainz.Search.ReleaseGroup(release:album, artist:artist);
-
-            var lu = Sites.MusicBrainz.Lookup.Release(rel.Data.Data[0].Releaselist.Release[0].Id);
-
-            return new Disc();
-        }
     }
 }

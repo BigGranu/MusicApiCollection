@@ -91,7 +91,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("release")]
-        public List<ReleaseData> Data { get; set; } = new List<ReleaseData>();
+        public List<ReleaseData> Data { get; set; } = new List<ReleaseData> {new ReleaseData()};
 
         /// <remarks />
         [XmlAttribute("count")]
@@ -131,7 +131,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
 
         /// <remarks />
         [XmlArray("artist-credit"), XmlArrayItem("name-credit", IsNullable = false)]
-        public List<ReleaseNamecredit> Artistcredit { get; set; } = new List<ReleaseNamecredit>();
+        public List<ReleaseNamecredit> Artistcredit { get; set; } = new List<ReleaseNamecredit> {new ReleaseNamecredit()};
 
         /// <remarks />
         [XmlElement("release-group")]
@@ -163,7 +163,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
 
         /// <remarks />
         [XmlArray("label-info-list"), XmlArrayItem("label-info", IsNullable = false)]
-        public List<ReleaseLabelinfo> Labelinfolist { get; set; } = new List<ReleaseLabelinfo>();
+        public List<ReleaseLabelinfo> Labelinfolist { get; set; } = new List<ReleaseLabelinfo> {new ReleaseLabelinfo()};
 
         /// <remarks />
         [XmlElement("medium-list")]
@@ -243,7 +243,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("alias")]
-        public List<Alias> Alias { get; set; } = new List<Alias>();
+        public List<Alias> Alias { get; set; } = new List<Alias> {new Alias()};
     }
 
     /// <remarks />
@@ -314,10 +314,8 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         public string Id { get; set; } = string.Empty;
     }
 
-    /// <summary>
-    /// 
-    /// </summary>
-    public  class Coverartarchive
+    /// <remarks />
+    public class Coverartarchive
     {
         /// <remarks/>
         [XmlElement("artwork")]
@@ -369,7 +367,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
 
         /// <remarks />
         [XmlElement("medium")]
-        public List<ReleaseMedium> Medium { get; set; } = new List<ReleaseMedium>();
+        public List<ReleaseMedium> Medium { get; set; } = new List<ReleaseMedium> {new ReleaseMedium()};
 
         /// <remarks />
         [XmlAttribute("count")]

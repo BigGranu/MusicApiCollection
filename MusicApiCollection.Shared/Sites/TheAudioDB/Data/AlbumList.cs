@@ -82,7 +82,7 @@ namespace MusicApiCollection.Sites.TheAudioDB.Data
         ///     List of Album
         /// </summary>
         [DataMember(Name = "album")]
-        public List<Album> List { get; set; } = new List<Album>();
+        public List<Album> List { get; set; } = new List<Album> {new Album()};
     }
 
     /// <summary>

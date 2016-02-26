@@ -93,7 +93,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("recording")]
-        public List<RecordingData> Data { get; set; } = new List<RecordingData>();
+        public List<RecordingData> Data { get; set; } = new List<RecordingData> {new RecordingData()};
 
         /// <remarks />
         [XmlAttribute("count")]
@@ -117,11 +117,11 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
 
         /// <remarks />
         [XmlArray("artist-credit"), XmlArrayItem("name-credit", IsNullable = false)]
-        public List<RecordingNamecredit> Artistcredit { get; set; } = new List<RecordingNamecredit>();
+        public List<RecordingNamecredit> Artistcredit { get; set; } = new List<RecordingNamecredit> {new RecordingNamecredit()};
 
         /// <remarks />
         [XmlArray("release-list"), XmlArrayItem("release", IsNullable = false)]
-        public List<RecordingRelease> Releaselist { get; set; } = new List<RecordingRelease>();
+        public List<RecordingRelease> Releaselist { get; set; } = new List<RecordingRelease> {new RecordingRelease()};
 
         /// <remarks />
         [XmlElement("isrc-list")]
@@ -161,7 +161,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
 
         /// <remarks />
         [XmlArray("alias-list"), XmlArrayItem("alias", IsNullable = false)]
-        public List<Alias> Aliaslist { get; set; } = new List<Alias>();
+        public List<Alias> Aliaslist { get; set; } = new List<Alias> {new Alias()};
 
         /// <remarks />
         [XmlAttribute("id")]
@@ -181,7 +181,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
 
         /// <remarks />
         [XmlArray("artist-credit"), XmlArrayItem("name-credit", IsNullable = false)]
-        public List<RecordingNamecredit> Artistcredit { get; set; } = new List<RecordingNamecredit>();
+        public List<RecordingNamecredit> Artistcredit { get; set; } = new List<RecordingNamecredit> {new RecordingNamecredit()};
 
         /// <remarks />
         [XmlElement("release-group")]

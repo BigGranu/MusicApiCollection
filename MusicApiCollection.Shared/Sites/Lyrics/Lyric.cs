@@ -80,7 +80,7 @@ namespace MusicApiCollection.Sites.Lyrics
         /// <summary>
         ///     Songwrs
         /// </summary>
-        public List<Writer> Writers { get; set; } = new List<Writer>();
+        public List<Writer> Writers { get; set; } = new List<Writer> {new Writer()};
 
         /// <summary>
         ///     Songtext

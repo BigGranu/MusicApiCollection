@@ -92,7 +92,7 @@ namespace MusicApiCollection.Sites.GraceNote.Data
 
         /// <remarks />
         [XmlElement("ALBUM")]
-        public List<ResponseAlbum> Album { get; set; } = new List<ResponseAlbum>();
+        public List<ResponseAlbum> Album { get; set; } = new List<ResponseAlbum> {new ResponseAlbum()};
 
         /// <remarks />
         [XmlAttribute("STATUS")]
@@ -142,7 +142,7 @@ namespace MusicApiCollection.Sites.GraceNote.Data
 
         /// <remarks />
         [XmlElement("GENRE")]
-        public List<Genre> Genre { get; set; } = new List<Genre>();
+        public List<Genre> Genre { get; set; } = new List<Genre> {new Genre()};
 
         /// <remarks />
         [XmlElement("MATCHED_TRACK_NUM")]
@@ -163,7 +163,7 @@ namespace MusicApiCollection.Sites.GraceNote.Data
         /// <summary>
         /// </summary>
         [XmlElement("URL")]
-        public List<ResponseAlbumUrl> Url { get; set; } = new List<ResponseAlbumUrl>();
+        public List<ResponseAlbumUrl> Url { get; set; } = new List<ResponseAlbumUrl> {new ResponseAlbumUrl()};
     }
 
     /// <remarks />
@@ -184,15 +184,15 @@ namespace MusicApiCollection.Sites.GraceNote.Data
 
         /// <remarks />
         [XmlElement("GENRE")]
-        public List<Genre> Genre { get; set; } = new List<Genre>();
+        public List<Genre> Genre { get; set; } = new List<Genre> {new Genre()};
 
         /// <remarks />
         [XmlElement("MOOD")]
-        public List<Mood> Mood { get; set; } = new List<Mood>();
+        public List<Mood> Mood { get; set; } = new List<Mood> {new Mood()};
 
         /// <remarks />
         [XmlElement("TEMPO")]
-        public List<Tempo> Tempo { get; set; } = new List<Tempo>();
+        public List<Tempo> Tempo { get; set; } = new List<Tempo> {new Tempo()};
     }
 
     /// <remarks />

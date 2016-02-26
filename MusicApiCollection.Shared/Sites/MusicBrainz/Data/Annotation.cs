@@ -91,7 +91,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("annotation")]
-        public List<AnnotationData> Data { get; set; } = new List<AnnotationData>();
+        public List<AnnotationData> Data { get; set; } = new List<AnnotationData> {new AnnotationData()};
 
         /// <remarks />
         [XmlAttribute("count")]

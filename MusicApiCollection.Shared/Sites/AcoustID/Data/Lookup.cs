@@ -83,7 +83,7 @@ namespace MusicApiCollection.Sites.AcoustID.Data
 
         /// <remarks />
         [DataMember(Name = "results")]
-        public List<Result> Results { get; set; } = new List<Result>();
+        public List<Result> Results { get; set; } = new List<Result> {new Result()};
     }
 
     /// <remarks />
@@ -92,7 +92,7 @@ namespace MusicApiCollection.Sites.AcoustID.Data
     {
         /// <remarks />
         [DataMember(Name = "recordings")]
-        public List<RecordingResult> Recordings { get; set; } = new List<RecordingResult>();
+        public List<RecordingResult> Recordings { get; set; } = new List<RecordingResult> {new RecordingResult()};
 
         /// <remarks />
         [DataMember(Name = "score")]
@@ -113,7 +113,7 @@ namespace MusicApiCollection.Sites.AcoustID.Data
 
         /// <remarks />
         [DataMember(Name = "artists")]
-        public List<Artist> Artists { get; set; } = new List<Artist>();
+        public List<Artist> Artists { get; set; } = new List<Artist> {new Artist()};
 
         /// <remarks />
         [DataMember(Name = "duration")]

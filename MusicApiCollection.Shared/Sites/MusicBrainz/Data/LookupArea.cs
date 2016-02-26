@@ -96,7 +96,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// <remarks/>
         [XmlArray("tag-list")]
         [XmlArrayItem("tag", IsNullable = false)]
-        public List<AreaTag> Taglist { get; set; } = new List<AreaTag>();
+        public List<AreaTag> Taglist { get; set; } = new List<AreaTag> {new AreaTag()};
 
         /// <remarks />
         [XmlAttribute("id")]

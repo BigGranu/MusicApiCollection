@@ -91,7 +91,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("place")]
-        public List<PlaceData> Data { get; set; } = new List<PlaceData>();
+        public List<PlaceData> Data { get; set; } = new List<PlaceData> {new PlaceData()};
 
         /// <remarks />
         [XmlAttribute("count")]
@@ -127,7 +127,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
 
         /// <remarks />
         [XmlArray("alias-list"), XmlArrayItem("alias", IsNullable = false)]
-        public List<Alias> Aliaslist { get; set; } = new List<Alias>();
+        public List<Alias> Aliaslist { get; set; } = new List<Alias> {new Alias()};
 
         /// <remarks />
         [XmlAttribute("id")]

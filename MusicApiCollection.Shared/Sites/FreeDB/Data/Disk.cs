@@ -103,7 +103,7 @@ namespace MusicApiCollection.Sites.FreeDB.Data
         /// <summary>
         ///     DiskIds
         /// </summary>
-        public List<string> DiskIds { get; set; } = new List<string>();
+        public List<string> DiskIds { get; set; } = new List<string> {""};
 
         /// <summary>
         ///     TrackFramesOffsets
@@ -113,7 +113,7 @@ namespace MusicApiCollection.Sites.FreeDB.Data
         /// <summary>
         ///     Tracks
         /// </summary>
-        public List<string> Tracks { get; set; } = new List<string>();
+        public List<string> Tracks { get; set; } = new List<string> {""};
 
         /// <summary>
         ///     Attributes

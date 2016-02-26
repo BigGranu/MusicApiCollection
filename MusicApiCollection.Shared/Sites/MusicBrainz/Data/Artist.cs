@@ -91,7 +91,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("artist")]
-        public List<ArtistData> Data { get; set; } = new List<ArtistData>();
+        public List<ArtistData> Data { get; set; } = new List<ArtistData> {new ArtistData()};
 
         /// <remarks />
         [XmlAttribute("count")]
@@ -143,11 +143,11 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
 
         /// <remarks />
         [XmlArray("alias-list"), XmlArrayItem("alias", IsNullable = false)]
-        public List<Alias> Aliaslist { get; set; } = new List<Alias>();
+        public List<Alias> Aliaslist { get; set; } = new List<Alias> {new Alias()};
 
         /// <remarks />
         [XmlArray("tag-list"), XmlArrayItem("tag", IsNullable = false)]
-        public List<GTag> Taglist { get; set; } = new List<GTag>();
+        public List<GTag> Taglist { get; set; } = new List<GTag> {new GTag()};
 
         /// <remarks />
         [XmlAttribute("id")]

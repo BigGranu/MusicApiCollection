@@ -83,11 +83,11 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "styles")]
-        public List<string> Styles { get; set; } = new List<string>();
+        public List<string> Styles { get; set; } = new List<string> {""};
 
         /// <remarks />
         [DataMember(Name = "videos")]
-        public List<Video> Videos { get; set; } = new List<Video>();
+        public List<Video> Videos { get; set; } = new List<Video> {new Video()};
 
         /// <remarks />
         [DataMember(Name = "series")]
@@ -99,7 +99,7 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "labels")]
-        public List<ReleaseLabel> Labels { get; set; } = new List<ReleaseLabel>();
+        public List<ReleaseLabel> Labels { get; set; } = new List<ReleaseLabel> {new ReleaseLabel()};
 
         /// <remarks />
         [DataMember(Name = "estimated_weight")]

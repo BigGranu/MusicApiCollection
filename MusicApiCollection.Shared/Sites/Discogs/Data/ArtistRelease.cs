@@ -82,7 +82,7 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "releases")]
-        public List<ArtistReleases> Releases { get; set; } = new List<ArtistReleases>();
+        public List<ArtistReleases> Releases { get; set; } = new List<ArtistReleases> {new ArtistReleases()};
     }
 
     /// <remarks />

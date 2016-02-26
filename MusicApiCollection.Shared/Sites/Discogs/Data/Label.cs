@@ -98,7 +98,7 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "images")]
-        public List<Image> Images { get; set; } = new List<Image>();
+        public List<Image> Images { get; set; } = new List<Image> {new Image()};
 
         /// <remarks />
         [DataMember(Name = "resource_url")]

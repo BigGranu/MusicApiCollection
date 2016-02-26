@@ -166,7 +166,7 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "extraartists")]
-        public List<Extraartist> Extraartists { get; set; } = new List<Extraartist>();
+        public List<Extraartist> Extraartists { get; set; } = new List<Extraartist> {new Extraartist()};
     }
 
     /// <remarks />
@@ -225,7 +225,7 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "contributors")]
-        public List<Contributor> Contributors { get; set; } = new List<Contributor>();
+        public List<Contributor> Contributors { get; set; } = new List<Contributor> {new Contributor()};
 
         /// <remarks />
         [DataMember(Name = "want")]

@@ -82,7 +82,7 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "results")]
-        public List<Result> Results { get; set; } = new List<Result>();
+        public List<Result> Results { get; set; } = new List<Result> {new Result()};
     }
 
     /// <remarks />
@@ -115,11 +115,11 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "style")]
-        public List<string> Style { get; set; } = new List<string>();
+        public List<string> Style { get; set; } = new List<string> {""};
 
         /// <remarks />
         [DataMember(Name = "format")]
-        public List<string> Format { get; set; } = new List<string>();
+        public List<string> Format { get; set; } = new List<string> {""};
 
         /// <remarks />
         [DataMember(Name = "country")]
@@ -127,7 +127,7 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "barcode")]
-        public List<string> Barcode { get; set; } = new List<string>();
+        public List<string> Barcode { get; set; } = new List<string> {""};
 
         /// <remarks />
         [DataMember(Name = "community")]
@@ -135,7 +135,7 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "label")]
-        public List<string> Label { get; set; } = new List<string>();
+        public List<string> Label { get; set; } = new List<string> {""};
 
         /// <remarks />
         [DataMember(Name = "catno")]
@@ -147,6 +147,6 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "genre")]
-        public List<string> Genre { get; set; } = new List<string>();
+        public List<string> Genre { get; set; } = new List<string> {""};
     }
 }

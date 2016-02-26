@@ -94,7 +94,7 @@ namespace MusicApiCollection.Sites.FreeDB.Data
         /// <summary>
         ///     List of Results
         /// </summary>
-        public List<QueryResultCd> Results = new List<QueryResultCd>();
+        public List<QueryResultCd> Results = new List<QueryResultCd> {new QueryResultCd()};
 
         /// <summary>
         ///     Response

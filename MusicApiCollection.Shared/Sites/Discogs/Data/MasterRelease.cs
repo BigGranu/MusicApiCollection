@@ -78,15 +78,15 @@ namespace MusicApiCollection.Sites.Discogs.Data
     {
         /// <remarks />
         [DataMember(Name = "styles")]
-        public List<string> Styles { get; set; } = new List<string>();
+        public List<string> Styles { get; set; } = new List<string> {""};
 
         /// <remarks />
         [DataMember(Name = "genres")]
-        public List<string> Genres { get; set; } = new List<string>();
+        public List<string> Genres { get; set; } = new List<string> {""};
 
         /// <remarks />
         [DataMember(Name = "videos")]
-        public List<Video> Videos { get; set; } = new List<Video>();
+        public List<Video> Videos { get; set; } = new List<Video> {new Video()};
 
         /// <remarks />
         [DataMember(Name = "title")]
@@ -106,7 +106,7 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "artists")]
-        public List<ReleaseArtist> Artists { get; set; } = new List<ReleaseArtist>();
+        public List<ReleaseArtist> Artists { get; set; } = new List<ReleaseArtist> {new ReleaseArtist()};
 
         /// <remarks />
         [DataMember(Name = "versions_url")]
@@ -118,7 +118,7 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "images")]
-        public List<Image> Images { get; set; } = new List<Image>();
+        public List<Image> Images { get; set; } = new List<Image> {new Image()};
 
         /// <remarks />
         [DataMember(Name = "resource_url")]
@@ -126,7 +126,7 @@ namespace MusicApiCollection.Sites.Discogs.Data
 
         /// <remarks />
         [DataMember(Name = "tracklist")]
-        public List<Tracklist> Tracklist { get; set; } = new List<Tracklist>();
+        public List<Tracklist> Tracklist { get; set; } = new List<Tracklist> {new Tracklist()};
 
         /// <remarks />
         [DataMember(Name = "id")]

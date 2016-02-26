@@ -88,19 +88,19 @@ namespace MusicApiCollection.Sites.FanartTv.Data
 
         /// <remarks />
         [DataMember(Name = "artistbackground")]
-        public List<ArtistImage> AImagesrtistbackground { get; set; } = new List<ArtistImage>();
+        public List<ArtistImage> AImagesrtistbackground { get; set; } = new List<ArtistImage> {new ArtistImage()};
 
         /// <remarks />
         [DataMember(Name = "artistthumb")]
-        public List<ArtistImage> Artistthumb { get; set; } = new List<ArtistImage>();
+        public List<ArtistImage> Artistthumb { get; set; } = new List<ArtistImage> { new ArtistImage() };
 
         /// <remarks />
         [DataMember(Name = "musiclogo")]
-        public List<ArtistImage> Musiclogo { get; set; } = new List<ArtistImage>();
+        public List<ArtistImage> Musiclogo { get; set; } = new List<ArtistImage> { new ArtistImage() };
 
         /// <remarks />
         [DataMember(Name = "hdmusiclogo")]
-        public List<ArtistImage> Hdmusiclogo { get; set; } = new List<ArtistImage>();
+        public List<ArtistImage> Hdmusiclogo { get; set; } = new List<ArtistImage> { new ArtistImage() };
 
         /// <remarks />
         [DataMember(Name = "albums")]
@@ -108,7 +108,7 @@ namespace MusicApiCollection.Sites.FanartTv.Data
 
         /// <remarks />
         [DataMember(Name = "musicbanner")]
-        public List<ArtistImage> Musicbanner { get; set; } = new List<ArtistImage>();
+        public List<ArtistImage> Musicbanner { get; set; } = new List<ArtistImage> { new ArtistImage() };
     }
 
     /// <remarks />
@@ -162,7 +162,7 @@ namespace MusicApiCollection.Sites.FanartTv.Data
         /// <summary>
         ///     All possible Data
         /// </summary>
-        public List<LatestResult> Data = new List<LatestResult>();
+        public List<LatestResult> Data = new List<LatestResult> {new LatestResult()};
 
         /// <summary>
         ///     Is an Error occurred
@@ -282,7 +282,7 @@ namespace MusicApiCollection.Sites.FanartTv.Data
 
         /// <remarks />
         [DataMember(Name = "musiclabel")]
-        public List<Musiclabel> Labels { get; set; } = new List<Musiclabel>();
+        public List<Musiclabel> Labels { get; set; } = new List<Musiclabel> {new Musiclabel()};
     }
 
     /// <remarks />
@@ -380,6 +380,6 @@ namespace MusicApiCollection.Sites.FanartTv.Data
 
         /// <remarks />
         [DataMember(Name = "albumcover")]
-        public List<ArtistImage> Albumcover { get; set; } = new List<ArtistImage>();
+        public List<ArtistImage> Albumcover { get; set; } = new List<ArtistImage> {new ArtistImage()};
     }
 }

@@ -97,7 +97,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks/>
         [XmlElement("track")]
-        public List<GTrack> Track { get; set; }
+        public List<GTrack> Track { get; set; } = new List<GTrack> {new GTrack()};
 
         /// <remarks />
         [XmlAttribute("offset")]
@@ -131,7 +131,6 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         [XmlAttribute("id")]
         public string Id { get; set; } = string.Empty;
     }
-
 
     /// <remarks/>
     [XmlType(AnonymousType = true, Namespace = "http://musicbrainz.org/ns/mmd-2.0#")]
@@ -169,7 +168,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks/>
         [XmlElement("offset")]
-        public List<Offset> Offset { get; set; }
+        public List<Offset> Offset { get; set; } = new List<Offset> {new Offset()};
 
         /// <remarks/>
         [XmlAttribute("count")]
@@ -229,11 +228,11 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// <remarks/>
         [XmlArray("artist-credit")]
         [XmlArrayItem("name-credit", IsNullable = false)]
-        public Namecredit[] Artistcredit { get; set; }
+        public List<Namecredit> Artistcredit { get; set; } = new List<Namecredit> {new Namecredit()};
 
         /// <remarks/>
         [XmlAttribute("id")]
-        public string Id { get; set; }
+        public string Id { get; set; } = string.Empty;
     }
 
     /// <remarks/>
