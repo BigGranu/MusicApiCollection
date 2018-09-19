@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -29,22 +29,22 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     /// <remarks />
     public class Recording
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     All possible Data
         /// </summary>
-        public RecordingResult Data = new RecordingResult();
+        public RecordingResult Data { get; set; }
 
         /// <summary>
         ///     Error Message
         /// </summary>
-        public string ErrorMessage { get; set; } = string.Empty;
+        public string ErrorMessage { get; set; } = Exceptions.Message;
 
         /// <summary>
         ///     Is an Error occurred
         /// </summary>
-        public bool ErrorOccurred;
+        public bool ErrorOccurred { get; set; } = Exceptions.ErrorOccurred;
 
         /// <summary>
         ///     Response
@@ -56,7 +56,6 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// </summary>
         public Recording()
         {
-            Logging.Clear();
         }
 
         /// <summary>
@@ -65,9 +64,10 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// <param name="data">Result</param>
         public Recording(RecordingResult data)
         {
+            if (data.Data == null || data.Data.Count == 0)
+                data.Data = new List<RecordingData> { new RecordingData() };
+
             Data = data;
-            ErrorMessage = Exceptions.Message;
-            ErrorOccurred = Exceptions.ErrorOccurred;
             Response = Http.LastResponse;
         }
     }
@@ -93,7 +93,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("recording")]
-        public List<RecordingData> Data { get; set; } = new List<RecordingData> {new RecordingData()};
+        public List<RecordingData> Data { get; set; }
 
         /// <remarks />
         [XmlAttribute("count")]

@@ -1,6 +1,7 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
+
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -17,10 +18,12 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+
 #endregion
 
 using System;
 using System.Collections.Generic;
+using System.IO;
 using MusicApiCollection.Events;
 
 namespace MusicApiCollection.Sites.MusicBrainz
@@ -31,26 +34,16 @@ namespace MusicApiCollection.Sites.MusicBrainz
         {
             var result = string.Empty;
 
-            for (var i = 0; i < args.Count; i++)
-            {
-                if (args[i].Value != "" & args[i].Value != null)
+            foreach (var t in args)
+                if ((t.Value != "") & (t.Value != null))
                 {
-                    if (args[i].Name == "query")
-                    {
-                        result += CheckValue(args[i].Value) + "%20AND%20";
-                    }
+                    if (t.Name == "query")
+                        result += CheckValue(t.Value) + "%20AND%20";
                     else
-                    {
-                        result += args[i].Name.ToLower() + ":" + CheckValue(args[i].Value) + "%20AND%20";
-                    }
-
-                   // result += args[i].Name.ToLower() + ":" + CheckValue(args[i].Value) + "%20AND%20";
+                        result += t.Name.ToLower() + ":" + CheckValue(t.Value) + "%20AND%20";
                 }
-            }
 
-            if (result.LastIndexOf("%20AND%20", StringComparison.Ordinal) > 0)
-                return result.Substring(0, result.LastIndexOf("%20AND%20", StringComparison.Ordinal));
-            else return result;
+            return result.LastIndexOf("%20AND%20", StringComparison.Ordinal) > 0 ? result.Substring(0, result.LastIndexOf("%20AND%20", StringComparison.Ordinal)) : result;
         }
 
         public static string LimitOffsetToString(int limit, int offset)
@@ -82,10 +75,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
 
         private static string CheckValue(string value)
         {
-            if (value.IndexOf(" ", StringComparison.Ordinal) > 1)
-            {
-                return "\"" + value.Replace(" ", "%20") + "\"";
-            }
+            if (value.IndexOf(" ", StringComparison.Ordinal) > 1) return "\"" + value.Replace(" ", "%20") + "\"";
             return value.Replace(" ", "%20");
         }
     }

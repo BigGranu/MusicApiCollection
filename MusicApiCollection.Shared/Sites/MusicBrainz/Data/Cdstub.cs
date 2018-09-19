@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -29,12 +29,12 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     /// <remarks />
     public class Cdstub
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     All possible Data
         /// </summary>
-        public CdstubResult Data = new CdstubResult();
+        public CdstubResult Data { get; set; }
 
         /// <summary>
         ///     Error Message
@@ -56,7 +56,6 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// </summary>
         public Cdstub()
         {
-            Logging.Clear();
         }
 
         /// <summary>
@@ -65,6 +64,9 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// <param name="data">Result</param>
         public Cdstub(CdstubResult data)
         {
+            if (data.Data == null || data.Data.Count == 0)
+                data.Data = new List<CdstubData> { new CdstubData() };
+
             Data = data;
             ErrorMessage = Exceptions.Message;
             ErrorOccurred = Exceptions.ErrorOccurred;
@@ -91,7 +93,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("cdstub")]
-        public List<CdstubData> Data { get; set; } = new List<CdstubData> {new CdstubData()};
+        public List<CdstubData> Data { get; set; }
 
         /// <remarks />
         [XmlAttribute("count")]

@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns="http://musicbrainz.org/ns/mmd-2.0#">
+	<artist id="79239441-bfd5-4981-a70c-55c3f15c1287" type="Person" type-id="b6e035f4-3ce9-331c-97df-83397230b0df">
+		<name>Madonna</name>
+		<sort-name>Madonna</sort-name>
+		<annotation>
+			<text>
+				If you're looking for ''Greatest Hits Vol. 2'' or something similar, it is already listed under the correct name ''[https://musicbrainz.org/release-group/a0aa8b0a-5e10-3627-afde-7235b86042f6|GHV2]''.
+				Please '''do not''' add it again.
+
+				Release labels according to date: (all releases should follow this*)
+				WMG parent (1982-2009) as Sire (1982–1995), Maverick (1992–2004), Warner Bros. (2004–2010), Live Nation Artists (2009-)-------Born in Bay City, Michigan, USA, as Madonna Louise Ciccone, Madonna had the extra middle name Veronica added in childhood as confirmation of her family's Catholicism.
+				Her music career took off in the early 1980's under the performance name [http://musicbrainz.org/artist/79239441-bfd5-4981-a70c-55c3f15c1287.html|Madonna].
+
+				It is believed her legal name has changed due to marriage to first Sean Penn, and then Guy Ritchie.
+			</text>
+		</annotation>
+		<ipi>00125053706</ipi>
+		<ipi-list>
+			<ipi>00125053706</ipi>
+			<ipi>00128246872</ipi>
+			<ipi>00211854787</ipi>
+		</ipi-list>
+		<isni-list>
+			<isni>000000010782262X</isni>
+		</isni-list>
+		<gender id="93452b5a-a947-30c8-934f-6a4056b151c2">Female</gender>
+		<country>US</country>
+		<area id="489ce91b-6658-3307-9877-795b68554c98">
+			<name>United States</name>
+			<sort-name>United States</sort-name>
+			<iso-3166-1-code-list>
+				<iso-3166-1-code>US</iso-3166-1-code>
+			</iso-3166-1-code-list>
+		</area>
+		<begin-area id="903111d9-9dc2-4129-b08a-3cf52bc72757">
+			<name>Bay City</name>
+			<sort-name>Bay City</sort-name>
+		</begin-area>
+		<life-span>
+			<begin>1958-08-16</begin>
+		</life-span>
+		<alias-list count="6">
+			<alias type="Search hint" type-id="1937e404-b981-3cb7-8151-4c86ebfc8d8e" sort-name="M. Ciccone">M. Ciccone</alias>
+			<alias sort-name="Madonna">Madonna</alias>
+			<alias sort-name="Ciccone-Ritchie, Madonna">Madonna Ciccone-Ritchie</alias>
+			<alias type="Legal name" type-id="d4dcd0c0-b341-3612-a332-c0ce797b25cf" sort-name="Ciccone, Madonna Louise">Madonna Louise Ciccone</alias>
+			<alias sort-name="Ciccone, Madonna Louise Veronica">Madonna Louise Veronica Ciccone</alias>
+			<alias locale="ja" type-id="894afba6-2816-3c24-8072-eadb66bd04bc" type="Artist name" primary="primary" sort-name="マドンナ">マドンナ</alias>
+		</alias-list>
+		<recording-list count="2595">
+			<recording id="00215b21-5262-40a3-ac37-10b64e70ba70">
+				<title>4 Minutes</title>
+				<length>189693</length>
+				<disambiguation>2009 Celebration remix</disambiguation>
+				<isrc-list count="1">
+					<isrc id="USWB10903601" />
+				</isrc-list>
+				<tag-list>
+					<tag count="2">
+						<name>adult contemporary</name>
+					</tag>
+					<tag count="2">
+						<name>ballad</name>
+					</tag>
+					<tag count="1">
+						<name>chanteur</name>
+					</tag>
+					<tag count="1">
+						<name>contemporary pop/rock</name>
+					</tag>
+					<tag count="1">
+						<name>dance</name>
+					</tag>
+					<tag count="1">
+						<name>dance-pop</name>
+					</tag>
+					<tag count="1">
+						<name>electronic</name>
+					</tag>
+					<tag count="2">
+						<name>europop</name>
+					</tag>
+					<tag count="2">
+						<name>hip hop</name>
+					</tag>
+					<tag count="2">
+						<name>house</name>
+					</tag>
+					<tag count="2">
+						<name>pop</name>
+					</tag>
+					<tag count="1">
+						<name>pop/rock</name>
+					</tag>
+					<tag count="2">
+						<name>synth-pop</name>
+					</tag>
+				</tag-list>
+			</recording>
+			<recording id="052ea712-d8af-44d6-96dc-ffb6c2f6fb3f">
+				<title>4 Minutes (Junkie XL remix edit)</title>
+				<length>278000</length>
+				<tag-list>
+					<tag count="1">
+						<name>contemporary r&amp;b</name>
+					</tag>
+					<tag count="1">
+						<name>dance-pop</name>
+					</tag>
+					<tag count="1">
+						<name>disco</name>
+					</tag>
+					<tag count="1">
+						<name>electropop</name>
+					</tag>
+					<tag count="0">
+						<name>other pop</name>
+					</tag>
+					<tag count="1">
+						<name>pop</name>
+					</tag>
+				</tag-list>
+			</recording>
+			<recording id="087f674b-7e5a-44a0-a243-6a88ed733d87">
+				<title>4 Minutes (Junkie XL remix)</title>
+				<length>375000</length>
+				<isrc-list count="1">
+					<isrc id="USWB10801012" />
+				</isrc-list>
+			</recording>
+			<recording id="289ee945-56fe-4af3-96ed-308d88ede919">
+				<title>[introduction]</title>
+				<disambiguation>live, 1985-07-13: Live Aid 1985</disambiguation>
+			</recording>
+			<recording id="2ea47203-83f6-4fd1-a943-4d032ac3096a">
+				<title>4 Minutes (edit version)</title>
+			</recording>
+			<recording id="2fe1f383-aab1-4bf0-b924-27a7fb0d2575">
+				<title>4 Minutes (Peter Rauhofer Saves New York remix)</title>
+				<length>652000</length>
+				<tag-list>
+					<tag count="1">
+						<name>dance/electronic</name>
+					</tag>
+					<tag count="1">
+						<name>electro</name>
+					</tag>
+					<tag count="1">
+						<name>electronic</name>
+					</tag>
+					<tag count="1">
+						<name>hip-hop</name>
+					</tag>
+					<tag count="1">
+						<name>house</name>
+					</tag>
+					<tag count="1">
+						<name>pop</name>
+					</tag>
+					<tag count="1">
+						<name>rnb swing</name>
+					</tag>
+					<tag count="1">
+						<name>synth-pop</name>
+					</tag>
+				</tag-list>
+			</recording>
+			<recording id="3c0ea374-bdf8-47a0-be2b-7b3de02cf0e7">
+				<title>4 Minutes</title>
+				<length>280000</length>
+			</recording>
+			<recording id="3d0d50fe-8ba4-42a4-87b4-db5f2e59d32a">
+				<title>4 Minutes (Bob Sinclar Space Funk edit)</title>
+				<length>205000</length>
+			</recording>
+			<recording id="3ecda86d-e836-4f2a-b759-c5217df7881b">
+				<title>4 Minutes (Junkie XL dirty dub)</title>
+				<length>292000</length>
+				<tag-list>
+					<tag count="1">
+						<name>electro</name>
+					</tag>
+					<tag count="1">
+						<name>electronic</name>
+					</tag>
+					<tag count="1">
+						<name>hip-hop</name>
+					</tag>
+					<tag count="1">
+						<name>house</name>
+					</tag>
+					<tag count="1">
+						<name>pop</name>
+					</tag>
+					<tag count="1">
+						<name>rnb swing</name>
+					</tag>
+					<tag count="1">
+						<name>synth-pop</name>
+					</tag>
+				</tag-list>
+			</recording>
+			<recording id="4513f85d-b4f6-4e93-aafb-5ad674a1ca17">
+				<title>4 Minutes (Bob Sinclar Space Funk edit)</title>
+				<length>298000</length>
+			</recording>
+			<recording id="4bddd52c-d216-4cd2-80bb-fae50bf88ffd">
+				<title>[credits]</title>
+				<length>41205</length>
+				<video>true</video>
+			</recording>
+			<recording id="65f8b77f-01bd-4cad-bef7-8d91327853fd">
+				<title>4 Minutes (Bob Sinclar Space Funk mix)</title>
+				<length>227000</length>
+				<disambiguation>part of &quot;Ultra.Mix&quot; DJ mix</disambiguation>
+			</recording>
+			<recording id="74d87478-181d-441c-aae0-8b0fba0544b8">
+				<title>4 Minutes</title>
+				<length>245000</length>
+				<video>true</video>
+			</recording>
+			<recording id="759c98ca-f90a-4efd-941e-31132464ee68">
+				<title>4 Minutes (Junkie XL dirty dub)</title>
+				<length>292000</length>
+				<isrc-list count="1">
+					<isrc id="USWB10801039" />
+				</isrc-list>
+			</recording>
+			<recording id="8a10687c-f2b0-45f1-83c5-f0f9048445d4">
+				<title>4 Minutes</title>
+				<length>245000</length>
+				<isrc-list count="1">
+					<isrc id="USWB10800435" />
+				</isrc-list>
+				<tag-list>
+					<tag count="1">
+						<name>contemporary r&amp;b</name>
+					</tag>
+					<tag count="0">
+						<name>covered by glee</name>
+					</tag>
+					<tag count="2">
+						<name>dance-pop</name>
+					</tag>
+					<tag count="1">
+						<name>dance/electronic</name>
+					</tag>
+					<tag count="1">
+						<name>electro</name>
+					</tag>
+					<tag count="3">
+						<name>electronic</name>
+					</tag>
+					<tag count="1">
+						<name>electropop</name>
+					</tag>
+					<tag count="1">
+						<name>general pop vocal</name>
+					</tag>
+					<tag count="1">
+						<name>hip-hop</name>
+					</tag>
+					<tag count="1">
+						<name>house</name>
+					</tag>
+					<tag count="0">
+						<name>other pop</name>
+					</tag>
+					<tag count="5">
+						<name>pop</name>
+					</tag>
+					<tag count="0">
+						<name>pop/rock</name>
+					</tag>
+					<tag count="1">
+						<name>rnb swing</name>
+					</tag>
+					<tag count="0">
+						<name>rock</name>
+					</tag>
+					<tag count="1">
+						<name>synth-pop</name>
+					</tag>
+				</tag-list>
+			</recording>
+			<recording id="abc503d2-762c-4752-ab2f-e30c738b9d18">
+				<title>4 Minutes (Bob Sinclar Space Funk remix)</title>
+				<length>341000</length>
+				<isrc-list count="1">
+					<isrc id="USWB10801011" />
+				</isrc-list>
+				<tag-list>
+					<tag count="1">
+						<name>electro</name>
+					</tag>
+					<tag count="1">
+						<name>electronic</name>
+					</tag>
+					<tag count="1">
+						<name>hip-hop</name>
+					</tag>
+					<tag count="1">
+						<name>house</name>
+					</tag>
+					<tag count="1">
+						<name>pop</name>
+					</tag>
+					<tag count="1">
+						<name>rnb swing</name>
+					</tag>
+					<tag count="1">
+						<name>synth-pop</name>
+					</tag>
+				</tag-list>
+			</recording>
+			<recording id="bb21ec35-3a58-4f1e-b5a9-ec2516de11b2">
+				<title>4 Minutes (Cajjmere Wray radio edit)</title>
+				<length>219000</length>
+			</recording>
+			<recording id="bdf3d761-e157-4006-8bd1-9f1f395c9189">
+				<title>&quot;Me Against The Music&quot; The Video</title>
+				<length>250000</length>
+				<video>true</video>
+			</recording>
+			<recording id="d34ed5a3-b284-46d2-9867-f0214492093c">
+				<title>4 Minutes</title>
+				<disambiguation>live video, Sticky &amp; Sweet Tour</disambiguation>
+				<video>true</video>
+			</recording>
+			<recording id="d502ca8b-ae90-4f5b-aff4-6454f7e957ae">
+				<title>4 Minutes (Junkie XL Dirty dub edit)</title>
+				<length>248000</length>
+			</recording>
+			<recording id="dee7a97b-4132-4b8c-98d2-cf1a13d41a94">
+				<title>4 Minutes (Junkie XL remix)</title>
+				<length>374000</length>
+				<tag-list>
+					<tag count="1">
+						<name>electro</name>
+					</tag>
+					<tag count="1">
+						<name>electronic</name>
+					</tag>
+					<tag count="1">
+						<name>hip-hop</name>
+					</tag>
+					<tag count="1">
+						<name>house</name>
+					</tag>
+					<tag count="1">
+						<name>pop</name>
+					</tag>
+					<tag count="1">
+						<name>rnb swing</name>
+					</tag>
+					<tag count="1">
+						<name>synth-pop</name>
+					</tag>
+				</tag-list>
+			</recording>
+			<recording id="e15089a9-6f7f-447d-ae7f-12dc11945ec4">
+				<title>4 Minutes</title>
+				<length>243000</length>
+				<video>true</video>
+			</recording>
+			<recording id="ee32bb13-d3fd-4473-9fec-8224e231ebc6">
+				<title>4 Minutes</title>
+			</recording>
+			<recording id="ef6d8eb8-1745-4ffa-9cc1-05397698c0cf">
+				<title>4 Minutes</title>
+				<length>245000</length>
+			</recording>
+			<recording id="f440b941-2514-48b8-a2eb-e22af2e02f58">
+				<title>4 Minutes (Peter Rauhofer Saves London remix)</title>
+				<length>490000</length>
+				<tag-list>
+					<tag count="1">
+						<name>dance/electronic</name>
+					</tag>
+					<tag count="1">
+						<name>electro</name>
+					</tag>
+					<tag count="1">
+						<name>electronic</name>
+					</tag>
+					<tag count="1">
+						<name>hip-hop</name>
+					</tag>
+					<tag count="1">
+						<name>house</name>
+					</tag>
+					<tag count="1">
+						<name>pop</name>
+					</tag>
+					<tag count="1">
+						<name>rnb swing</name>
+					</tag>
+					<tag count="1">
+						<name>synth-pop</name>
+					</tag>
+				</tag-list>
+			</recording>
+		</recording-list>
+		<tag-list>
+			<tag count="0">
+				<name>american</name>
+			</tag>
+			<tag count="0">
+				<name>américain</name>
+			</tag>
+			<tag count="0">
+				<name>arabic</name>
+			</tag>
+			<tag count="1">
+				<name>art pop</name>
+			</tag>
+			<tag count="0">
+				<name>chanteur</name>
+			</tag>
+			<tag count="0">
+				<name>dance</name>
+			</tag>
+			<tag count="2">
+				<name>dance-pop</name>
+			</tag>
+			<tag count="1">
+				<name>downtempo</name>
+			</tag>
+			<tag count="0">
+				<name>electronic</name>
+			</tag>
+			<tag count="2">
+				<name>electropop</name>
+			</tag>
+			<tag count="0">
+				<name>greatest hits</name>
+			</tag>
+			<tag count="0">
+				<name>multiple ipi</name>
+			</tag>
+			<tag count="8">
+				<name>pop</name>
+			</tag>
+			<tag count="0">
+				<name>pop and chart</name>
+			</tag>
+			<tag count="0">
+				<name>singer</name>
+			</tag>
+			<tag count="0">
+				<name>tell me</name>
+			</tag>
+			<tag count="0">
+				<name>usa</name>
+			</tag>
+		</tag-list>
+	</artist>
+</metadata>

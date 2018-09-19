@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -31,18 +31,18 @@ namespace MusicApiCollection.Sites.FanartTv
     /// </summary>
     public class Search
     {
-        private static readonly Logging Logging = Logging.GetInstance();
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Logging Logging = Logging.Instance;
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
-        ///     Get Images for Movie
+        ///     Get Images for Label
         /// </summary>
-        /// <param name="imdbTmdbId">Numeric tmdb_id or imdb_id of the movie.</param>
+        /// <param name="mbId">Musicbrainz id for the artist</param>
         /// <param name="apiKey">Users api_key</param>
         /// <param name="clientKey">Users client_key</param>
-        public static Movie Movie(string imdbTmdbId, string apiKey = "", string clientKey = "")
+        public static Label Label(string mbId, string apiKey = "", string clientKey = "")
         {
-            var ret = new Movie();
+            var ret = new Label();
 
             if (apiKey == "")
                 apiKey = Settings.FanartTv.ApiKey;
@@ -50,128 +50,24 @@ namespace MusicApiCollection.Sites.FanartTv
             if (clientKey == "")
                 clientKey = Settings.FanartTv.ClientKey;
 
-            var le = new LogEntry("Sites.FanartTv", "Search", "Movie");
-            le.Parameters.Add(new Para("imdbTmdbId", imdbTmdbId));
+            var le = new LogEntry("Sites.FanartTv", "Search", "Label");
+            le.Parameters.Add(new Para("mbId", mbId));
             le.Parameters.Add(new Para("apiKey", apiKey));
             le.Parameters.Add(new Para("clientKey", clientKey));
             Logging.NewLogEntry(le);
 
             try
             {
-                ret.Data = Json.Deserialize<MovieResult>(clientKey != ""
-                    ? Http.Request(Settings.FanartTv.Server + "movies/" + imdbTmdbId + "?api_key=" + apiKey + "&client_key=" + clientKey)
-                    : Http.Request(Settings.FanartTv.Server + "movies/" + imdbTmdbId + "?api_key=" + apiKey)) ?? new MovieResult();
+                ret.Data = Json.Deserialize<LabelResult>(clientKey != ""
+                               ? Http.Request(Settings.FanartTv.Server + "music/labels/" + mbId + "?api_key=" + apiKey + "&client_key=" + clientKey)
+                               : Http.Request(Settings.FanartTv.Server + "music/labels/" + mbId + "?api_key=" + apiKey)) ?? new LabelResult();
             }
             catch (Exception ex)
             {
                 Exceptions.NewException(ex);
             }
 
-            return new Movie(ret.Data);
-        }
-
-        /// <summary>
-        ///     Get images for Latest Movies
-        /// </summary>
-        /// <param name="apiKey">Users api_key</param>
-        /// <param name="clientKey">Users client_key</param>
-        public static MovieLatest LatestMovie(string apiKey = "", string clientKey = "")
-        {
-            var ret = new MovieLatest();
-
-            if (apiKey == "")
-                apiKey = Settings.FanartTv.ApiKey;
-
-            if (clientKey == "")
-                clientKey = Settings.FanartTv.ClientKey;
-
-            var le = new LogEntry("Sites.FanartTv", "Search", "LatestMovie");
-            le.Parameters.Add(new Para("apiKey", apiKey));
-            le.Parameters.Add(new Para("clientKey", clientKey));
-            Logging.NewLogEntry(le);
-
-            try
-            {
-                ret.Data = Json.Deserialize<List<MovieLatestResult>>(clientKey != ""
-                    ? Http.Request(Settings.FanartTv.Server + "movies/latest?api_key=" + apiKey + "&client_key=" + clientKey)
-                    : Http.Request(Settings.FanartTv.Server + "movies/latest?api_key=" + apiKey)) ?? new List<MovieLatestResult>();
-            }
-            catch (Exception ex)
-            {
-                Exceptions.NewException(ex);
-            }
-
-            return new MovieLatest(ret.Data);
-        }
-
-        /// <summary>
-        ///     Get images for a TvShow
-        /// </summary>
-        /// <param name="theTvBbId">thetvdb id for the show.</param>
-        /// <param name="apiKey">Users api_key</param>
-        /// <param name="clientKey">Users client_key</param>
-        public static TvShow TvShow(string theTvBbId, string apiKey = "", string clientKey = "")
-        {
-            var ret = new TvShow();
-
-            if (apiKey == "")
-                apiKey = Settings.FanartTv.ApiKey;
-
-            if (clientKey == "")
-                clientKey = Settings.FanartTv.ClientKey;
-
-            var le = new LogEntry("Sites.FanartTv", "Search", "TvShow");
-            le.Parameters.Add(new Para("theTvBbId", theTvBbId));
-            le.Parameters.Add(new Para("apiKey", apiKey));
-            le.Parameters.Add(new Para("clientKey", clientKey));
-            Logging.NewLogEntry(le);
-
-            try
-            {
-                ret.Data = Json.Deserialize<TvShowResult>(clientKey != ""
-                    ? Http.Request(Settings.FanartTv.Server + "tv/" + theTvBbId + "?api_key=" + apiKey + "&client_key=" + clientKey)
-                    : Http.Request(Settings.FanartTv.Server + "tv/" + theTvBbId + "?api_key=" + apiKey)) ?? new TvShowResult();
-            }
-            catch (Exception ex)
-            {
-                Exceptions.NewException(ex);
-            }
-
-            return new TvShow(ret.Data);
-        }
-
-        /// <summary>
-        ///     Get images for Latest Shows
-        /// </summary>
-        /// <param name="apiKey">Users api_key</param>
-        /// <param name="clientKey">Users client_key</param>
-        public static TvLatest LatestTvShow(string apiKey = "", string clientKey = "")
-        {
-            var ret = new TvLatest();
-
-            if (apiKey == "")
-                apiKey = Settings.FanartTv.ApiKey;
-
-            if (clientKey == "")
-                clientKey = Settings.FanartTv.ClientKey;
-
-            var le = new LogEntry("Sites.FanartTv", "Search", "LatestTvShow");
-            le.Parameters.Add(new Para("apiKey", apiKey));
-            le.Parameters.Add(new Para("clientKey", clientKey));
-            Logging.NewLogEntry(le);
-
-            try
-            {
-                ret.Data = Json.Deserialize<List<TvLatestResult>>(clientKey != ""
-                    ? Http.Request(Settings.FanartTv.Server + "tv/latest?api_key=" + apiKey + "&client_key=" + clientKey)
-                    : Http.Request(Settings.FanartTv.Server + "tv/latest?api_key=" + apiKey)) ?? new List<TvLatestResult>();
-            }
-            catch (Exception ex)
-            {
-                Exceptions.NewException(ex);
-            }
-
-            return new TvLatest(ret.Data);
+            return new Label(ret.Data);
         }
 
         /// <summary>
@@ -247,42 +143,6 @@ namespace MusicApiCollection.Sites.FanartTv
         }
 
         /// <summary>
-        ///     Get Images for Label
-        /// </summary>
-        /// <param name="mbId">Musicbrainz id for the artist</param>
-        /// <param name="apiKey">Users api_key</param>
-        /// <param name="clientKey">Users client_key</param>
-        public static Label Label(string mbId, string apiKey = "", string clientKey = "")
-        {
-            var ret = new Label();
-
-            if (apiKey == "")
-                apiKey = Settings.FanartTv.ApiKey;
-
-            if (clientKey == "")
-                clientKey = Settings.FanartTv.ClientKey;
-
-            var le = new LogEntry("Sites.FanartTv", "Search", "Label");
-            le.Parameters.Add(new Para("mbId", mbId));
-            le.Parameters.Add(new Para("apiKey", apiKey));
-            le.Parameters.Add(new Para("clientKey", clientKey));
-            Logging.NewLogEntry(le);
-
-            try
-            {
-                ret.Data = Json.Deserialize<LabelResult>(clientKey != ""
-                    ? Http.Request(Settings.FanartTv.Server + "music/labels/" + mbId + "?api_key=" + apiKey + "&client_key=" + clientKey)
-                    : Http.Request(Settings.FanartTv.Server + "music/labels/" + mbId + "?api_key=" + apiKey)) ?? new LabelResult();
-            }
-            catch (Exception ex)
-            {
-                Exceptions.NewException(ex);
-            }
-
-            return new Label(ret.Data);
-        }
-
-        /// <summary>
         ///     Get Images for Latest Artists
         /// </summary>
         /// <param name="apiKey">Users api_key</param>
@@ -304,9 +164,9 @@ namespace MusicApiCollection.Sites.FanartTv
 
             try
             {
-                ret.Data = Json.Deserialize<List<LatestResult>>(clientKey != ""
+                ret.Data = Json.Deserialize<List<ArtistLatestResult>>(clientKey != ""
                     ? Http.Request(Settings.FanartTv.Server + "music/latest?api_key=" + apiKey + "&client_key=" + clientKey)
-                    : Http.Request(Settings.FanartTv.Server + "music/latest?api_key=" + apiKey)) ?? new List<LatestResult>();
+                    : Http.Request(Settings.FanartTv.Server + "music/latest?api_key=" + apiKey)) ?? new List<ArtistLatestResult> {new ArtistLatestResult()};
             }
             catch (Exception ex)
             {
@@ -314,6 +174,146 @@ namespace MusicApiCollection.Sites.FanartTv
             }
 
             return new ArtistLatest(ret.Data);
+        }
+
+        /// <summary>
+        ///     Get Images for Movie
+        /// </summary>
+        /// <param name="imdbTmdbId">Numeric tmdb_id or imdb_id of the movie.</param>
+        /// <param name="apiKey">Users api_key</param>
+        /// <param name="clientKey">Users client_key</param>
+        public static Movie Movie(string imdbTmdbId, string apiKey = "", string clientKey = "")
+        {
+            var ret = new Movie();
+
+            if (apiKey == "")
+                apiKey = Settings.FanartTv.ApiKey;
+
+            if (clientKey == "")
+                clientKey = Settings.FanartTv.ClientKey;
+
+            var le = new LogEntry("Sites.FanartTv", "Search", "Movie");
+            le.Parameters.Add(new Para("imdbTmdbId", imdbTmdbId));
+            le.Parameters.Add(new Para("apiKey", apiKey));
+            le.Parameters.Add(new Para("clientKey", clientKey));
+            Logging.NewLogEntry(le);
+
+            try
+            {
+                ret.Data = Json.Deserialize<MovieResult>(clientKey != ""
+                    ? Http.Request(Settings.FanartTv.Server + "movies/" + imdbTmdbId + "?api_key=" + apiKey + "&client_key=" + clientKey)
+                    : Http.Request(Settings.FanartTv.Server + "movies/" + imdbTmdbId + "?api_key=" + apiKey)) ?? new MovieResult();
+            }
+            catch (Exception ex)
+            {
+                Exceptions.NewException(ex);
+            }
+
+            return new Movie(ret.Data);
+        }
+
+        /// <summary>
+        ///     Get images for Latest Movies
+        /// </summary>
+        /// <param name="apiKey">Users api_key</param>
+        /// <param name="clientKey">Users client_key</param>
+        public static MovieLatest LatestMovie(string apiKey = "", string clientKey = "")
+        {
+            var ret = new MovieLatest();
+
+            if (apiKey == "")
+                apiKey = Settings.FanartTv.ApiKey;
+
+            if (clientKey == "")
+                clientKey = Settings.FanartTv.ClientKey;
+
+            var le = new LogEntry("Sites.FanartTv", "Search", "LatestMovie");
+            le.Parameters.Add(new Para("apiKey", apiKey));
+            le.Parameters.Add(new Para("clientKey", clientKey));
+            Logging.NewLogEntry(le);
+
+            try
+            {
+                ret.Data = Json.Deserialize<List<MovieLatestResult>>(clientKey != ""
+                    ? Http.Request(Settings.FanartTv.Server + "movies/latest?api_key=" + apiKey + "&client_key=" + clientKey)
+                    : Http.Request(Settings.FanartTv.Server + "movies/latest?api_key=" + apiKey)) ?? new List<MovieLatestResult> {new MovieLatestResult()};
+            }
+            catch (Exception ex)
+            {
+                Exceptions.NewException(ex);
+            }
+
+            return new MovieLatest(ret.Data);
+        }
+
+        /// <summary>
+        ///     Get images for a TvShow
+        /// </summary>
+        /// <param name="theTvBbId">thetvdb id for the show.</param>
+        /// <param name="apiKey">Users api_key</param>
+        /// <param name="clientKey">Users client_key</param>
+        public static TvShow TvShow(string theTvBbId, string apiKey = "", string clientKey = "")
+        {
+            var ret = new TvShow();
+
+            if (apiKey == "")
+                apiKey = Settings.FanartTv.ApiKey;
+
+            if (clientKey == "")
+                clientKey = Settings.FanartTv.ClientKey;
+
+            var le = new LogEntry("Sites.FanartTv", "Search", "TvShow");
+            le.Parameters.Add(new Para("theTvBbId", theTvBbId));
+            le.Parameters.Add(new Para("apiKey", apiKey));
+            le.Parameters.Add(new Para("clientKey", clientKey));
+            Logging.NewLogEntry(le);
+
+            try
+            {
+                ret.Data = Json.Deserialize<TvShowResult>(clientKey != ""
+                    ? Http.Request(Settings.FanartTv.Server + "tv/" + theTvBbId + "?api_key=" + apiKey + "&client_key=" + clientKey)
+                    : Http.Request(Settings.FanartTv.Server + "tv/" + theTvBbId + "?api_key=" + apiKey)) ?? new TvShowResult();
+            }
+            catch (Exception ex)
+            {
+                Exceptions.NewException(ex);
+            }
+
+            return new TvShow(ret.Data);
+        }
+
+        /// <summary>
+        ///     Get images for Latest Shows
+        /// </summary>
+        /// <param name="apiKey">Users api_key</param>
+        /// <param name="clientKey">Users client_key</param>
+        public static TvShowLatest LatestTvShow(string apiKey = "", string clientKey = "")
+        {
+            var ret = new TvShowLatest();
+
+            if (apiKey == "")
+                apiKey = Settings.FanartTv.ApiKey;
+
+            if (clientKey == "")
+                clientKey = Settings.FanartTv.ClientKey;
+
+            var le = new LogEntry("Sites.FanartTv", "Search", "LatestTvShow");
+            le.Parameters.Add(new Para("apiKey", apiKey));
+            le.Parameters.Add(new Para("clientKey", clientKey));
+            Logging.NewLogEntry(le);
+
+            try
+            {
+                ret.Data = Json.Deserialize<List<TvShowLatestResult>>(clientKey != ""
+                    ? Http.Request(Settings.FanartTv.Server + "tv/latest?api_key=" + apiKey + "&client_key=" + clientKey)
+                    : Http.Request(Settings.FanartTv.Server + "tv/latest?api_key=" + apiKey)) ?? new List<TvShowLatestResult> {new TvShowLatestResult()};
+            }
+            catch (Exception ex)
+            {
+                Exceptions.NewException(ex);
+            }
+
+            return new TvShowLatest(ret.Data);
         }
     }
 }

@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -30,8 +30,8 @@ namespace MusicApiCollection.Sites.CoverArtArchive
     /// </summary>
     public class Search
     {
-        private static readonly Logging Logging = Logging.GetInstance();
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Logging Logging = Logging.Instance;
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     Covers for a Releasegroup
@@ -57,7 +57,7 @@ namespace MusicApiCollection.Sites.CoverArtArchive
 
             try
             {
-                ret.Data = Json.Deserialize<CoversResult>(Http.Request("http://www.coverartarchive.org/release-group/" + mbid + "/")) ?? new CoversResult();
+                ret.Data = Json.Deserialize<CoversResult>(Http.Request("https://coverartarchive.org/release-group/" + mbid + "/")) ?? new CoversResult();
             }
             catch (Exception ex)
             {
@@ -91,7 +91,7 @@ namespace MusicApiCollection.Sites.CoverArtArchive
 
             try
             {
-                ret.Data = Json.Deserialize<CoversResult>(Http.Request("http://www.coverartarchive.org/release/" + mbid + "/"));
+                ret.Data = Json.Deserialize<CoversResult>(Http.Request("https://coverartarchive.org/release/" + mbid + "/")) ?? new CoversResult();
             }
             catch (Exception ex)
             {

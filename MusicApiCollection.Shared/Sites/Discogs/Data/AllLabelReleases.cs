@@ -1,7 +1,7 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -31,24 +31,33 @@ namespace MusicApiCollection.Sites.Discogs.Data
     [DataContract]
     public class AllLabelReleases
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     All possible Data
         /// </summary>
-        public AllLabelReleasesResult Data = new AllLabelReleasesResult();
+        public AllLabelReleasesResult Data { get; set; }
+
+        /// <summary>
+        ///     Error Message
+        /// </summary>
+        public string ErrorMessage { get; set; } = Exceptions.Message;
 
         /// <summary>
         ///     Is an Error occurred
         /// </summary>
-        public bool ErrorOccurred;
+        public bool ErrorOccurred { get; set; } = Exceptions.ErrorOccurred;
+
+        /// <summary>
+        ///     Response
+        /// </summary>
+        public string Response { get; set; } = string.Empty;
 
         /// <summary>
         ///     Create new AllLabelReleases and clear the log
         /// </summary>
         public AllLabelReleases()
         {
-            Logging.Clear();
         }
 
         /// <summary>
@@ -58,20 +67,8 @@ namespace MusicApiCollection.Sites.Discogs.Data
         public AllLabelReleases(AllLabelReleasesResult data)
         {
             Data = data;
-            ErrorMessage = Exceptions.Message;
-            ErrorOccurred = Exceptions.ErrorOccurred;
             Response = Http.LastResponse;
         }
-
-        /// <summary>
-        ///     Error Message
-        /// </summary>
-        public string ErrorMessage { get; set; } = string.Empty;
-
-        /// <summary>
-        ///     Response
-        /// </summary>
-        public string Response { get; set; } = string.Empty;
     }
 
     /// <remarks />

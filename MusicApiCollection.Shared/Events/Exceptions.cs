@@ -1,6 +1,6 @@
-﻿#region Copyright (C) 2015-2016 BigGranu
+﻿#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -28,6 +28,8 @@ namespace MusicApiCollection.Events
     /// </summary>
     public class Exceptions
     {
+        private static Exceptions _instance;
+
         /// <remarks />
         public delegate void EventHandler(object sender, EventArg e);
        
@@ -37,12 +39,12 @@ namespace MusicApiCollection.Events
         public event EventHandler Call;
 
         /// <remarks />
-        private static Exceptions Instance { get; set; }
+        public static Exceptions Instance => _instance ?? (_instance = new Exceptions());
 
         /// <summary>
         ///     Current Exception
         /// </summary>
-        public string Message { get; set; }
+        public string Message { get; set; } = string.Empty;
 
         /// <summary>
         ///     Is an Error occurred
@@ -54,17 +56,17 @@ namespace MusicApiCollection.Events
         /// </summary>
         public Exceptions()
         {
-            Instance = this;
+            _instance = this;
         }
 
-        /// <summary>
-        ///     Instance of the Exceptions
-        /// </summary>
-        /// <returns>The Instance</returns>
-        public static Exceptions GetInstance()
-        {
-            return Instance ?? new Exceptions();
-        }
+        ///// <summary>
+        /////     Instance of the Exceptions
+        ///// </summary>
+        ///// <returns>The Instance</returns>
+        //public static Exceptions GetInstance()
+        //{
+        //    return Instance ?? new Exceptions();
+        //}
 
         /// <summary>
         ///     Rise a new Exception

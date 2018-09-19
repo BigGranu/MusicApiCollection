@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadata created="2018-08-10T12:48:28.437Z" xmlns="http://musicbrainz.org/ns/mmd-2.0#" xmlns:ns2="http://musicbrainz.org/ns/ext#-2.0">
+	<label-list count="25" offset="0">
+		<label id="d2c296e3-10a4-4ba9-97b9-5620ff8a3ce0" type="Original Production" type-id="7aaa37fe-2def-3476-b359-80245850062d" ns2:score="100">
+			<name>Devil's Records</name>
+			<sort-name>Devil's Records</sort-name>
+			<country>FR</country>
+			<area id="08310658-51eb-3801-80de-5a0739207115" type="Country" type-id="06dd0ae4-8c74-30bb-b43d-95dcedf961de">
+				<name>France</name>
+				<sort-name>France</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+			<alias-list>
+				<alias sort-name="Devil Records">Devil Records</alias>
+				<alias sort-name="Devils Records">Devils Records</alias>
+			</alias-list>
+		</label>
+		<label id="0694c1fe-2bca-4d29-a548-1f9ace518261" type="Production" type-id="a2426aab-2dd4-339c-b47d-b4923a241678" ns2:score="96">
+			<name>Devil Records</name>
+			<sort-name>Devil Records</sort-name>
+			<country>GB</country>
+			<area id="8a754a16-0027-3a29-b6d7-2b40ea0481ed" type="Country" type-id="06dd0ae4-8c74-30bb-b43d-95dcedf961de">
+				<name>United Kingdom</name>
+				<sort-name>United Kingdom</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="c258fdd0-962c-48d9-9f44-d8e65fe71279" ns2:score="95">
+			<name>Devil Records</name>
+			<sort-name>Devil Records</sort-name>
+			<disambiguation>bootleg label</disambiguation>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="5fa66cdf-623a-4997-953b-f5b3e570aae7" ns2:score="95">
+			<name>Devil Records</name>
+			<sort-name>Devil Records</sort-name>
+			<disambiguation>Happy Hardcore sublabel from ID&amp;T</disambiguation>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="2abcb2bf-2837-4fd4-b4b0-e992e47bb9e6" ns2:score="82">
+			<name>Jersey Devil Records</name>
+			<sort-name>Jersey Devil Records</sort-name>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="eeedba3b-b061-4bbd-ad66-10c516a7486c" ns2:score="81">
+			<name>Red Devil Records</name>
+			<sort-name>Red Devil Records</sort-name>
+			<disambiguation>bootleg label</disambiguation>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="6c5f139d-5b89-48a2-a38b-5e91e5e01031" ns2:score="80">
+			<name>White Devil Records</name>
+			<sort-name>White Devil Records</sort-name>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="404f82ab-9fa0-414d-9aa9-9023191bd6c6" ns2:score="80">
+			<name>Whiskey Devil Records</name>
+			<sort-name>Whiskey Devil Records</sort-name>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="8cff9717-00b9-448c-ac2e-dfd7300861ef" type="Original Production" type-id="7aaa37fe-2def-3476-b359-80245850062d" ns2:score="78">
+			<name>Blood Devil Records</name>
+			<sort-name>Blood Devil Records</sort-name>
+			<country>DE</country>
+			<area id="85752fda-13c4-31a3-bee5-0e5cb1f51dad" type="Country" type-id="06dd0ae4-8c74-30bb-b43d-95dcedf961de">
+				<name>Germany</name>
+				<sort-name>Germany</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="3f65f8e1-8fc7-440c-9261-8a640ca4f961" type="Original Production" type-id="7aaa37fe-2def-3476-b359-80245850062d" ns2:score="78">
+			<name>Flesh Devil Records</name>
+			<sort-name>Flesh Devil Records</sort-name>
+			<country>US</country>
+			<area id="489ce91b-6658-3307-9877-795b68554c98" type="Country" type-id="06dd0ae4-8c74-30bb-b43d-95dcedf961de">
+				<name>United States</name>
+				<sort-name>United States</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="1b7b1737-462b-49d3-8339-e995ecae67d2" ns2:score="78">
+			<name>Sea Devil Records</name>
+			<sort-name>Sea Devil Records</sort-name>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="68a76e60-8da2-473a-bfc0-4055faa9d934" type="Original Production" type-id="7aaa37fe-2def-3476-b359-80245850062d" ns2:score="78">
+			<name>Electric Devil Records</name>
+			<sort-name>Electric Devil Records</sort-name>
+			<country>US</country>
+			<area id="489ce91b-6658-3307-9877-795b68554c98" type="Country" type-id="06dd0ae4-8c74-30bb-b43d-95dcedf961de">
+				<name>United States</name>
+				<sort-name>United States</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="68f6e3dc-bfef-48e7-acef-e6119be1bd00" ns2:score="78">
+			<name>Lucky Devil Records</name>
+			<sort-name>Lucky Devil Records</sort-name>
+			<disambiguation>Indie Record Label</disambiguation>
+			<country>US</country>
+			<area id="489ce91b-6658-3307-9877-795b68554c98" type="Country" type-id="06dd0ae4-8c74-30bb-b43d-95dcedf961de">
+				<name>United States</name>
+				<sort-name>United States</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="82309cc2-983e-4f44-ba28-6b961a8db054" type="Original Production" type-id="7aaa37fe-2def-3476-b359-80245850062d" ns2:score="78">
+			<name>Red Devil Records</name>
+			<sort-name>Red Devil Records</sort-name>
+			<disambiguation>US punk</disambiguation>
+			<area id="83f22bb6-4631-443c-bace-9fae8540362a" type="City" type-id="6fd8f29a-3d0a-32fc-980d-ea697b69da78">
+				<name>San Francisco</name>
+				<sort-name>San Francisco</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="1348791e-8411-4b74-9454-f37dd5592aef" ns2:score="75">
+			<name>Daredevil Records</name>
+			<sort-name>Daredevil Records</sort-name>
+			<country>DE</country>
+			<area id="85752fda-13c4-31a3-bee5-0e5cb1f51dad" type="Country" type-id="06dd0ae4-8c74-30bb-b43d-95dcedf961de">
+				<name>Germany</name>
+				<sort-name>Germany</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="b3446a32-c5be-4c80-9b60-81a4fa610846" type="Distributor" type-id="53ab8dcc-9946-3b62-966e-7634d78e5034" ns2:score="74">
+			<name>DevilDuck Records</name>
+			<sort-name>DevilDuck Records</sort-name>
+			<label-code>9479</label-code>
+			<country>DE</country>
+			<area id="85752fda-13c4-31a3-bee5-0e5cb1f51dad" type="Country" type-id="06dd0ae4-8c74-30bb-b43d-95dcedf961de">
+				<name>Germany</name>
+				<sort-name>Germany</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+			<alias-list>
+				<alias sort-name="Devil Duck Records">Devil Duck Records</alias>
+			</alias-list>
+		</label>
+		<label id="076b30e9-e6fd-4699-abdf-6f0dcdf53a2f" ns2:score="70">
+			<name>SheDevil Records</name>
+			<sort-name>SheDevil Records</sort-name>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="04e828ef-5760-4648-a3a2-a337d275c865" ns2:score="69">
+			<name>Better the Devil Records</name>
+			<sort-name>Better the Devil Records</sort-name>
+			<country>GB</country>
+			<area id="8a754a16-0027-3a29-b6d7-2b40ea0481ed" type="Country" type-id="06dd0ae4-8c74-30bb-b43d-95dcedf961de">
+				<name>United Kingdom</name>
+				<sort-name>United Kingdom</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="aad8fdd7-c3a0-414a-a6ce-2d2e72f57533" type="Imprint" type-id="b6285b2a-3514-3d43-80df-fcf528824ded" ns2:score="69">
+			<name>Devilspit Records</name>
+			<sort-name>Devilspit Records</sort-name>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="b6719f7f-f13b-495c-9304-cae16077dc7a" type="Original Production" type-id="7aaa37fe-2def-3476-b359-80245850062d" ns2:score="69">
+			<name>Devilish Records</name>
+			<sort-name>Devilish Records</sort-name>
+			<country>JP</country>
+			<area id="2db42837-c832-3c27-b4a3-08198f75693c" type="Country" type-id="06dd0ae4-8c74-30bb-b43d-95dcedf961de">
+				<name>Japan</name>
+				<sort-name>Japan</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="8d52df7d-afa5-4f61-8939-ca0677713a53" type="Reissue Production" type-id="88ee6ae7-f413-3490-a1d2-54f6a9f0838c" ns2:score="68">
+			<name>Red Devil Records, LLC</name>
+			<sort-name>Red Devil Records, LLC</sort-name>
+			<disambiguation>reissue label</disambiguation>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="9519d74f-cda2-4a56-9e5f-b592dbe0d692" ns2:score="67">
+			<name>SheeHandsomeDevil Records</name>
+			<sort-name>SheeHandsomeDevil Records</sort-name>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="4d04fb8c-4127-4174-95ac-e130264b193c" ns2:score="67">
+			<name>Devilock Records</name>
+			<sort-name>Devilock Records</sort-name>
+			<disambiguation>progressive house label</disambiguation>
+			<life-span>
+				<begin>2006</begin>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="122a2d61-6c5f-4118-a13a-1f357db53897" type="Original Production" type-id="7aaa37fe-2def-3476-b359-80245850062d" ns2:score="67">
+			<name>DeVille Records</name>
+			<sort-name>DeVille Records</sort-name>
+			<country>US</country>
+			<area id="489ce91b-6658-3307-9877-795b68554c98" type="Country" type-id="06dd0ae4-8c74-30bb-b43d-95dcedf961de">
+				<name>United States</name>
+				<sort-name>United States</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<ended>false</ended>
+			</life-span>
+		</label>
+		<label id="ae854b9c-b714-4558-acba-b7b0bf8cb484" type="Original Production" type-id="7aaa37fe-2def-3476-b359-80245850062d" ns2:score="64">
+			<name>Up Jumps The Devil Records</name>
+			<sort-name>Up Jumps The Devil Records</sort-name>
+			<country>US</country>
+			<area id="489ce91b-6658-3307-9877-795b68554c98" type="Country" type-id="06dd0ae4-8c74-30bb-b43d-95dcedf961de">
+				<name>United States</name>
+				<sort-name>United States</sort-name>
+				<life-span>
+					<ended>false</ended>
+				</life-span>
+			</area>
+			<life-span>
+				<begin>1998</begin>
+				<ended>true</ended>
+			</life-span>
+		</label>
+	</label-list>
+</metadata>

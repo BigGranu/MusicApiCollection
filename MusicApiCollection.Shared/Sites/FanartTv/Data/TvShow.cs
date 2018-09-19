@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -29,22 +29,22 @@ namespace MusicApiCollection.Sites.FanartTv.Data
     [DataContract]
     public class TvShow
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     All possible Data
         /// </summary>
-        public TvShowResult Data = new TvShowResult();
-
+        public TvShowResult Data { get; set; }
+    
         /// <summary>
         ///     Error Message
         /// </summary>
-        public string ErrorMessage { get; set; } = string.Empty;
+        public string ErrorMessage { get; set; } = Exceptions.Message;
 
         /// <summary>
         ///     Is an Error occurred
         /// </summary>
-        public bool ErrorOccurred;
+        public bool ErrorOccurred { get; set; } = Exceptions.ErrorOccurred;
 
         /// <summary>
         ///     Response
@@ -56,7 +56,6 @@ namespace MusicApiCollection.Sites.FanartTv.Data
         /// </summary>
         public TvShow()
         {
-            Logging.Clear();
         }
 
         /// <summary>
@@ -66,8 +65,6 @@ namespace MusicApiCollection.Sites.FanartTv.Data
         public TvShow(TvShowResult data)
         {
             Data = data;
-            ErrorMessage = Exceptions.Message;
-            ErrorOccurred = Exceptions.ErrorOccurred;
             Response = Http.LastResponse;
         }
     }
@@ -178,73 +175,4 @@ namespace MusicApiCollection.Sites.FanartTv.Data
         [DataMember(Name = "season")]
         public string Season { get; set; } = string.Empty;
     }
-
-    /// <remarks />
-    [DataContract]
-    public class TvLatest
-    {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
-
-        /// <summary>
-        ///     All possible Data
-        /// </summary>
-        public List<TvLatestResult> Data { get; set; } = new List<TvLatestResult>();
-
-        /// <summary>
-        ///     Error Message
-        /// </summary>
-        public string ErrorMessage { get; set; } = string.Empty;
-
-        /// <summary>
-        ///     Is an Error occurred
-        /// </summary>
-        public bool ErrorOccurred;
-
-        /// <summary>
-        ///     Response
-        /// </summary>
-        public string Response { get; set; } = string.Empty;
-
-        /// <summary>
-        ///     Create new TvLatest and clear the log
-        /// </summary>
-        public TvLatest()
-        {
-            Logging.Clear();
-        }
-
-        /// <summary>
-        ///     Create new TvLatest with Result
-        /// </summary>
-        /// <param name="data">Result</param>
-        public TvLatest(List<TvLatestResult> data)
-        {
-            Data = data;
-            ErrorMessage = Exceptions.Message;
-            ErrorOccurred = Exceptions.ErrorOccurred;
-            Response = Http.LastResponse;
-        }
-    }
-
-    /// <remarks />
-    [DataContract]
-    public class TvLatestResult
-    {
-        /// <remarks />
-        [DataMember(Name = "id")]
-        public string Id { get; set; } = string.Empty;
-
-        /// <remarks />
-        [DataMember(Name = "name")]
-        public string Name { get; set; } = string.Empty;
-
-        /// <remarks />
-        [DataMember(Name = "new_images")]
-        public string NewImages { get; set; } = string.Empty;
-
-        /// <remarks />
-        [DataMember(Name = "total_images")]
-        public string TotalImages { get; set; } = string.Empty;
-    }
-
 }

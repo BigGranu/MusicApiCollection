@@ -1,6 +1,6 @@
-﻿#region Copyright (C) 2015-2016 BigGranu
+﻿#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -72,7 +72,7 @@ namespace MusicApiCollection
             /// <summary>
             ///     ApiKey for TheAudoDB
             /// </summary>
-            public static string ApiKey { get; set; } = "";
+            public static string ApiKey { get; set; } = "912057237373f620001833";
         }
 
         /// <summary>
@@ -83,7 +83,7 @@ namespace MusicApiCollection
             /// <summary>
             ///     ApiKey for FanartTv
             /// </summary>
-            public static string ApiKey { get; set; } = "";
+            public static string ApiKey { get; set; } = "91b020d36e832bf14efc3a33c165994e";
 
             /// <summary>
             ///     ClientKey for FanartTv

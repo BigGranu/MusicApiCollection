@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -31,8 +31,8 @@ namespace MusicApiCollection.Sites.MusicBrainz
     /// </summary>
     public class Lookup
     {
-        private static readonly Logging Logging = Logging.GetInstance();
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Logging Logging = Logging.Instance;
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         /// 
@@ -40,6 +40,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
         /// <param name="musicBrainzId">MusicBrainzId</param>
         public static LookupArea Area(string musicBrainzId)
         {
+            Logging.Clear();
             var ret = new LookupArea();
 
             Logging.NewLogEntry(new LogEntry("Sites.MusicBrainz", "Lookup", "Area", new Para("musicBrainzId", musicBrainzId)));
@@ -60,28 +61,46 @@ namespace MusicApiCollection.Sites.MusicBrainz
         /// 
         /// </summary>
         /// <param name="musicBrainzId">MusicBrainzId</param>
-        public static string Artist(string musicBrainzId)
+        public static LookupArtist Artist(string musicBrainzId)
         {
-            //
+            Logging.Clear();
+            var ret = new LookupArtist();
 
-            var ret = Http.Request("http://musicbrainz.org/ws/2/artist/" + musicBrainzId + "?inc=aliases+recordings+isrcs+annotation+tags");
+            Logging.NewLogEntry(new LogEntry("Sites.MusicBrainz", "Lookup", "Artist", new Para("musicBrainzId", musicBrainzId)));
 
-            return "";
+            try
+            {
+                ret = Xml.Deserialize<LookupArtist>(Http.Request("http://musicbrainz.org/ws/2/artist/" + musicBrainzId + "?inc=aliases+recordings+isrcs+annotation+tags"));
+            }
+            catch (Exception ex)
+            {
+                Exceptions.NewException(ex);
+            }
+
+            return new LookupArtist(ret.Data);
         }
-
 
         /// <summary>
         /// 
         /// </summary>
         /// <param name="musicBrainzId">MusicBrainzId</param>
-        public static string Label(string musicBrainzId)
+        public static LookupLabel Label(string musicBrainzId)
         {
-            //?inc=aliases+annotation+tags+ratings
+            Logging.Clear();
+            var ret = new LookupLabel();
 
-            var ret = Http.Request("http://musicbrainz.org/ws/2/label/" + musicBrainzId + "?inc=aliases+annotation+tags+ratings");
+            Logging.NewLogEntry(new LogEntry("Sites.MusicBrainz", "Lookup", "Artist", new Para("musicBrainzId", musicBrainzId)));
 
-   
-            return "";
+            try
+            {
+                ret = Xml.Deserialize<LookupLabel>(Http.Request("http://musicbrainz.org/ws/2/label/" + musicBrainzId + "?inc=aliases+annotation+tags+ratings"));
+            }
+            catch (Exception ex)
+            {
+                Exceptions.NewException(ex);
+            }
+
+            return new LookupLabel(ret.Data);
         }
 
         /// <summary>
@@ -90,6 +109,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
         /// <param name="musicBrainzId">MusicBrainzId</param>
         public static string Recording(string musicBrainzId)
         {
+            Logging.Clear();
 
             var ret = Http.Request("http://musicbrainz.org/ws/2/recording/" + musicBrainzId + "?inc=aliases+artist-credits+isrcs+annotation+tags+ratings");
 
@@ -102,7 +122,8 @@ namespace MusicApiCollection.Sites.MusicBrainz
         /// </summary>
         /// <param name="musicBrainzId">MusicBrainzId</param>
         public static LookupRelease Release(string musicBrainzId)
-        {           
+        {
+            Logging.Clear();
             var ret = new LookupRelease();
 
             Logging.NewLogEntry(new LogEntry("Sites.MusicBrainz", "Lookup", "Release", new Para("musicBrainzId", musicBrainzId)));
@@ -125,6 +146,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
         /// <param name="musicBrainzId">MusicBrainzId</param>
         public static LookupReleaseGroup ReleaseGroup(string musicBrainzId)
         {
+            Logging.Clear();
             var ret = new LookupReleaseGroup();
 
             Logging.NewLogEntry(new LogEntry("Sites.MusicBrainz", "Lookup", "ReleaseGroup", new Para("musicBrainzId", musicBrainzId)));
@@ -146,7 +168,8 @@ namespace MusicApiCollection.Sites.MusicBrainz
         /// </summary>
         /// <param name="musicBrainzId">MusicBrainzId</param>
         public static LookupWork Work(string musicBrainzId)
-        {         
+        {
+            Logging.Clear();
             var ret = new LookupWork();
 
             Logging.NewLogEntry(new LogEntry("Sites.MusicBrainz", "Lookup", "Work", new Para("musicBrainzId", musicBrainzId)));
@@ -169,6 +192,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
         /// <param name="musicBrainzId">MusicBrainzId</param>
         public static LookupUrl Url(string musicBrainzId)
         {
+            Logging.Clear();
             var ret = new LookupUrl();
             
             Logging.NewLogEntry(new LogEntry("Sites.MusicBrainz", "Lookup", "Url", new Para("musicBrainzId", musicBrainzId)));
@@ -184,5 +208,20 @@ namespace MusicApiCollection.Sites.MusicBrainz
 
             return new LookupUrl(ret.Data);
         }
+
+        // https://musicbrainz.org/doc/Development/XML_Web_Service/Version_2#Lookups
+        // /ws/2/area
+        // /ws/2/artist recordings, releases, release-groups, works
+        // /ws/2/collection user-collections(includes private collections, requires authentication)
+        // /ws/2/event
+        // /ws/2/instrument
+        // /ws/2/label releases
+        // /ws/2/place
+        // /ws/2/recording artists, releases
+        // /ws/2/release artists, collections, labels, recordings, release-groups
+        // /ws/2/release-group artists, releases
+        // /ws/2/series
+        // /ws/2/work
+        // /ws/2/url
     }
 }

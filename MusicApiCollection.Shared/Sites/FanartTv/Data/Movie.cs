@@ -1,7 +1,7 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -31,24 +31,33 @@ namespace MusicApiCollection.Sites.FanartTv.Data
     [DataContract]
     public class Movie
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     All possible Data
         /// </summary>
-        public MovieResult Data = new MovieResult();
+        public MovieResult Data { get; set; }
+
+        /// <summary>
+        ///     Error Message
+        /// </summary>
+        public string ErrorMessage { get; set; } = Exceptions.Message;
 
         /// <summary>
         ///     Is an Error occurred
         /// </summary>
-        public bool ErrorOccurred;
+        public bool ErrorOccurred { get; set; } = Exceptions.ErrorOccurred;
+
+        /// <summary>
+        ///     Response
+        /// </summary>
+        public string Response { get; set; } = string.Empty;
 
         /// <summary>
         ///     Create new Movie and clear the log
         /// </summary>
         public Movie()
-        {
-            Logging.Clear();
+        { 
         }
 
         /// <summary>
@@ -58,20 +67,8 @@ namespace MusicApiCollection.Sites.FanartTv.Data
         public Movie(MovieResult data)
         {
             Data = data;
-            ErrorMessage = Exceptions.Message;
-            ErrorOccurred = Exceptions.ErrorOccurred;
             Response = Http.LastResponse;
         }
-
-        /// <summary>
-        ///     Error Message
-        /// </summary>
-        public string ErrorMessage { get; set; } = string.Empty;
-
-        /// <summary>
-        ///     Response
-        /// </summary>
-        public string Response { get; set; } = string.Empty;
     }
 
     /// <remarks />
@@ -175,77 +172,5 @@ namespace MusicApiCollection.Sites.FanartTv.Data
         /// <remarks />
         [DataMember(Name = "disc_type")]
         public string DiscType { get; set; } = string.Empty;
-    }
-
-    /// <remarks />
-    [DataContract]
-    public class MovieLatest
-    {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
-
-        /// <summary>
-        ///     Is an Error occurred
-        /// </summary>
-        public bool ErrorOccurred;
-
-        /// <summary>
-        ///     Create new MovieLatest and clear the log
-        /// </summary>
-        public MovieLatest()
-        {
-            Logging.Clear();
-        }
-
-        /// <summary>
-        ///     Create new MovieLatest with Result
-        /// </summary>
-        /// <param name="data">Result</param>
-        public MovieLatest(List<MovieLatestResult> data)
-        {
-            Data = data;
-            ErrorMessage = Exceptions.Message;
-            ErrorOccurred = Exceptions.ErrorOccurred;
-            Response = Http.LastResponse;
-        }
-
-        /// <summary>
-        ///     All possible Data
-        /// </summary>
-        public List<MovieLatestResult> Data { get; set; } = new List<MovieLatestResult> {new MovieLatestResult()};
-
-        /// <summary>
-        ///     Error Message
-        /// </summary>
-        public string ErrorMessage { get; set; } = string.Empty;
-
-        /// <summary>
-        ///     Response
-        /// </summary>
-        public string Response { get; set; } = string.Empty;
-    }
-
-    /// <remarks />
-    [DataContract]
-    public class MovieLatestResult
-    {
-        /// <remarks />
-        [DataMember(Name = "tmdb_id")]
-        public string TmdbId { get; set; } = string.Empty;
-
-        /// <remarks />
-        [DataMember(Name = "imdb_id")]
-        public string ImdbId { get; set; } = string.Empty;
-
-        /// <remarks />
-        [DataMember(Name = "name")]
-        public string Name { get; set; } = string.Empty;
-
-        /// <remarks />
-        [DataMember(Name = "new_images")]
-        public string NewImages { get; set; } = string.Empty;
-
-        /// <remarks />
-        [DataMember(Name = "total_images")]
-        public string TotalImages { get; set; } = string.Empty;
     }
 }

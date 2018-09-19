@@ -1,7 +1,7 @@
-﻿#region Copyright (C) 2015-2016 BigGranu
+﻿#region Copyright (C) 2015-2018 BigGranu
 
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -31,6 +31,8 @@ namespace MusicApiCollection.Events
     /// </summary>
     public class Logging
     {
+        private static Logging _instance;
+
         /// <remarks />
         public delegate void EventHandler(object sender, LogEntry e);
 
@@ -39,24 +41,16 @@ namespace MusicApiCollection.Events
         /// </summary>
         public Logging()
         {
-            Instance = this;
+            _instance = this;
         }
 
         /// <remarks />
-        private static Logging Instance { get; set; }
+        public static Logging Instance => _instance ?? (_instance = new Logging());
 
         /// <summary>
         ///     EventHandler for Logging
         /// </summary>
         public event EventHandler Call;
-
-        /// <summary>
-        ///     Instance of the Logging
-        /// </summary>
-        public static Logging GetInstance()
-        {
-            return Instance ?? new Logging();
-        }
 
         /// <summary>
         /// </summary>
@@ -71,7 +65,7 @@ namespace MusicApiCollection.Events
         /// </summary>
         internal static void Clear()
         {
-            var exc = Exceptions.GetInstance();
+            var exc = Exceptions.Instance;
             exc.Message = string.Empty;
             exc.ErrorOccurred = false;
             Http.LastResponse = string.Empty;

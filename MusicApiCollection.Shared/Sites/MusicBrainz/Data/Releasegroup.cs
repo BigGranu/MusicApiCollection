@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -29,22 +29,22 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     /// <remarks />
     public class Releasegroup
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     All possible Data
         /// </summary>
-        public ReleasegroupResult Data = new ReleasegroupResult();
+        public ReleasegroupResult Data { get; set; }
 
         /// <summary>
         ///     Error Message
         /// </summary>
-        public string ErrorMessage { get; set; } = string.Empty;
+        public string ErrorMessage { get; set; } = Exceptions.Message;
 
         /// <summary>
         ///     Is an Error occurred
         /// </summary>
-        public bool ErrorOccurred;
+        public bool ErrorOccurred { get; set; } = Exceptions.ErrorOccurred;
 
         /// <summary>
         ///     Response
@@ -56,7 +56,6 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// </summary>
         public Releasegroup()
         {
-            Logging.Clear();
         }
 
         /// <summary>
@@ -65,9 +64,10 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// <param name="data">Result</param>
         public Releasegroup(ReleasegroupResult data)
         {
+            if (data.Data == null || data.Data.Count == 0)
+                data.Data = new List<ReleasegroupData> { new ReleasegroupData() };
+
             Data = data;
-            ErrorMessage = Exceptions.Message;
-            ErrorOccurred = Exceptions.ErrorOccurred;
             Response = Http.LastResponse;
         }
     }
@@ -91,7 +91,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("release-group")]
-        public List<ReleasegroupData> Data { get; set; } = new List<ReleasegroupData> {new ReleasegroupData()};
+        public List<ReleasegroupData> Data { get; set; }
 
         /// <remarks />
         [XmlAttribute("count")]

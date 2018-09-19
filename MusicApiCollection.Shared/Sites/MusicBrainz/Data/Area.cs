@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -27,14 +27,14 @@ using MusicApiCollection.Events;
 namespace MusicApiCollection.Sites.MusicBrainz.Data
 {
     /// <remarks />
-    public class Area
+    public partial class Area
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     All possible Data
         /// </summary>
-        public AreaResult Data = new AreaResult();
+        public AreaResult Data { get; set; }
 
         /// <summary>
         ///     Error Message
@@ -56,7 +56,6 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// </summary>
         public Area()
         {
-            Logging.Clear();
         }
 
         /// <summary>
@@ -65,6 +64,9 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// <param name="data">Result</param>
         public Area(AreaResult data)
         {
+            if (data.Data == null || data.Data.Count == 0)
+                data.Data = new List<AreaData> { new AreaData() };
+
             Data = data;
             ErrorMessage = Exceptions.Message;
             ErrorOccurred = Exceptions.ErrorOccurred;
@@ -91,7 +93,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("area")]
-        public List<AreaData> Data { get; set; } = new List<AreaData> {new AreaData()};
+        public List<AreaData> Data { get; set; }
 
         /// <remarks />
         [XmlAttribute("count")]

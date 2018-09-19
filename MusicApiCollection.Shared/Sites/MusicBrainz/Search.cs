@@ -1,7 +1,7 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -32,8 +32,8 @@ namespace MusicApiCollection.Sites.MusicBrainz
     /// </summary>
     public class Search
     {
-        private static readonly Logging Logging = Logging.GetInstance();
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Logging Logging = Logging.Instance;
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     Annotation
@@ -56,6 +56,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
         public static Annotation Annotation(string query = null, string text = null, string type = null,
             string name = null, string entity = null, int limit = 25, int offset = 0)
         {
+            Logging.Clear();
             var ret = new Annotation();
 
             var le = new LogEntry("Sites.MusicBrainz", "Search", "Annotation");
@@ -114,6 +115,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
             string iso1 = null, string iso2 = null, string iso3 = null, string type = null, int limit = 25,
             int offset = 0)
         {
+            Logging.Clear();
             var ret = new Area();
 
             var le = new LogEntry("Sites.MusicBrainz", "Search", "");
@@ -186,6 +188,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
             string ipi = null, string sortname = null, string tag = null, string type = null, int limit = 25,
             int offset = 0)
         {
+            Logging.Clear();
             var ret = new Artist();
 
             var le = new LogEntry("Sites.MusicBrainz", "Search", "");
@@ -247,6 +250,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
             string barcode = null,
             string comment = null, string tracks = null, string discid = null, int limit = 25, int offset = 0)
         {
+            Logging.Clear();
             var ret = new Cdstub();
 
             var le = new LogEntry("Sites.MusicBrainz", "Search", "");
@@ -297,6 +301,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
             string cat = null,
             string year = null, string tracks = null, int limit = 25, int offset = 0)
         {
+            Logging.Clear();
             var ret = new Freedb();
 
             var le = new LogEntry("Sites.MusicBrainz", "Search", "");
@@ -360,6 +365,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
             string type = null,
             string tag = null, int limit = 25, int offset = 0)
         {
+            Logging.Clear();
             var ret = new Label();
 
             var le = new LogEntry("Sites.MusicBrainz", "Search", "");
@@ -426,6 +432,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
             string begin = null, string comment = null, string end = null, string ended = null, string lat = null,
             string Long = null, string sortname = null, string type = null, int limit = 25, int offset = 0)
         {
+            Logging.Clear();
             var ret = new Place();
 
             var le = new LogEntry("Sites.MusicBrainz", "Search", "");
@@ -521,6 +528,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
             string tid = null, string tnum = null, string tracks = null, string tracksrelease = null, string tag = null,
             string type = null, string video = null, int limit = 25, int offset = 0)
         {
+            Logging.Clear();
             var ret = new Recording();
 
             var le = new LogEntry("Sites.MusicBrainz", "Search", "");
@@ -639,6 +647,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
             string secondarytype = null, string status = null, string tag = null, string tracks = null,
             string tracksmedium = null, string type = null, int limit = 25, int offset = 0)
         {
+            Logging.Clear();
             var ret = new Release();
 
             var le = new LogEntry("Sites.MusicBrainz", "Search", "");
@@ -735,6 +744,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
             string reid = null, string secondarytype = null, string status = null, string tag = null, string type = null,
             int limit = 25, int offset = 0)
         {
+            Logging.Clear();
             var ret = new Releasegroup();
 
             var le = new LogEntry("Sites.MusicBrainz", "Search", "Work");
@@ -789,6 +799,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
         /// <returns>List of Tag</returns>
         public static Tag Tag(string query, int limit = 25, int offset = 0)
         {
+            Logging.Clear();
             var ret = new Tag();
 
             var le = new LogEntry("Sites.MusicBrainz", "Search", "Tag");
@@ -840,6 +851,7 @@ namespace MusicApiCollection.Sites.MusicBrainz
             string iswc = null, string lang = null, string tag = null, string type = null, string wid = null,
             string work = null, string workaccent = null, int limit = 25, int offset = 0)
         {
+            Logging.Clear();
             var ret = new Work();
 
             var le = new LogEntry("Sites.MusicBrainz", "Search", "Work");
