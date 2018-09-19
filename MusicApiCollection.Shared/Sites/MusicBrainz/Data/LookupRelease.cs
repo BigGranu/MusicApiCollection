@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -31,21 +31,21 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     [XmlRoot("metadata", Namespace = "http://musicbrainz.org/ns/mmd-2.0#", IsNullable = false)]
     public class LookupRelease
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <remarks />
         [XmlElement("release")]
-        public List<ReleaseData> Data { get; set; } = new List<ReleaseData> {new ReleaseData()};
+        public List<ReleaseData> Data { get; set; }
 
         /// <summary>
         ///     Error Message
         /// </summary>
-        public string ErrorMessage { get; set; } = string.Empty;
+        public string ErrorMessage { get; set; } = Exceptions.Message;
 
         /// <summary>
         ///     Is an Error occurred
         /// </summary>
-        public bool ErrorOccurred;
+        public bool ErrorOccurred { get; set; } = Exceptions.ErrorOccurred;
 
         /// <summary>
         ///     Response
@@ -57,7 +57,6 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// </summary>
         public LookupRelease()
         {
-            Logging.Clear();
         }
 
         /// <summary>
@@ -66,9 +65,10 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// <param name="data">Result</param>
         public LookupRelease(List<ReleaseData> data)
         {
+            if (data == null || data.Count == 0)
+                data = new List<ReleaseData> {new ReleaseData()};
+
             Data = data;
-            ErrorMessage = Exceptions.Message;
-            ErrorOccurred = Exceptions.ErrorOccurred;
             Response = Http.LastResponse;
         }
     }

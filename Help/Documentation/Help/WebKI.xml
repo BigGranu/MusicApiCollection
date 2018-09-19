@@ -1,0 +1,489 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AcoustId class">
+    <HelpKINode Title="properties" Url="html/f34f82f3-8b47-d564-0210-913b137f2b8e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Album method">
+    <HelpKINode Title="Search.Album Method " Url="html/3b5ab0e8-f555-9a93-4f05-c9962af5c517.htm" />
+    <HelpKINode Title="Search.Album Method " Url="html/f106f925-9135-db14-cdd3-5cc36730ecc5.htm" />
+    <HelpKINode Title="Search.Album Method " Url="html/f6e9656b-3116-20f1-bf1c-faa280298cf8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AlbumId class">
+    <HelpKINode Title="AlbumId Class" Url="html/b25d79ba-712a-7945-2bee-44bc4004dc88.htm" />
+    <HelpKINode Title="constructor" Url="html/e3587782-3ecc-7c63-0ffd-7124273c3240.htm" />
+    <HelpKINode Title="fields" Url="html/c01f9de0-057e-4e65-caa9-7698650bbf51.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AlbumId.AlbumId constructor" Url="html/e3587782-3ecc-7c63-0ffd-7124273c3240.htm" />
+  <HelpKINode Title="AlbumId.Id field" Url="html/cf1a9b72-55de-7287-6604-52ca5ab256dd.htm" />
+  <HelpKINode Title="AllLabelReleases method" Url="html/51215e41-f3e3-08cd-cf3a-a6521b484464.htm" />
+  <HelpKINode Title="Annotation method" Url="html/82b96033-c0da-166f-3f47-02fc7b9130e6.htm" />
+  <HelpKINode Title="ApiKey property">
+    <HelpKINode Title="Settings.FanartTv.ApiKey Property " Url="html/1762ad71-bc0c-373b-5888-335d296e73d8.htm" />
+    <HelpKINode Title="Settings.TheAudioDb.ApiKey Property " Url="html/dff0b29c-627a-00f3-9cde-9c19d552abb2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Area method">
+    <HelpKINode Title="Lookup.Area Method " Url="html/bcb43608-49ce-73b4-d71c-b11aa76d60fe.htm" />
+    <HelpKINode Title="Search.Area Method " Url="html/291fbf42-08ba-8204-665a-b85bdd455482.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ARTIST enumeration member" Url="html/280b7b6d-6ef4-aaa9-431f-63f9cef5deb2.htm" />
+  <HelpKINode Title="Artist method">
+    <HelpKINode Title="Lookup.Artist Method " Url="html/04673420-ad44-c5a6-e085-9d49c1fcca78.htm" />
+    <HelpKINode Title="Search.Artist Method " Url="html/ece6fd0c-7eeb-2c76-b5b1-59bda8433aa6.htm" />
+    <HelpKINode Title="Search.Artist Method " Url="html/ee18609f-2ee3-eae4-d76c-6b160c548b9f.htm" />
+    <HelpKINode Title="Search.Artist Method " Url="html/ce8d44a7-ed86-f7b3-e495-8dcbe7daa60b.htm" />
+    <HelpKINode Title="Search.Artist Method " Url="html/571d8944-51c0-50a6-a7cf-35a99a0a55cf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ArtistId class">
+    <HelpKINode Title="ArtistId Class" Url="html/4deecaa4-c9e5-cfed-3294-c879bef28173.htm" />
+    <HelpKINode Title="constructor" Url="html/d8621d3d-c613-a304-2eae-a69b908ccd6a.htm" />
+    <HelpKINode Title="fields" Url="html/005307fc-6e59-4ebe-eaf6-5e3509041d62.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ArtistId.ArtistId constructor" Url="html/d8621d3d-c613-a304-2eae-a69b908ccd6a.htm" />
+  <HelpKINode Title="ArtistId.Id field" Url="html/78229ae9-9356-62d2-51f8-a4b4f0421ddf.htm" />
+  <HelpKINode Title="ArtistRelease method" Url="html/5e1698a5-e054-1405-1b9a-d198db42ca4f.htm" />
+  <HelpKINode Title="Call event">
+    <HelpKINode Title="Exceptions.Call Event" Url="html/eb69900b-53ab-99c2-1a2b-a4d052d8d934.htm" />
+    <HelpKINode Title="Logging.Call Event" Url="html/a4757a8c-ee3b-d34b-2565-e31c176dd480.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Categories method" Url="html/26206dbd-f165-39e4-2c59-6587f0f63a5d.htm" />
+  <HelpKINode Title="CdStub method" Url="html/a0fe8739-ca60-c0d7-4bf9-92f35d0c0ad8.htm" />
+  <HelpKINode Title="Class property" Url="html/b16732c5-1db0-6a68-b092-7da6917b53a0.htm" />
+  <HelpKINode Title="ClientId field" Url="html/3e3ef074-a4fd-c3ef-eadd-b0549a6dfa6b.htm" />
+  <HelpKINode Title="ClientKey property">
+    <HelpKINode Title="Settings.AcoustId.ClientKey Property " Url="html/26b796fe-fad8-9711-0030-4febf303b7ce.htm" />
+    <HelpKINode Title="Settings.FanartTv.ClientKey Property " Url="html/720897ff-ffd4-0b28-88c9-732f4a5dab69.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Clientname property" Url="html/8e9ac12d-152e-6a5b-fb43-c8c36255d9d1.htm" />
+  <HelpKINode Title="Data field" Url="html/0658771e-5b98-6a0f-c00c-018517629022.htm" />
+  <HelpKINode Title="Discography method" Url="html/e3b8a053-fb75-6a77-691b-5debe1e3c5bc.htm" />
+  <HelpKINode Title="Discogs class">
+    <HelpKINode Title="properties" Url="html/08dd328e-0de1-e07e-2e0e-c5360f3662f8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ErrorMessage field" Url="html/8dab575e-f704-7ddf-88fe-e0f56c7051aa.htm" />
+  <HelpKINode Title="ErrorMessage property" Url="html/9d5bbccd-d6c7-c2c3-441e-41cf40e07ad8.htm" />
+  <HelpKINode Title="ErrorOccurred field">
+    <HelpKINode Title="Exceptions.ErrorOccurred Field" Url="html/aa26bec4-7ceb-f665-c760-a872a92dcb25.htm" />
+    <HelpKINode Title="Lyric.ErrorOccurred Field" Url="html/dc8e3bcf-1c81-e1d4-7ef6-bcc60c26d3eb.htm" />
+    <HelpKINode Title="Settings.ErrorOccurred Field" Url="html/b891ece7-0c71-3b34-4103-2e165ad198aa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventArg class">
+    <HelpKINode Title="EventArg Class" Url="html/671319a2-6f2f-23c6-7983-7dfd2ec2507e.htm" />
+    <HelpKINode Title="constructor" Url="html/fc0bd706-7fcc-8797-d539-57045c6414e9.htm" />
+    <HelpKINode Title="properties" Url="html/f28732d7-3b65-7ae9-57e3-c2369cc76267.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventArg.EventArg constructor" Url="html/fc0bd706-7fcc-8797-d539-57045c6414e9.htm" />
+  <HelpKINode Title="EventArg.Exception property" Url="html/f2b088d0-be1b-4429-5799-14bb5a246f5d.htm" />
+  <HelpKINode Title="EventArg.Message property" Url="html/b3074016-e4c2-b0c7-1366-24ede7f57c3d.htm" />
+  <HelpKINode Title="Exception property" Url="html/f2b088d0-be1b-4429-5799-14bb5a246f5d.htm" />
+  <HelpKINode Title="Exceptions class">
+    <HelpKINode Title="Exceptions Class" Url="html/8560391d-50bd-066d-60c3-a59646dfbe0c.htm" />
+    <HelpKINode Title="constructor" Url="html/70e9e7e0-b920-b697-0f81-55fc9e1af47f.htm" />
+    <HelpKINode Title="events" Url="html/0689c8a2-86c7-c16b-994a-977e3b87995d.htm" />
+    <HelpKINode Title="fields" Url="html/db99e591-ed72-79dc-cbc0-f77457448bb1.htm" />
+    <HelpKINode Title="methods" Url="html/ad31f449-5e7b-f13b-7aef-2fc4171288c2.htm" />
+    <HelpKINode Title="properties" Url="html/051aed04-b0b6-f953-1771-fd4451084fde.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Exceptions.Call event" Url="html/eb69900b-53ab-99c2-1a2b-a4d052d8d934.htm" />
+  <HelpKINode Title="Exceptions.ErrorOccurred field" Url="html/aa26bec4-7ceb-f665-c760-a872a92dcb25.htm" />
+  <HelpKINode Title="Exceptions.EventHandler delegate" Url="html/eca4b8b2-108b-44e7-c1eb-d815e46f0d76.htm" />
+  <HelpKINode Title="Exceptions.Exceptions constructor" Url="html/70e9e7e0-b920-b697-0f81-55fc9e1af47f.htm" />
+  <HelpKINode Title="Exceptions.Instance property" Url="html/a0a6f50c-3a31-d0e8-bd14-e9cb559d115f.htm" />
+  <HelpKINode Title="Exceptions.Message property" Url="html/844ba22d-dbe4-1940-7abc-23aaa21a2569.htm" />
+  <HelpKINode Title="Exceptions.NewException method" Url="html/9fb03d2c-e4aa-55f9-f408-1437eb45cba8.htm" />
+  <HelpKINode Title="FanartTv class">
+    <HelpKINode Title="properties" Url="html/f997e638-7af6-5c64-013f-202e2b7a203f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FirstName property" Url="html/d27f27f5-3948-c7f1-94fb-1191b4df4aa5.htm" />
+  <HelpKINode Title="FreeDb class">
+    <HelpKINode Title="properties" Url="html/1080d81b-b0b3-980e-8ae1-bd92d382cdce.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Freedb method" Url="html/645a8446-be19-4857-26d3-51c16813bf08.htm" />
+  <HelpKINode Title="Function property" Url="html/8d23b60f-8442-75ea-a13b-51972e62b6ce.htm" />
+  <HelpKINode Title="GraceNote class">
+    <HelpKINode Title="fields" Url="html/bd43e2dd-d8fc-55a9-dfd4-46e66c209ab4.htm" />
+    <HelpKINode Title="properties" Url="html/bfc334b6-4fcb-0bb5-191d-c2296c13698d.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Help method" Url="html/9c75e1fe-0ebf-5b50-2bb8-c9dbde1547e2.htm" />
+  <HelpKINode Title="Hostname property" Url="html/33ae23f3-f5bc-07ac-4ca0-07c6cab6f279.htm" />
+  <HelpKINode Title="Http class">
+    <HelpKINode Title="properties" Url="html/db7707d4-f99f-527a-741a-0a7110df34ac.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HttpWebRequestTimeout property" Url="html/b8929205-ddbe-b2ac-0fd3-092347ab64ef.htm" />
+  <HelpKINode Title="Id field">
+    <HelpKINode Title="AlbumId.Id Field" Url="html/cf1a9b72-55de-7287-6604-52ca5ab256dd.htm" />
+    <HelpKINode Title="ArtistId.Id Field" Url="html/78229ae9-9356-62d2-51f8-a4b4f0421ddf.htm" />
+    <HelpKINode Title="TrackId.Id Field" Url="html/86fac916-af25-8c72-e427-f82ddd368675.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Instance property">
+    <HelpKINode Title="Exceptions.Instance Property " Url="html/a0a6f50c-3a31-d0e8-bd14-e9cb559d115f.htm" />
+    <HelpKINode Title="Logging.Instance Property " Url="html/cb6e1a1c-21f1-acfc-8b7e-9d4c059a0704.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Key property" Url="html/b970d3af-10ba-ee3c-7320-99095a5c3a2c.htm" />
+  <HelpKINode Title="LABEL enumeration member" Url="html/280b7b6d-6ef4-aaa9-431f-63f9cef5deb2.htm" />
+  <HelpKINode Title="Label method">
+    <HelpKINode Title="Lookup.Label Method " Url="html/2e45e982-7c6f-3ba8-22a0-d6ce13a290b7.htm" />
+    <HelpKINode Title="Search.Label Method " Url="html/06434bf6-a2d2-5c6a-f1bd-94a1500ba005.htm" />
+    <HelpKINode Title="Search.Label Method " Url="html/0061f601-ec88-97b2-fc58-07832f4b1228.htm" />
+    <HelpKINode Title="Search.Label Method " Url="html/879c700d-669b-9a0d-64c4-1aa9cdba95d8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LastName property" Url="html/5970ca13-8e4f-92ec-14b1-66ab8e56f380.htm" />
+  <HelpKINode Title="LatestArtist method" Url="html/a80ddc29-5e32-18b5-aa05-c0f4a0ce53c0.htm" />
+  <HelpKINode Title="LatestMovie method" Url="html/a71d068c-792b-e75b-9978-255cd6781b80.htm" />
+  <HelpKINode Title="LatestTvShow method" Url="html/b8706450-2253-632d-dd82-0b0fe2b41f3d.htm" />
+  <HelpKINode Title="Level property" Url="html/1aa088db-3758-af25-dedb-b29a82bc226d.htm" />
+  <HelpKINode Title="LogEntry class">
+    <HelpKINode Title="LogEntry Class" Url="html/af1d3f7f-ce8d-7104-4a93-fe0f297a186b.htm" />
+    <HelpKINode Title="constructor" Url="html/4f92d740-3ddc-88cd-9257-8c1359014093.htm" />
+    <HelpKINode Title="properties" Url="html/6e84bd96-d8a8-f3d0-6e7c-5cea13ab2367.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LogEntry.Class property" Url="html/b16732c5-1db0-6a68-b092-7da6917b53a0.htm" />
+  <HelpKINode Title="LogEntry.Function property" Url="html/8d23b60f-8442-75ea-a13b-51972e62b6ce.htm" />
+  <HelpKINode Title="LogEntry.LogEntry constructor" Url="html/4f92d740-3ddc-88cd-9257-8c1359014093.htm" />
+  <HelpKINode Title="LogEntry.Namespace property" Url="html/4335c9be-24a2-cf97-12c4-0009604e95e5.htm" />
+  <HelpKINode Title="LogEntry.Parameters property" Url="html/86e7a90e-c4a5-be09-fa08-a4bbbb5d685c.htm" />
+  <HelpKINode Title="Logging class">
+    <HelpKINode Title="Logging Class" Url="html/1d3e8252-fa26-60c0-0cb7-ca2137a2425c.htm" />
+    <HelpKINode Title="constructor" Url="html/68f46f29-5df0-67bc-df4f-f3b1c106a877.htm" />
+    <HelpKINode Title="events" Url="html/d385f52a-6a29-6c1c-b9a7-dc64b5aa854c.htm" />
+    <HelpKINode Title="methods" Url="html/e0252847-505a-2e89-79a7-3ba12198094e.htm" />
+    <HelpKINode Title="properties" Url="html/c916cdc9-b05b-e0ea-cf5e-632963dda3fa.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Logging.Call event" Url="html/a4757a8c-ee3b-d34b-2565-e31c176dd480.htm" />
+  <HelpKINode Title="Logging.EventHandler delegate" Url="html/4a8f82ae-fb80-b4a5-e5e8-7ff90eda22f0.htm" />
+  <HelpKINode Title="Logging.Instance property" Url="html/cb6e1a1c-21f1-acfc-8b7e-9d4c059a0704.htm" />
+  <HelpKINode Title="Logging.Logging constructor" Url="html/68f46f29-5df0-67bc-df4f-f3b1c106a877.htm" />
+  <HelpKINode Title="Logging.NewLogEntry method" Url="html/c1fb5d9b-99c5-a48c-1af0-0c41dda79de2.htm" />
+  <HelpKINode Title="Lookup class">
+    <HelpKINode Title="Lookup Class" Url="html/27c19a4f-6f00-f478-5498-a5e1596251a9.htm" />
+    <HelpKINode Title="constructor" Url="html/9bd6af21-04bc-ea93-1535-27f1d6482ac7.htm" />
+    <HelpKINode Title="methods" Url="html/7217f661-56f3-93a4-f75e-fd58c8379de2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Lookup method" Url="html/0297affc-9295-4ecf-e656-711c5c9913ba.htm" />
+  <HelpKINode Title="Lookup.Area method" Url="html/bcb43608-49ce-73b4-d71c-b11aa76d60fe.htm" />
+  <HelpKINode Title="Lookup.Artist method" Url="html/04673420-ad44-c5a6-e085-9d49c1fcca78.htm" />
+  <HelpKINode Title="Lookup.Label method" Url="html/2e45e982-7c6f-3ba8-22a0-d6ce13a290b7.htm" />
+  <HelpKINode Title="Lookup.Lookup constructor" Url="html/9bd6af21-04bc-ea93-1535-27f1d6482ac7.htm" />
+  <HelpKINode Title="Lookup.Recording method" Url="html/8ea1ee25-fe00-786e-20f1-22641be770b6.htm" />
+  <HelpKINode Title="Lookup.Release method" Url="html/d398f5fa-0b86-81b1-13d5-93ba0a8a4f60.htm" />
+  <HelpKINode Title="Lookup.ReleaseGroup method" Url="html/aba08b60-e880-ed0d-9010-8f57c064c40c.htm" />
+  <HelpKINode Title="Lookup.Url method" Url="html/fd28c7f1-0e41-28ee-ffc8-8b36559503d0.htm" />
+  <HelpKINode Title="Lookup.Work method" Url="html/698735af-99da-824d-776f-427803e9ed50.htm" />
+  <HelpKINode Title="Lyric class">
+    <HelpKINode Title="Lyric Class" Url="html/189f58c6-4209-ef1c-69cb-fa7e0f610e58.htm" />
+    <HelpKINode Title="constructor" Url="html/81e91bdf-e20f-830f-6382-80a55e61f660.htm" />
+    <HelpKINode Title="fields" Url="html/4a015e21-f15c-f72d-8bca-6ae163cce76c.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Lyric.Data field" Url="html/0658771e-5b98-6a0f-c00c-018517629022.htm" />
+  <HelpKINode Title="Lyric.ErrorMessage field" Url="html/8dab575e-f704-7ddf-88fe-e0f56c7051aa.htm" />
+  <HelpKINode Title="Lyric.ErrorOccurred field" Url="html/dc8e3bcf-1c81-e1d4-7ef6-bcc60c26d3eb.htm" />
+  <HelpKINode Title="Lyric.Lyric constructor" Url="html/81e91bdf-e20f-830f-6382-80a55e61f660.htm" />
+  <HelpKINode Title="Lyric.Response field" Url="html/13b4c830-e26a-4129-73f7-a22314d693a6.htm" />
+  <HelpKINode Title="LyricResult class">
+    <HelpKINode Title="LyricResult Class" Url="html/f5aa34fb-8ca4-d3c3-ee0b-cf5c8506fcf6.htm" />
+    <HelpKINode Title="constructor" Url="html/5f0e628c-84a8-1c61-6693-d87305c6d43c.htm" />
+    <HelpKINode Title="properties" Url="html/f3344024-3dfb-bd0f-aa39-210845c3e8a8.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LyricResult.LyricResult constructor" Url="html/5f0e628c-84a8-1c61-6693-d87305c6d43c.htm" />
+  <HelpKINode Title="LyricResult.Text property" Url="html/f7bcdd85-6310-9b13-160d-d36f28c17d02.htm" />
+  <HelpKINode Title="LyricResult.Writers property" Url="html/d6db4792-bbc9-7ce5-4242-5df5251a9cfd.htm" />
+  <HelpKINode Title="MASTER enumeration member" Url="html/280b7b6d-6ef4-aaa9-431f-63f9cef5deb2.htm" />
+  <HelpKINode Title="MasterRelease method" Url="html/a83e4cf4-fb20-66f1-c17e-074bbe13cdc2.htm" />
+  <HelpKINode Title="MasterReleaseVersion method" Url="html/d0338049-b139-2fe9-cbbc-9260ba4eb7ec.htm" />
+  <HelpKINode Title="Message property">
+    <HelpKINode Title="EventArg.Message Property " Url="html/b3074016-e4c2-b0c7-1366-24ede7f57c3d.htm" />
+    <HelpKINode Title="Exceptions.Message Property " Url="html/844ba22d-dbe4-1940-7abc-23aaa21a2569.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Movie method" Url="html/60024c0c-b298-89df-a558-0f50b91b3cac.htm" />
+  <HelpKINode Title="MusicApiCollection namespace" Url="html/fb34673c-15bc-f508-15e5-ebf6a07d81d8.htm" />
+  <HelpKINode Title="MusicApiCollection.Events namespace" Url="html/fbfeb7cc-7f30-0fbe-4ea4-453ae27e8994.htm" />
+  <HelpKINode Title="MusicApiCollection.Events.EventArg class" Url="html/671319a2-6f2f-23c6-7983-7dfd2ec2507e.htm" />
+  <HelpKINode Title="MusicApiCollection.Events.Exceptions class" Url="html/8560391d-50bd-066d-60c3-a59646dfbe0c.htm" />
+  <HelpKINode Title="MusicApiCollection.Events.Exceptions.EventHandler delegate" Url="html/eca4b8b2-108b-44e7-c1eb-d815e46f0d76.htm" />
+  <HelpKINode Title="MusicApiCollection.Events.LogEntry class" Url="html/af1d3f7f-ce8d-7104-4a93-fe0f297a186b.htm" />
+  <HelpKINode Title="MusicApiCollection.Events.Logging class" Url="html/1d3e8252-fa26-60c0-0cb7-ca2137a2425c.htm" />
+  <HelpKINode Title="MusicApiCollection.Events.Logging.EventHandler delegate" Url="html/4a8f82ae-fb80-b4a5-e5e8-7ff90eda22f0.htm" />
+  <HelpKINode Title="MusicApiCollection.Events.Para class" Url="html/cc573e74-67a1-51ff-52ee-5b6afdab21a5.htm" />
+  <HelpKINode Title="MusicApiCollection.Search class" Url="html/d724d081-39fd-9c2e-6a4b-15ae5ff55d31.htm" />
+  <HelpKINode Title="MusicApiCollection.Settings class" Url="html/835b88dc-860f-de14-3047-d6a6adbfb844.htm" />
+  <HelpKINode Title="MusicApiCollection.Settings.AcoustId class" Url="html/dd1bd3d7-511d-f630-b98e-de4c56cfd178.htm" />
+  <HelpKINode Title="MusicApiCollection.Settings.Discogs class" Url="html/92ac3139-a3c7-3cd1-01af-f530bbc479a6.htm" />
+  <HelpKINode Title="MusicApiCollection.Settings.FanartTv class" Url="html/5de3d3f7-1781-74c4-4347-945a47279073.htm" />
+  <HelpKINode Title="MusicApiCollection.Settings.FreeDb class" Url="html/e5e07f71-4ecd-f89a-5552-1cbf946b6fce.htm" />
+  <HelpKINode Title="MusicApiCollection.Settings.GraceNote class" Url="html/edb5c0c2-f9b9-213a-a9ff-814645d443a1.htm" />
+  <HelpKINode Title="MusicApiCollection.Settings.Http class" Url="html/b976b310-ee2f-6c64-ebf1-d93a18a53970.htm" />
+  <HelpKINode Title="MusicApiCollection.Settings.TheAudioDb class" Url="html/f0480083-b191-711b-699c-d119d3093866.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.AcoustID namespace" Url="html/ec5bf9aa-8a9d-c1c7-b1b4-5392966e15a6.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.AcoustID.Search class" Url="html/877b61f1-625c-8306-0ed0-4575e282599d.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.CoverArtArchive namespace" Url="html/ce57923b-a26a-aadf-53e4-d2a763247258.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.CoverArtArchive.Search class" Url="html/09f2c3c6-7b13-50cc-0e6d-63728f8c811b.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.Discogs namespace" Url="html/698c51bd-df51-6c81-ce9a-0f7169138f5c.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.Discogs.Search class" Url="html/27cbaa0d-28be-e4ba-44ab-db622393a250.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.Discogs.Search.Type enumeration" Url="html/280b7b6d-6ef4-aaa9-431f-63f9cef5deb2.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.FanartTv namespace" Url="html/81f379d9-7552-c7c2-5790-b9483be68810.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.FanartTv.Search class" Url="html/d030dbe2-f43f-3cfa-e42a-1ea5a34af7fb.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.FreeDB namespace" Url="html/7f057c89-8057-e3bf-f4f4-f67e29b322c4.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.FreeDB.Search class" Url="html/cb6211b9-cd46-912b-9b3f-e58b42f4ffa8.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.GraceNote namespace" Url="html/78507182-499c-f636-130c-d49fcad6ae85.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.GraceNote.Search class" Url="html/268ff9db-9cc1-1854-595c-7d83451bf6cd.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.GraceNote.Search.Mode enumeration" Url="html/bfe29072-21ab-a93b-a1d1-fd0777efb2c8.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.Lyrics namespace" Url="html/009c2530-4627-db8d-1696-1e3db5c31a79.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.Lyrics.Lyric class" Url="html/189f58c6-4209-ef1c-69cb-fa7e0f610e58.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.Lyrics.LyricResult class" Url="html/f5aa34fb-8ca4-d3c3-ee0b-cf5c8506fcf6.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.Lyrics.Writer class" Url="html/19cc5c88-b141-cbc4-8590-cd38bc38256a.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.MusicBrainz namespace" Url="html/04fc752d-b54d-b998-8ed9-43c603aa714f.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.MusicBrainz.Lookup class" Url="html/27c19a4f-6f00-f478-5498-a5e1596251a9.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.MusicBrainz.Search class" Url="html/5b37d752-0a1e-c3db-ffc4-f52bbcbbf944.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.TheAudioDB namespace" Url="html/d2c1536e-6aba-af53-8d46-69c04210dbdf.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.TheAudioDB.AlbumId class" Url="html/b25d79ba-712a-7945-2bee-44bc4004dc88.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.TheAudioDB.ArtistId class" Url="html/4deecaa4-c9e5-cfed-3294-c879bef28173.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.TheAudioDB.Search class" Url="html/792069ab-732b-5a61-59e9-d2ea61f0be36.htm" />
+  <HelpKINode Title="MusicApiCollection.Sites.TheAudioDB.TrackId class" Url="html/85da89fa-f912-173c-bd35-45525f717fee.htm" />
+  <HelpKINode Title="Name property" Url="html/54614373-e05e-fed1-ed08-ba9a3883cc59.htm" />
+  <HelpKINode Title="Namespace property" Url="html/4335c9be-24a2-cf97-12c4-0009604e95e5.htm" />
+  <HelpKINode Title="NewException method" Url="html/9fb03d2c-e4aa-55f9-f408-1437eb45cba8.htm" />
+  <HelpKINode Title="NewLogEntry method" Url="html/c1fb5d9b-99c5-a48c-1af0-0c41dda79de2.htm" />
+  <HelpKINode Title="NULL enumeration member" Url="html/280b7b6d-6ef4-aaa9-431f-63f9cef5deb2.htm" />
+  <HelpKINode Title="Para class">
+    <HelpKINode Title="Para Class" Url="html/cc573e74-67a1-51ff-52ee-5b6afdab21a5.htm" />
+    <HelpKINode Title="constructor" Url="html/8dc4084d-f86d-86c0-0424-ba468e2a6144.htm" />
+    <HelpKINode Title="properties" Url="html/5cc1b775-ce82-6412-a885-7023299503e0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Para.Name property" Url="html/54614373-e05e-fed1-ed08-ba9a3883cc59.htm" />
+  <HelpKINode Title="Para.Para constructor" Url="html/8dc4084d-f86d-86c0-0424-ba468e2a6144.htm" />
+  <HelpKINode Title="Para.Value property" Url="html/ac494dca-abf4-761b-aa47-d8f52fbf686a.htm" />
+  <HelpKINode Title="Parameters property" Url="html/86e7a90e-c4a5-be09-fa08-a4bbbb5d685c.htm" />
+  <HelpKINode Title="Place method" Url="html/350c634d-673f-6573-02f7-194192c8543d.htm" />
+  <HelpKINode Title="Proxy property" Url="html/2aafb4cf-b35f-e7b7-c063-a1969c2cba51.htm" />
+  <HelpKINode Title="Query method">
+    <HelpKINode Title="Search.Query Method " Url="html/668b5d40-f333-0530-1730-4ca71a4cf7b8.htm" />
+    <HelpKINode Title="Search.Query Method " Url="html/09d072bf-6ed6-d565-8e8a-e3d53b98c188.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Read method" Url="html/0fcd3436-3fde-e6b3-04fc-e7526ac7f157.htm" />
+  <HelpKINode Title="Recording method">
+    <HelpKINode Title="Lookup.Recording Method " Url="html/8ea1ee25-fe00-786e-20f1-22641be770b6.htm" />
+    <HelpKINode Title="Search.Recording Method " Url="html/33de9840-f5b2-b3fe-e499-cfcead94c965.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RELEASE enumeration member" Url="html/280b7b6d-6ef4-aaa9-431f-63f9cef5deb2.htm" />
+  <HelpKINode Title="Release method">
+    <HelpKINode Title="Lookup.Release Method " Url="html/d398f5fa-0b86-81b1-13d5-93ba0a8a4f60.htm" />
+    <HelpKINode Title="Search.Release Method " Url="html/5e550804-45fe-038c-d52b-32a339a1fa74.htm" />
+    <HelpKINode Title="Search.Release Method " Url="html/2b87f8b9-6b16-4d2d-6fc9-2d6487b99fb2.htm" />
+    <HelpKINode Title="Search.Release Method " Url="html/7ef8857d-630c-196e-4878-ac5a09044846.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReleaseGroup method">
+    <HelpKINode Title="Lookup.ReleaseGroup Method " Url="html/aba08b60-e880-ed0d-9010-8f57c064c40c.htm" />
+    <HelpKINode Title="Search.ReleaseGroup Method " Url="html/e3d5dde3-645e-f427-67a4-d1ac938dfddb.htm" />
+    <HelpKINode Title="Search.ReleaseGroup Method " Url="html/6451422b-22cb-754a-e0e6-83bfa28cee8e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Response field" Url="html/13b4c830-e26a-4129-73f7-a22314d693a6.htm" />
+  <HelpKINode Title="ResponseLanguage property" Url="html/f7223784-b6f3-803a-59d9-eae1b9316b83.htm" />
+  <HelpKINode Title="Search class">
+    <HelpKINode Title="Search Class" Url="html/877b61f1-625c-8306-0ed0-4575e282599d.htm" />
+    <HelpKINode Title="Search Class" Url="html/d030dbe2-f43f-3cfa-e42a-1ea5a34af7fb.htm" />
+    <HelpKINode Title="Search Class" Url="html/cb6211b9-cd46-912b-9b3f-e58b42f4ffa8.htm" />
+    <HelpKINode Title="Search Class" Url="html/d724d081-39fd-9c2e-6a4b-15ae5ff55d31.htm" />
+    <HelpKINode Title="Search Class" Url="html/268ff9db-9cc1-1854-595c-7d83451bf6cd.htm" />
+    <HelpKINode Title="Search Class" Url="html/5b37d752-0a1e-c3db-ffc4-f52bbcbbf944.htm" />
+    <HelpKINode Title="Search Class" Url="html/792069ab-732b-5a61-59e9-d2ea61f0be36.htm" />
+    <HelpKINode Title="Search Class" Url="html/09f2c3c6-7b13-50cc-0e6d-63728f8c811b.htm" />
+    <HelpKINode Title="Search Class" Url="html/27cbaa0d-28be-e4ba-44ab-db622393a250.htm" />
+    <HelpKINode Title="constructor" Url="html/c498c012-a2fb-0ff6-f904-c4db43777531.htm" />
+    <HelpKINode Title="constructor" Url="html/8df0dedc-9a91-38ad-8311-90bd695e1f1e.htm" />
+    <HelpKINode Title="constructor" Url="html/aa7b064f-a94c-d320-0b4f-80b2e1b1d844.htm" />
+    <HelpKINode Title="constructor" Url="html/591e9dee-c4f2-4608-bc48-d55dc17165d7.htm" />
+    <HelpKINode Title="constructor" Url="html/dad05903-700b-46c4-127a-e556421effe8.htm" />
+    <HelpKINode Title="constructor" Url="html/9f4d3e8b-6e11-d9e4-b4b4-39f7526dc1bb.htm" />
+    <HelpKINode Title="constructor" Url="html/bec5d1bc-38ce-58a6-6db8-7f97f1a40018.htm" />
+    <HelpKINode Title="constructor" Url="html/85d43f4a-33c5-77c4-188b-99456469e704.htm" />
+    <HelpKINode Title="methods" Url="html/5f954f25-7be4-d57f-2ed1-acfef8406fee.htm" />
+    <HelpKINode Title="methods" Url="html/26335241-dcd5-9a77-f341-fe720d36a55a.htm" />
+    <HelpKINode Title="methods" Url="html/a23ee4eb-8e78-305f-0628-e216c658b022.htm" />
+    <HelpKINode Title="methods" Url="html/3b01c2a4-1d89-f242-3543-51d5ae4f1161.htm" />
+    <HelpKINode Title="methods" Url="html/fa4e2b88-cf1e-c720-166e-25d8dee5a113.htm" />
+    <HelpKINode Title="methods" Url="html/f0c74a5f-77ca-30bf-bfcd-709f4f9e1b66.htm" />
+    <HelpKINode Title="methods" Url="html/907dc988-37e2-5758-3d05-5afe225a553c.htm" />
+    <HelpKINode Title="methods" Url="html/165e143d-da82-ad67-65e6-0da99afe27e0.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Search.Album method">
+    <HelpKINode Title="Search.Album Method " Url="html/f6e9656b-3116-20f1-bf1c-faa280298cf8.htm" />
+    <HelpKINode Title="Search.Album Method " Url="html/f106f925-9135-db14-cdd3-5cc36730ecc5.htm" />
+    <HelpKINode Title="Search.Album Method " Url="html/3b5ab0e8-f555-9a93-4f05-c9962af5c517.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Search.AllLabelReleases method" Url="html/51215e41-f3e3-08cd-cf3a-a6521b484464.htm" />
+  <HelpKINode Title="Search.Annotation method" Url="html/82b96033-c0da-166f-3f47-02fc7b9130e6.htm" />
+  <HelpKINode Title="Search.Area method" Url="html/291fbf42-08ba-8204-665a-b85bdd455482.htm" />
+  <HelpKINode Title="Search.Artist method">
+    <HelpKINode Title="Search.Artist Method " Url="html/ee18609f-2ee3-eae4-d76c-6b160c548b9f.htm" />
+    <HelpKINode Title="Search.Artist Method " Url="html/ece6fd0c-7eeb-2c76-b5b1-59bda8433aa6.htm" />
+    <HelpKINode Title="Search.Artist Method " Url="html/ce8d44a7-ed86-f7b3-e495-8dcbe7daa60b.htm" />
+    <HelpKINode Title="Search.Artist Method " Url="html/571d8944-51c0-50a6-a7cf-35a99a0a55cf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Search.ArtistRelease method" Url="html/5e1698a5-e054-1405-1b9a-d198db42ca4f.htm" />
+  <HelpKINode Title="Search.Categories method" Url="html/26206dbd-f165-39e4-2c59-6587f0f63a5d.htm" />
+  <HelpKINode Title="Search.CdStub method" Url="html/a0fe8739-ca60-c0d7-4bf9-92f35d0c0ad8.htm" />
+  <HelpKINode Title="Search.Discography method" Url="html/e3b8a053-fb75-6a77-691b-5debe1e3c5bc.htm" />
+  <HelpKINode Title="Search.Freedb method" Url="html/645a8446-be19-4857-26d3-51c16813bf08.htm" />
+  <HelpKINode Title="Search.Help method" Url="html/9c75e1fe-0ebf-5b50-2bb8-c9dbde1547e2.htm" />
+  <HelpKINode Title="Search.Label method">
+    <HelpKINode Title="Search.Label Method " Url="html/879c700d-669b-9a0d-64c4-1aa9cdba95d8.htm" />
+    <HelpKINode Title="Search.Label Method " Url="html/06434bf6-a2d2-5c6a-f1bd-94a1500ba005.htm" />
+    <HelpKINode Title="Search.Label Method " Url="html/0061f601-ec88-97b2-fc58-07832f4b1228.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Search.LatestArtist method" Url="html/a80ddc29-5e32-18b5-aa05-c0f4a0ce53c0.htm" />
+  <HelpKINode Title="Search.LatestMovie method" Url="html/a71d068c-792b-e75b-9978-255cd6781b80.htm" />
+  <HelpKINode Title="Search.LatestTvShow method" Url="html/b8706450-2253-632d-dd82-0b0fe2b41f3d.htm" />
+  <HelpKINode Title="Search.Lookup method" Url="html/0297affc-9295-4ecf-e656-711c5c9913ba.htm" />
+  <HelpKINode Title="Search.MasterRelease method" Url="html/a83e4cf4-fb20-66f1-c17e-074bbe13cdc2.htm" />
+  <HelpKINode Title="Search.MasterReleaseVersion method" Url="html/d0338049-b139-2fe9-cbbc-9260ba4eb7ec.htm" />
+  <HelpKINode Title="Search.Mode enumeration" Url="html/bfe29072-21ab-a93b-a1d1-fd0777efb2c8.htm" />
+  <HelpKINode Title="Search.Movie method" Url="html/60024c0c-b298-89df-a558-0f50b91b3cac.htm" />
+  <HelpKINode Title="Search.Place method" Url="html/350c634d-673f-6573-02f7-194192c8543d.htm" />
+  <HelpKINode Title="Search.Query method">
+    <HelpKINode Title="Search.Query Method " Url="html/668b5d40-f333-0530-1730-4ca71a4cf7b8.htm" />
+    <HelpKINode Title="Search.Query Method " Url="html/09d072bf-6ed6-d565-8e8a-e3d53b98c188.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Search.Read method" Url="html/0fcd3436-3fde-e6b3-04fc-e7526ac7f157.htm" />
+  <HelpKINode Title="Search.Recording method" Url="html/33de9840-f5b2-b3fe-e499-cfcead94c965.htm" />
+  <HelpKINode Title="Search.Release method">
+    <HelpKINode Title="Search.Release Method " Url="html/2b87f8b9-6b16-4d2d-6fc9-2d6487b99fb2.htm" />
+    <HelpKINode Title="Search.Release Method " Url="html/5e550804-45fe-038c-d52b-32a339a1fa74.htm" />
+    <HelpKINode Title="Search.Release Method " Url="html/7ef8857d-630c-196e-4878-ac5a09044846.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Search.ReleaseGroup method">
+    <HelpKINode Title="Search.ReleaseGroup Method " Url="html/6451422b-22cb-754a-e0e6-83bfa28cee8e.htm" />
+    <HelpKINode Title="Search.ReleaseGroup Method " Url="html/e3d5dde3-645e-f427-67a4-d1ac938dfddb.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Search.Search constructor">
+    <HelpKINode Title="Search Constructor " Url="html/dad05903-700b-46c4-127a-e556421effe8.htm" />
+    <HelpKINode Title="Search Constructor " Url="html/8df0dedc-9a91-38ad-8311-90bd695e1f1e.htm" />
+    <HelpKINode Title="Search Constructor " Url="html/591e9dee-c4f2-4608-bc48-d55dc17165d7.htm" />
+    <HelpKINode Title="Search Constructor " Url="html/aa7b064f-a94c-d320-0b4f-80b2e1b1d844.htm" />
+    <HelpKINode Title="Search Constructor " Url="html/85d43f4a-33c5-77c4-188b-99456469e704.htm" />
+    <HelpKINode Title="Search Constructor " Url="html/9f4d3e8b-6e11-d9e4-b4b4-39f7526dc1bb.htm" />
+    <HelpKINode Title="Search Constructor " Url="html/c498c012-a2fb-0ff6-f904-c4db43777531.htm" />
+    <HelpKINode Title="Search Constructor " Url="html/bec5d1bc-38ce-58a6-6db8-7f97f1a40018.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Search.Sites method" Url="html/2d50366f-35ea-77ee-554e-97972183d432.htm" />
+  <HelpKINode Title="Search.Tag method" Url="html/e0b9d498-cc17-ad40-d060-730163318d82.htm" />
+  <HelpKINode Title="Search.Top10 method" Url="html/6c64a9ec-7c3e-0e1c-55ab-544ef3e7e8ad.htm" />
+  <HelpKINode Title="Search.TrackList method" Url="html/3631167b-3a13-0a4d-897d-1723ee5bf085.htm" />
+  <HelpKINode Title="Search.TvShow method" Url="html/cc3300f3-9bf2-bf22-e5fc-51d805726145.htm" />
+  <HelpKINode Title="Search.Type enumeration" Url="html/280b7b6d-6ef4-aaa9-431f-63f9cef5deb2.htm" />
+  <HelpKINode Title="Search.Version method" Url="html/dbf10cb7-4cab-e55f-69be-72724b95c83e.htm" />
+  <HelpKINode Title="Search.Video method" Url="html/96bafdf7-1bfe-35b0-839d-9c3d98d93ba5.htm" />
+  <HelpKINode Title="Search.Work method" Url="html/57491f69-78fe-c4f6-8afd-9ef851770c8b.htm" />
+  <HelpKINode Title="SecretKey property" Url="html/b735d296-1066-d9d9-5ee3-fb23bdfdf58a.htm" />
+  <HelpKINode Title="Server property" Url="html/529d5518-8c13-9f93-6a49-be26cbfe5f95.htm" />
+  <HelpKINode Title="ServerUrl property">
+    <HelpKINode Title="Settings.FreeDb.ServerUrl Property " Url="html/be474cea-8da6-0afe-a50a-b88095408939.htm" />
+    <HelpKINode Title="Settings.GraceNote.ServerUrl Property " Url="html/7ff5ccd8-92c2-60f6-d37a-de1f0b59efc6.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings class">
+    <HelpKINode Title="Settings Class" Url="html/835b88dc-860f-de14-3047-d6a6adbfb844.htm" />
+    <HelpKINode Title="constructor" Url="html/4e0b59de-dc28-748f-af5d-7cb91fb1786b.htm" />
+    <HelpKINode Title="fields" Url="html/32e51c24-e026-893d-0809-4b7737852372.htm" />
+    <HelpKINode Title="properties" Url="html/ee469efd-34d6-2c7f-dcd7-02faf35a2719.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.AcoustId class">
+    <HelpKINode Title="Settings.AcoustId Class" Url="html/dd1bd3d7-511d-f630-b98e-de4c56cfd178.htm" />
+    <HelpKINode Title="constructor" Url="html/ddbb3d0d-e411-c7b6-7d53-90c466a411c7.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.AcoustId.AcoustId constructor" Url="html/ddbb3d0d-e411-c7b6-7d53-90c466a411c7.htm" />
+  <HelpKINode Title="Settings.AcoustId.ClientKey property" Url="html/26b796fe-fad8-9711-0030-4febf303b7ce.htm" />
+  <HelpKINode Title="Settings.Discogs class">
+    <HelpKINode Title="Settings.Discogs Class" Url="html/92ac3139-a3c7-3cd1-01af-f530bbc479a6.htm" />
+    <HelpKINode Title="constructor" Url="html/3bb1c42d-09be-6696-180f-d011d8ae031e.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.Discogs.Discogs constructor" Url="html/3bb1c42d-09be-6696-180f-d011d8ae031e.htm" />
+  <HelpKINode Title="Settings.Discogs.Key property" Url="html/b970d3af-10ba-ee3c-7320-99095a5c3a2c.htm" />
+  <HelpKINode Title="Settings.Discogs.SecretKey property" Url="html/b735d296-1066-d9d9-5ee3-fb23bdfdf58a.htm" />
+  <HelpKINode Title="Settings.ErrorMessage property" Url="html/9d5bbccd-d6c7-c2c3-441e-41cf40e07ad8.htm" />
+  <HelpKINode Title="Settings.ErrorOccurred field" Url="html/b891ece7-0c71-3b34-4103-2e165ad198aa.htm" />
+  <HelpKINode Title="Settings.FanartTv class">
+    <HelpKINode Title="Settings.FanartTv Class" Url="html/5de3d3f7-1781-74c4-4347-945a47279073.htm" />
+    <HelpKINode Title="constructor" Url="html/7aa84bff-d784-c6ae-89de-bc4121799706.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.FanartTv.ApiKey property" Url="html/1762ad71-bc0c-373b-5888-335d296e73d8.htm" />
+  <HelpKINode Title="Settings.FanartTv.ClientKey property" Url="html/720897ff-ffd4-0b28-88c9-732f4a5dab69.htm" />
+  <HelpKINode Title="Settings.FanartTv.FanartTv constructor" Url="html/7aa84bff-d784-c6ae-89de-bc4121799706.htm" />
+  <HelpKINode Title="Settings.FanartTv.Proxy property" Url="html/2aafb4cf-b35f-e7b7-c063-a1969c2cba51.htm" />
+  <HelpKINode Title="Settings.FanartTv.Server property" Url="html/529d5518-8c13-9f93-6a49-be26cbfe5f95.htm" />
+  <HelpKINode Title="Settings.FreeDb class">
+    <HelpKINode Title="Settings.FreeDb Class" Url="html/e5e07f71-4ecd-f89a-5552-1cbf946b6fce.htm" />
+    <HelpKINode Title="constructor" Url="html/adb735c4-9141-9924-af2e-be2a307ba01f.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.FreeDb.Clientname property" Url="html/8e9ac12d-152e-6a5b-fb43-c8c36255d9d1.htm" />
+  <HelpKINode Title="Settings.FreeDb.FreeDb constructor" Url="html/adb735c4-9141-9924-af2e-be2a307ba01f.htm" />
+  <HelpKINode Title="Settings.FreeDb.Hostname property" Url="html/33ae23f3-f5bc-07ac-4ca0-07c6cab6f279.htm" />
+  <HelpKINode Title="Settings.FreeDb.Level property" Url="html/1aa088db-3758-af25-dedb-b29a82bc226d.htm" />
+  <HelpKINode Title="Settings.FreeDb.ServerUrl property" Url="html/be474cea-8da6-0afe-a50a-b88095408939.htm" />
+  <HelpKINode Title="Settings.FreeDb.Username property" Url="html/4a5b8d58-f105-850b-978b-d0bcfbff46cf.htm" />
+  <HelpKINode Title="Settings.FreeDb.Version property" Url="html/d5bc9da1-3593-a261-ac1f-adec708b4d2b.htm" />
+  <HelpKINode Title="Settings.GraceNote class">
+    <HelpKINode Title="Settings.GraceNote Class" Url="html/edb5c0c2-f9b9-213a-a9ff-814645d443a1.htm" />
+    <HelpKINode Title="constructor" Url="html/41d95852-cbc7-7f8e-fd03-a37dc805beb4.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.GraceNote.ClientId field" Url="html/3e3ef074-a4fd-c3ef-eadd-b0549a6dfa6b.htm" />
+  <HelpKINode Title="Settings.GraceNote.GraceNote constructor" Url="html/41d95852-cbc7-7f8e-fd03-a37dc805beb4.htm" />
+  <HelpKINode Title="Settings.GraceNote.ResponseLanguage property" Url="html/f7223784-b6f3-803a-59d9-eae1b9316b83.htm" />
+  <HelpKINode Title="Settings.GraceNote.ServerUrl property" Url="html/7ff5ccd8-92c2-60f6-d37a-de1f0b59efc6.htm" />
+  <HelpKINode Title="Settings.GraceNote.UserId field" Url="html/240acf33-ae25-f822-05ec-f4ad0c40c241.htm" />
+  <HelpKINode Title="Settings.Http class">
+    <HelpKINode Title="Settings.Http Class" Url="html/b976b310-ee2f-6c64-ebf1-d93a18a53970.htm" />
+    <HelpKINode Title="constructor" Url="html/67badbdd-edca-ed78-5fe0-e0ba612e0e37.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.Http.Http constructor" Url="html/67badbdd-edca-ed78-5fe0-e0ba612e0e37.htm" />
+  <HelpKINode Title="Settings.Http.HttpWebRequestTimeout property" Url="html/b8929205-ddbe-b2ac-0fd3-092347ab64ef.htm" />
+  <HelpKINode Title="Settings.Http.UserAgent property" Url="html/147949b5-cec9-d22f-20b0-7c280708e2c6.htm" />
+  <HelpKINode Title="Settings.Settings constructor" Url="html/4e0b59de-dc28-748f-af5d-7cb91fb1786b.htm" />
+  <HelpKINode Title="Settings.TheAudioDb class">
+    <HelpKINode Title="Settings.TheAudioDb Class" Url="html/f0480083-b191-711b-699c-d119d3093866.htm" />
+    <HelpKINode Title="constructor" Url="html/81fd5297-12c3-edd7-a45c-bfb2c49069fc.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Settings.TheAudioDb.ApiKey property" Url="html/dff0b29c-627a-00f3-9cde-9c19d552abb2.htm" />
+  <HelpKINode Title="Settings.TheAudioDb.TheAudioDb constructor" Url="html/81fd5297-12c3-edd7-a45c-bfb2c49069fc.htm" />
+  <HelpKINode Title="SINGLE_BEST enumeration member" Url="html/bfe29072-21ab-a93b-a1d1-fd0777efb2c8.htm" />
+  <HelpKINode Title="SINGLE_BEST_COVER enumeration member" Url="html/bfe29072-21ab-a93b-a1d1-fd0777efb2c8.htm" />
+  <HelpKINode Title="Sites method" Url="html/2d50366f-35ea-77ee-554e-97972183d432.htm" />
+  <HelpKINode Title="Tag method" Url="html/e0b9d498-cc17-ad40-d060-730163318d82.htm" />
+  <HelpKINode Title="Text property" Url="html/f7bcdd85-6310-9b13-160d-d36f28c17d02.htm" />
+  <HelpKINode Title="TheAudioDb class">
+    <HelpKINode Title="properties" Url="html/66b1649b-9af7-176c-a791-274f466b3991.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Top10 method" Url="html/6c64a9ec-7c3e-0e1c-55ab-544ef3e7e8ad.htm" />
+  <HelpKINode Title="TrackId class">
+    <HelpKINode Title="TrackId Class" Url="html/85da89fa-f912-173c-bd35-45525f717fee.htm" />
+    <HelpKINode Title="constructor" Url="html/6d505d66-f673-16a0-33f1-a60e98084a69.htm" />
+    <HelpKINode Title="fields" Url="html/5aa93aef-f3f3-d083-d5eb-59c7a7a2a108.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TrackId.Id field" Url="html/86fac916-af25-8c72-e427-f82ddd368675.htm" />
+  <HelpKINode Title="TrackId.TrackId constructor" Url="html/6d505d66-f673-16a0-33f1-a60e98084a69.htm" />
+  <HelpKINode Title="TrackList method" Url="html/3631167b-3a13-0a4d-897d-1723ee5bf085.htm" />
+  <HelpKINode Title="TvShow method" Url="html/cc3300f3-9bf2-bf22-e5fc-51d805726145.htm" />
+  <HelpKINode Title="Url method" Url="html/fd28c7f1-0e41-28ee-ffc8-8b36559503d0.htm" />
+  <HelpKINode Title="UserAgent property" Url="html/147949b5-cec9-d22f-20b0-7c280708e2c6.htm" />
+  <HelpKINode Title="UserId field" Url="html/240acf33-ae25-f822-05ec-f4ad0c40c241.htm" />
+  <HelpKINode Title="Username property" Url="html/4a5b8d58-f105-850b-978b-d0bcfbff46cf.htm" />
+  <HelpKINode Title="Value property" Url="html/ac494dca-abf4-761b-aa47-d8f52fbf686a.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/d598d210-e39b-4103-ae89-46b0c0eb6403.htm" />
+    <HelpKINode Title="history" Url="html/1f175ed1-f97d-4e6b-841b-53cb0211415a.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Version method" Url="html/dbf10cb7-4cab-e55f-69be-72724b95c83e.htm" />
+  <HelpKINode Title="Version property" Url="html/d5bc9da1-3593-a261-ac1f-adec708b4d2b.htm" />
+  <HelpKINode Title="Video method" Url="html/96bafdf7-1bfe-35b0-839d-9c3d98d93ba5.htm" />
+  <HelpKINode Title="Welcome" Url="html/0ec5a1e7-6ba3-4640-9388-7f4befe3ccc3.htm" />
+  <HelpKINode Title="Work method">
+    <HelpKINode Title="Lookup.Work Method " Url="html/698735af-99da-824d-776f-427803e9ed50.htm" />
+    <HelpKINode Title="Search.Work Method " Url="html/57491f69-78fe-c4f6-8afd-9ef851770c8b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Writer class">
+    <HelpKINode Title="Writer Class" Url="html/19cc5c88-b141-cbc4-8590-cd38bc38256a.htm" />
+    <HelpKINode Title="constructor" Url="html/ea81687e-321e-7dff-aeb8-92513eeb4132.htm" />
+    <HelpKINode Title="properties" Url="html/2cddecdf-ad81-6d7a-90ae-fc9badbeac06.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Writer.FirstName property" Url="html/d27f27f5-3948-c7f1-94fb-1191b4df4aa5.htm" />
+  <HelpKINode Title="Writer.LastName property" Url="html/5970ca13-8e4f-92ec-14b1-66ab8e56f380.htm" />
+  <HelpKINode Title="Writer.Writer constructor" Url="html/ea81687e-321e-7dff-aeb8-92513eeb4132.htm" />
+  <HelpKINode Title="Writers property" Url="html/d6db4792-bbc9-7ce5-4242-5df5251a9cfd.htm" />
+</HelpKI>

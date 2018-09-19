@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -29,22 +29,22 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     /// <remarks />
     public class Tag
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     All possible Data
         /// </summary>
-        public TagResult Data = new TagResult();
+        public TagResult Data { get; set; }
 
         /// <summary>
         ///     Error Message
         /// </summary>
-        public string ErrorMessage { get; set; } = string.Empty;
+        public string ErrorMessage { get; set; } = Exceptions.Message;
 
         /// <summary>
         ///     Is an Error occurred
         /// </summary>
-        public bool ErrorOccurred;
+        public bool ErrorOccurred { get; set; } = Exceptions.ErrorOccurred;
 
         /// <summary>
         ///     Response
@@ -56,7 +56,6 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// </summary>
         public Tag()
         {
-            Logging.Clear();
         }
 
         /// <summary>
@@ -65,9 +64,10 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// <param name="data">Result</param>
         public Tag(TagResult data)
         {
+            if (data.Data == null || data.Data.Count == 0)
+                data.Data = new List<TagData> { new TagData() };
+
             Data = data;
-            ErrorMessage = Exceptions.Message;
-            ErrorOccurred = Exceptions.ErrorOccurred;
             Response = Http.LastResponse;
         }
     }
@@ -90,20 +90,8 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     public class TagResult
     {
         /// <remarks />
-        [XmlElement("tag-list")]
-        public TagData Taglist { get; set; } = new TagData();
-
-        /// <remarks />
-        [XmlAttribute("Created")]
-        public string Created { get; set; } = string.Empty;
-    }
-
-    /// <remarks />
-    public class TagData
-    {
-        /// <remarks />
         [XmlElement("tag")]
-        public List<TagTags> Tag { get; set; } = new List<TagTags> {new TagTags()};
+        public List<TagData> Data { get; set; }
 
         /// <remarks />
         [XmlAttribute("count")]
@@ -115,7 +103,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     }
 
     /// <remarks />
-    public class TagTags
+    public class TagData
     {
         /// <remarks />
         [XmlElement("name")]

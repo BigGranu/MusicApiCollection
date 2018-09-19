@@ -1,6 +1,6 @@
-﻿#region Copyright (C) 2015-2016 BigGranu
+﻿#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -29,22 +29,22 @@ namespace MusicApiCollection.Sites.FreeDB.Data
     /// <remarks />
     public class Result
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     All possible Data
         /// </summary>
-        public FreeDbResult Data = new FreeDbResult();
+        public FreeDbResult Data { get; set; }
 
         /// <summary>
         ///     Error Message
         /// </summary>
-        public string ErrorMessage { get; set; } = string.Empty;
+        public string ErrorMessage { get; set; } = Exceptions.Message;
 
         /// <summary>
         ///     Is an Error occurred
         /// </summary>
-        public bool ErrorOccurred;
+        public bool ErrorOccurred { get; set; } = Exceptions.ErrorOccurred;
 
         /// <summary>
         ///     Response
@@ -56,7 +56,6 @@ namespace MusicApiCollection.Sites.FreeDB.Data
         /// </summary>
         public Result()
         {
-            Logging.Clear();
         }
 
         /// <summary>
@@ -66,8 +65,6 @@ namespace MusicApiCollection.Sites.FreeDB.Data
         public Result(FreeDbResult data)
         {
             Data = data;
-            ErrorMessage = Exceptions.Message;
-            ErrorOccurred = Exceptions.ErrorOccurred;
             Response = Http.LastResponse;
         }
     }
@@ -77,7 +74,7 @@ namespace MusicApiCollection.Sites.FreeDB.Data
     /// </summary>
     public class FreeDbResult
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     Artist

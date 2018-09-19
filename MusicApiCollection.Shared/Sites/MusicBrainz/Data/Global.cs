@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -25,7 +25,7 @@ using System.Xml.Serialization;
 namespace MusicApiCollection.Sites.MusicBrainz.Data
 {
     /// <remarks />
-    public class Lifespan
+    public partial class Lifespan
     {
         /// <remarks />
         [XmlElement("begin")]
@@ -41,7 +41,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     }
 
     /// <remarks />
-    public class Alias
+    public partial class Alias
     {
         /// <remarks />
         [XmlAttribute("sort-name")]

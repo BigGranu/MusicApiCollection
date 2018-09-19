@@ -1,7 +1,7 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -33,8 +33,8 @@ namespace MusicApiCollection.Sites.Discogs
     /// </summary>
     public class Search
     {
-        private static readonly Logging Logging = Logging.GetInstance();
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Logging Logging = Logging.Instance;
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     Searchtype
@@ -377,6 +377,51 @@ namespace MusicApiCollection.Sites.Discogs
         /// </summary>
         /// <param name="query">Your search query</param>
         /// <param name="type">One of Release, master, artist, label</param>
+        /// <param name="key">User Key</param>
+        /// <param name="secretKey">User Secret Key</param>
+        /// <param name="page">The page you want to request</param>
+        /// <param name="perPage">The number of items per page</param>
+        /// <returns></returns>
+        public static Query Query(Type type, string query, string key = "",
+            string secretKey = "", string page = "", string perPage = "")
+        {
+            var ret = new Query();
+
+            if (key == "")
+                key = Settings.Discogs.Key;
+
+            if (secretKey == "")
+                secretKey = Settings.Discogs.SecretKey;
+
+            var le = new LogEntry("Sites.Discogs", "Search", "Query");
+            le.Parameters.Add(new Para("type", type.ToString()));
+            le.Parameters.Add(new Para("q", query));
+            le.Parameters.Add(new Para("key", key));
+            le.Parameters.Add(new Para("secretKey", secretKey));
+            le.Parameters.Add(new Para("page", page));
+            le.Parameters.Add(new Para("perPage", perPage));
+            Logging.NewLogEntry(le);
+
+            var search = SearchToString(le.Parameters);
+
+            try
+            {
+                ret.Data =
+                    Json.Deserialize<QueryResult>(
+                        Http.Request("https://api.discogs.com/database/search?" + search + "&key=" + key + "&secret=" +
+                                     secretKey)) ?? new QueryResult();
+            }
+            catch (Exception ex)
+            {
+                Exceptions.NewException(ex);
+            }
+
+            return new Query(ret.Data);
+        }
+
+        /// <summary>
+        ///     Issue a search query to the database.
+        /// </summary>
         /// <param name="title">Search by combined “Artist Name - Release Title” Title field.</param>
         /// <param name="releaseTitle">Search Release titles.</param>
         /// <param name="credit">Search Release credits.</param>
@@ -398,7 +443,7 @@ namespace MusicApiCollection.Sites.Discogs
         /// <param name="page">The page you want to request</param>
         /// <param name="perPage">The number of items per page</param>
         /// <returns></returns>
-        public static Query Query(string query = "", Type type = Type.NULL, string title = "", string releaseTitle = "",
+        public static Query Query(string title = "", string releaseTitle = "",
             string credit = "", string artist = "", string anv = "", string label = "", string genre = "",
             string style = "", string country = "", string year = "", string format = "", string catno = "",
             string barcode = "", string track = "", string submitter = "", string contributor = "", string key = "",
@@ -413,8 +458,6 @@ namespace MusicApiCollection.Sites.Discogs
                 secretKey = Settings.Discogs.SecretKey;
 
             var le = new LogEntry("Sites.Discogs", "Search", "Query");
-            le.Parameters.Add(new Para("query", query));
-            le.Parameters.Add(new Para("type", type.ToString()));
             le.Parameters.Add(new Para("title", title));
             le.Parameters.Add(new Para("releaseTitle", releaseTitle));
             le.Parameters.Add(new Para("credit", credit));
@@ -466,7 +509,7 @@ namespace MusicApiCollection.Sites.Discogs
 
             for (var i = 0; i < args.Count; i++)
             {
-                if (args[i].Value == "" || args[i].Value == "Null") continue;
+                if (args[i].Value == "" || args[i].Value == "Null" || args[i].Name == "key" || args[i].Name == "secretKey") continue;
 
                 if (i == 0)
                 {
@@ -474,7 +517,7 @@ namespace MusicApiCollection.Sites.Discogs
                 }
                 else
                 {
-                    result += args[i].Name.ToLower() + "=" + args[i].Value + "&";
+                    result += args[i].Name.ToLower() + "=" + args[i].Value.ToLower() + "&";
                 }
             }
 

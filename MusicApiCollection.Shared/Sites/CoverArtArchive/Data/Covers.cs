@@ -1,7 +1,7 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -32,34 +32,33 @@ namespace MusicApiCollection.Sites.CoverArtArchive.Data
     /// </summary>
     public class Covers
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     Data for the Request
         /// </summary>
-        public CoversResult Data = new CoversResult();
+        public CoversResult Data { get; set; }
 
         /// <summary>
         ///     Error Message
         /// </summary>
-        public string ErrorMessage = string.Empty;
+        public string ErrorMessage { get; set; } = Exceptions.Message;
 
         /// <summary>
         ///     Is an Error occurred
         /// </summary>
-        public bool ErrorOccurred;
+        public bool ErrorOccurred { get; set; } = Exceptions.ErrorOccurred;
 
         /// <summary>
         ///     Response
         /// </summary>
-        public string Response = string.Empty;
+        public string Response { get; set; } = string.Empty;
 
         /// <summary>
         ///     Create new Covers and clear the log
         /// </summary>
         public Covers()
         {
-            Logging.Clear();
         }
 
         /// <summary>
@@ -69,8 +68,6 @@ namespace MusicApiCollection.Sites.CoverArtArchive.Data
         public Covers(CoversResult data)
         {
             Data = data;
-            ErrorMessage = Exceptions.Message;
-            ErrorOccurred = Exceptions.ErrorOccurred;
             Response = Http.LastResponse;
         }
     }

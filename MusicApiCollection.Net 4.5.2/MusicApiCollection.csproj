@@ -48,9 +48,7 @@
     <Compile Include="Xml.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\MusicApiCollection.licenseheader">
-      <Link>MusicApiCollection.licenseheader</Link>
-    </None>
+    <Folder Include="Sites\FanartTv\Data\" />
   </ItemGroup>
   <Import Project="..\MusicApiCollection.Shared\MusicApiCollection.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

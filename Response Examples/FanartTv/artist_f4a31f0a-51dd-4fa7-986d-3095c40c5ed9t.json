@@ -1,0 +1,642 @@
+{
+    "name": "Evanescence",
+    "mbid_id": "f4a31f0a-51dd-4fa7-986d-3095c40c5ed9",
+    "artistbackground": [
+        {
+            "id": "62542",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-50af6e9ce0c22.jpg",
+            "likes": "10"
+        },
+        {
+            "id": "6",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4dc7198199ccd.jpg",
+            "likes": "9"
+        },
+        {
+            "id": "9",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4dc719c5cc68f.jpg",
+            "likes": "7"
+        },
+        {
+            "id": "3396",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4ddfd78af0fd3.jpg",
+            "likes": "7"
+        },
+        {
+            "id": "62543",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-50af6e9ce67ad.jpeg",
+            "likes": "7"
+        },
+        {
+            "id": "5476",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4df95caedbaf5.jpg",
+            "likes": "7"
+        },
+        {
+            "id": "5",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4dc7197019e85.jpg",
+            "likes": "6"
+        },
+        {
+            "id": "7",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4dc719b1d861a.jpg",
+            "likes": "6"
+        },
+        {
+            "id": "5475",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4df95ca6e7111.jpg",
+            "likes": "6"
+        },
+        {
+            "id": "5478",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4df95cbf30fa0.jpg",
+            "likes": "6"
+        },
+        {
+            "id": "14198",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4ec898215a517.jpg",
+            "likes": "6"
+        },
+        {
+            "id": "75469",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-51474a6b43006.jpg",
+            "likes": "6"
+        },
+        {
+            "id": "14175",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4ec7ffe2a03c5.jpg",
+            "likes": "5"
+        },
+        {
+            "id": "14176",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4ec7fff9a70b0.jpg",
+            "likes": "5"
+        },
+        {
+            "id": "8588",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4e483b0e8633f.jpg",
+            "likes": "5"
+        },
+        {
+            "id": "8589",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4e483b19c707e.jpg",
+            "likes": "5"
+        },
+        {
+            "id": "10",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4dc71a04e1e89.jpg",
+            "likes": "4"
+        },
+        {
+            "id": "130061",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-53c3e20083160.jpg",
+            "likes": "4"
+        },
+        {
+            "id": "130062",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-53c3e20093ec9.jpg",
+            "likes": "4"
+        },
+        {
+            "id": "14179",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4ec800351536c.jpg",
+            "likes": "4"
+        },
+        {
+            "id": "14195",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4ec89451be6e6.jpg",
+            "likes": "4"
+        },
+        {
+            "id": "130063",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-53c3e2009deda.jpg",
+            "likes": "3"
+        },
+        {
+            "id": "14177",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4ec80010aaaca.jpg",
+            "likes": "3"
+        },
+        {
+            "id": "14178",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistbackground/evanescence-4ec800228a6cd.jpg",
+            "likes": "3"
+        }
+    ],
+    "hdmusiclogo": [
+        {
+            "id": "50850",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/hdmusiclogo/evanescence-5049ce8bbe373.png",
+            "likes": "7"
+        },
+        {
+            "id": "127055",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/hdmusiclogo/evanescence-539db9a415d69.png",
+            "likes": "4"
+        }
+    ],
+    "artistthumb": [
+        {
+            "id": "60344",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistthumb/evanescence-5097c77793b6f.jpg",
+            "likes": "7"
+        },
+        {
+            "id": "34595",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistthumb/evanescence-4fcbdd16176f9.jpg",
+            "likes": "5"
+        },
+        {
+            "id": "33339",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistthumb/evanescence-4fc7468829e99.jpg",
+            "likes": "5"
+        },
+        {
+            "id": "33340",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistthumb/evanescence-4fc746882a7fe.jpg",
+            "likes": "5"
+        },
+        {
+            "id": "34596",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistthumb/evanescence-4fcbdd28a70c4.jpg",
+            "likes": "4"
+        },
+        {
+            "id": "33338",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistthumb/evanescence-4fc74688241ad.jpg",
+            "likes": "4"
+        },
+        {
+            "id": "130066",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistthumb/evanescence-53c3e236dc099.jpg",
+            "likes": "3"
+        },
+        {
+            "id": "130067",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistthumb/evanescence-53c3e236e646b.jpg",
+            "likes": "3"
+        },
+        {
+            "id": "195489",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistthumb/evanescence-573527949a597.jpg",
+            "likes": "3"
+        },
+        {
+            "id": "130065",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/artistthumb/evanescence-53c3e236d0a7b.jpg",
+            "likes": "2"
+        }
+    ],
+    "musiclogo": [
+        {
+            "id": "27702",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/musiclogo/evanescence-4f8acb2ae6002.png",
+            "likes": "6"
+        },
+        {
+            "id": "5474",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/musiclogo/evanescence-4df95bceb4b1c.png",
+            "likes": "5"
+        },
+        {
+            "id": "5239",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/musiclogo/evanescence-4df6263dee3c6.png",
+            "likes": "4"
+        }
+    ],
+    "albums": {
+        "2187d248-1a3b-35d0-a4ec-bead586ff547": {
+            "albumcover": [
+                {
+                    "id": "194307",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/fallen-5717fe8d068b4.jpg",
+                    "likes": "4"
+                },
+                {
+                    "id": "193897",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/fallen-570fc737296d4.jpg",
+                    "likes": "4"
+                }
+            ],
+            "cdart": [
+                {
+                    "id": "17739",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/fallen-4f133f8a16d25.png",
+                    "likes": "2",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ]
+        },
+        "a35bcaf6-8e4a-3087-9b3b-d1295a2d4dbb": {
+            "albumcover": [
+                {
+                    "id": "116237",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/bring-me-to-life-532dbfb883b00.jpg",
+                    "likes": "4"
+                }
+            ],
+            "cdart": [
+                {
+                    "id": "218179",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/bring-me-to-life-590db7db0faca.png",
+                    "likes": "2",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ]
+        },
+        "902331d8-67aa-3b3c-bb2a-786d6a66c823": {
+            "albumcover": [
+                {
+                    "id": "14168",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/evanescence-4ec7fc1c16d26.jpg",
+                    "likes": "4"
+                },
+                {
+                    "id": "12417",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/evanescence-5710c3971ed4c.jpg",
+                    "likes": "4"
+                }
+            ],
+            "cdart": [
+                {
+                    "id": "12419",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/evanescence-4e9a1074cfde2.png",
+                    "likes": "2",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ]
+        },
+        "9ba659df-5814-32f6-b95f-02b738698e7c": {
+            "albumcover": [
+                {
+                    "id": "193896",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/anywhere-but-home-570fc737287c6.jpg",
+                    "likes": "4"
+                }
+            ],
+            "cdart": [
+                {
+                    "id": "12420",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/anywhere-but-home-4e9a1074d0999.png",
+                    "likes": "3",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ]
+        },
+        "3babe662-f12a-3023-adcf-2e3afdfd64e9": {
+            "albumcover": [
+                {
+                    "id": "127086",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/everybodys-fool-539ddbd5c4010.jpg",
+                    "likes": "4"
+                }
+            ],
+            "cdart": [
+                {
+                    "id": "205857",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/everybodys-fool-581602d538a07.png",
+                    "likes": "3",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ]
+        },
+        "e1c522d0-2746-3845-9b1c-975632f496bc": {
+            "albumcover": [
+                {
+                    "id": "202723",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/beauty-in-darkness-b-sides-and-rarities-57e54068b8991.jpg",
+                    "likes": "4"
+                }
+            ],
+            "cdart": [
+                {
+                    "id": "12422",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/beauty-in-darkness-b-sides-and-rarities-4e9a1074d8e6a.png",
+                    "likes": "3",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ]
+        },
+        "e7e5eaa6-baf3-3539-b163-759431597f3a": {
+            "albumcover": [
+                {
+                    "id": "117221",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/the-open-door-533a286b19833.jpg",
+                    "likes": "4"
+                }
+            ],
+            "cdart": [
+                {
+                    "id": "218181",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/the-open-door-590dbf9c2443d.png",
+                    "likes": "2",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ]
+        },
+        "cd557bc4-9978-36ef-8c4c-9cb06099323a": {
+            "albumcover": [
+                {
+                    "id": "199663",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/going-under-57a0731b63430.jpg",
+                    "likes": "4"
+                },
+                {
+                    "id": "236029",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/going-under-5a8d8b275f984.jpg",
+                    "likes": "1"
+                }
+            ]
+        },
+        "eab92048-3e05-3e0f-bc16-0780f5481b83": {
+            "albumcover": [
+                {
+                    "id": "197901",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/origin-576d24fb37c16.jpg",
+                    "likes": "3"
+                }
+            ],
+            "cdart": [
+                {
+                    "id": "5354",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/origin-4df836629a2c0.png",
+                    "likes": "3",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ]
+        },
+        "ac7dd865-3c32-3bb9-9241-a4c63d940f67": {
+            "cdart": [
+                {
+                    "id": "1874",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/le-nouveau-gothique-4dd43ab8d1af6.png",
+                    "likes": "3",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ],
+            "albumcover": [
+                {
+                    "id": "235909",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/le-nouveau-gothique-5a89be001d473.jpg",
+                    "likes": "1"
+                }
+            ]
+        },
+        "b3e3be7f-334b-3383-ad9e-aa90f5d9e30c": {
+            "albumcover": [
+                {
+                    "id": "127079",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/lithium-539dd4a7f1e85.jpg",
+                    "likes": "3"
+                },
+                {
+                    "id": "235910",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/lithium-5a89be0021a0d.jpg",
+                    "likes": "1"
+                }
+            ]
+        },
+        "a23c8be0-4aa9-3f6c-b1bc-af543a1da73d": {
+            "cdart": [
+                {
+                    "id": "12421",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/ultra-rare-trax-volume-1-4e9a1074d82b2.png",
+                    "likes": "3",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ],
+            "albumcover": [
+                {
+                    "id": "236653",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/ultra-rare-trax-volume-1-5a99cb6ec3b5d.jpg",
+                    "likes": "0"
+                }
+            ]
+        },
+        "b1f3d25e-80ba-47f6-b0b8-7310e0dfe3e2": {
+            "cdart": [
+                {
+                    "id": "14485",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/evanescence-4ff862566d408.png",
+                    "likes": "3",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ]
+        },
+        "b4818927-0bdc-46ed-b8fb-99effc41c4d4": {
+            "albumcover": [
+                {
+                    "id": "79782",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/together-again-51719848a87d8.jpg",
+                    "likes": "3"
+                }
+            ]
+        },
+        "8d1d5cc0-f46d-473b-b422-1fba523aaf12": {
+            "albumcover": [
+                {
+                    "id": "79783",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/what-you-want-5171992031b10.jpg",
+                    "likes": "3"
+                }
+            ]
+        },
+        "bf18a287-fdec-3e65-b9f2-460b82790a16": {
+            "albumcover": [
+                {
+                    "id": "205510",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/not-for-your-ears-580e6dd544715.jpg",
+                    "likes": "3"
+                }
+            ]
+        },
+        "1abe6646-1066-4035-a980-eca6539e7719": {
+            "albumcover": [
+                {
+                    "id": "219685",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/the-ultimate-collection-59261b7e9a4ec.jpg",
+                    "likes": "2"
+                }
+            ]
+        },
+        "19afe916-a0a9-41de-b7bc-5d2b4ea82692": {
+            "albumcover": [
+                {
+                    "id": "219686",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/lost-whispers-59261bff72733.jpg",
+                    "likes": "2"
+                }
+            ]
+        },
+        "da1bf1ce-d5e9-32e1-9cdf-aae257ce6ebe": {
+            "albumcover": [
+                {
+                    "id": "219688",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/sweet-sacrifice-592621cfbe0c9.jpg",
+                    "likes": "2"
+                },
+                {
+                    "id": "236032",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/sweet-sacrifice-5a8d8b276bd57.jpg",
+                    "likes": "0"
+                }
+            ]
+        },
+        "05b30b00-bcd7-4833-8710-67a6ad818ec6": {
+            "albumcover": [
+                {
+                    "id": "218942",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/my-heart-is-broken-59191c5ba5cfe.jpg",
+                    "likes": "2"
+                }
+            ]
+        },
+        "8150b4bd-73d8-4429-bfb8-8a9a5a32a5c4": {
+            "albumcover": [
+                {
+                    "id": "218943",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/lost-in-paradise-59191cf7d9231.jpg",
+                    "likes": "2"
+                }
+            ]
+        },
+        "db246341-32ea-3a25-b28c-894fd32f41d1": {
+            "albumcover": [
+                {
+                    "id": "218944",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/call-me-when-youre-sober-59191e88e0d1b.jpg",
+                    "likes": "2"
+                }
+            ]
+        },
+        "8866d307-29d3-32d5-8b1b-16d8c10a85b5": {
+            "cdart": [
+                {
+                    "id": "12418",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/special-2004-4e9a1074c6589.png",
+                    "likes": "2",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ]
+        },
+        "7a7ab59e-6f8a-378c-814c-675cd40c1c09": {
+            "albumcover": [
+                {
+                    "id": "236649",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/justice-5a99c69bcf8cd.jpg",
+                    "likes": "1"
+                }
+            ]
+        },
+        "b862112c-3149-3669-8204-01095200f332": {
+            "albumcover": [
+                {
+                    "id": "236652",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/imaginary-5a99c9cce2453.jpg",
+                    "likes": "1"
+                }
+            ]
+        },
+        "4414dcb3-9aeb-44db-af28-81b1730555a7": {
+            "albumcover": [
+                {
+                    "id": "235757",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/imperfection-5a85feb9d55e0.jpg",
+                    "likes": "1"
+                }
+            ]
+        },
+        "34028517-fedf-3b6b-a104-45a3d96e35ae": {
+            "albumcover": [
+                {
+                    "id": "236030",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/my-immortal-5a8d8b276441a.jpg",
+                    "likes": "1"
+                }
+            ]
+        },
+        "e5401c5c-5d75-3d3f-9a9a-b677474c66a7": {
+            "albumcover": [
+                {
+                    "id": "236031",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/mystary-ep-5a8d8b2768128.jpg",
+                    "likes": "1"
+                }
+            ]
+        },
+        "345e9cb5-878d-4f17-bd72-ae2c387a2df2": {
+            "albumcover": [
+                {
+                    "id": "241953",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/hi-lo-feat-lindsey-stirling-5b1ecff644642.jpg",
+                    "likes": "0"
+                }
+            ]
+        },
+        "59e0b88a-6e31-4479-9442-41c2cac62441": {
+            "albumcover": [
+                {
+                    "id": "230466",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/synthesis-5a1346f153b8c.jpg",
+                    "likes": "0"
+                },
+                {
+                    "id": "236650",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/synthesis-5a99c69bd3361.jpg",
+                    "likes": "0"
+                }
+            ]
+        },
+        "7d3ce392-9b94-3a45-9372-4622a2e6de34": {
+            "albumcover": [
+                {
+                    "id": "235913",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/ultra-rare-trax-volume-3-5a89c1e4c8b59.jpg",
+                    "likes": "0"
+                }
+            ]
+        },
+        "740e548a-f7f2-39ae-ac43-d91bda4e2082": {
+            "albumcover": [
+                {
+                    "id": "236001",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/sound-asleep-ep-5a8b93544da3d.jpg",
+                    "likes": "0"
+                }
+            ]
+        },
+        "6ba1cf96-1200-4372-bc6f-6370409fee03": {
+            "albumcover": [
+                {
+                    "id": "235756",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/bring-me-to-life-synthesis-5a85fb0670598.jpg",
+                    "likes": "0"
+                }
+            ]
+        }
+    },
+    "musicbanner": [
+        {
+            "id": "56733",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/musicbanner/evanescence-507beae754bf6.jpg",
+            "likes": "4"
+        },
+        {
+            "id": "225263",
+            "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/musicbanner/evanescence-59a4879fe73b4.jpg",
+            "likes": "2"
+        }
+    ]
+}

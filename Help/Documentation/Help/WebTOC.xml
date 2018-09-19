@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Welcome to the [TODO: Add project name]" Url="html/0ec5a1e7-6ba3-4640-9388-7f4befe3ccc3.htm" />
+  <HelpTOCNode Id="3858950f-d405-44fb-bdec-c82710ed258b" Title="Version History" Url="html/1f175ed1-f97d-4e6b-841b-53cb0211415a.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/d598d210-e39b-4103-ae89-46b0c0eb6403.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="4ca53793-61d0-4e2b-a21a-7de6b08ab42f" Title="MusicApiCollection" Url="html/fb34673c-15bc-f508-15e5-ebf6a07d81d8.htm">
+    <HelpTOCNode Id="16109d64-24dc-4a0f-b08f-2f7fe2bc0816" Title="Search Class" Url="html/d724d081-39fd-9c2e-6a4b-15ae5ff55d31.htm">
+      <HelpTOCNode Title="Search Constructor " Url="html/aa7b064f-a94c-d320-0b4f-80b2e1b1d844.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6f505d10-9334-4baa-a962-d1a93194683c" Title="Settings Class" Url="html/835b88dc-860f-de14-3047-d6a6adbfb844.htm">
+      <HelpTOCNode Title="Settings Constructor " Url="html/4e0b59de-dc28-748f-af5d-7cb91fb1786b.htm" />
+      <HelpTOCNode Id="e1f6a68c-c94e-4c54-8ead-0a02d1b9eeb2" Title="Settings Properties" Url="html/ee469efd-34d6-2c7f-dcd7-02faf35a2719.htm">
+        <HelpTOCNode Title="ErrorMessage Property " Url="html/9d5bbccd-d6c7-c2c3-441e-41cf40e07ad8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a8078f66-205c-4b66-8f21-5b4a3bd9925e" Title="Settings Fields" Url="html/32e51c24-e026-893d-0809-4b7737852372.htm">
+        <HelpTOCNode Title="ErrorOccurred Field" Url="html/b891ece7-0c71-3b34-4103-2e165ad198aa.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f69c4037-5857-425c-b32c-3f97d58db872" Title="Settings.AcoustId Class" Url="html/dd1bd3d7-511d-f630-b98e-de4c56cfd178.htm">
+      <HelpTOCNode Title="Settings.AcoustId Constructor " Url="html/ddbb3d0d-e411-c7b6-7d53-90c466a411c7.htm" />
+      <HelpTOCNode Id="dfbd4909-b586-49ee-8ce6-998200850bfa" Title="AcoustId Properties" Url="html/f34f82f3-8b47-d564-0210-913b137f2b8e.htm">
+        <HelpTOCNode Title="ClientKey Property " Url="html/26b796fe-fad8-9711-0030-4febf303b7ce.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f235896d-9213-432d-a2fc-603d6ff82931" Title="Settings.Discogs Class" Url="html/92ac3139-a3c7-3cd1-01af-f530bbc479a6.htm">
+      <HelpTOCNode Title="Settings.Discogs Constructor " Url="html/3bb1c42d-09be-6696-180f-d011d8ae031e.htm" />
+      <HelpTOCNode Id="7d386e65-d550-4cfe-8229-a245fcaa16ef" Title="Discogs Properties" Url="html/08dd328e-0de1-e07e-2e0e-c5360f3662f8.htm">
+        <HelpTOCNode Title="Key Property " Url="html/b970d3af-10ba-ee3c-7320-99095a5c3a2c.htm" />
+        <HelpTOCNode Title="SecretKey Property " Url="html/b735d296-1066-d9d9-5ee3-fb23bdfdf58a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8c5ba5b3-0362-4007-9f90-e40d27d6756e" Title="Settings.FanartTv Class" Url="html/5de3d3f7-1781-74c4-4347-945a47279073.htm">
+      <HelpTOCNode Title="Settings.FanartTv Constructor " Url="html/7aa84bff-d784-c6ae-89de-bc4121799706.htm" />
+      <HelpTOCNode Id="41b8e673-f834-4d34-855a-13430dd072b9" Title="FanartTv Properties" Url="html/f997e638-7af6-5c64-013f-202e2b7a203f.htm">
+        <HelpTOCNode Title="ApiKey Property " Url="html/1762ad71-bc0c-373b-5888-335d296e73d8.htm" />
+        <HelpTOCNode Title="ClientKey Property " Url="html/720897ff-ffd4-0b28-88c9-732f4a5dab69.htm" />
+        <HelpTOCNode Title="Proxy Property " Url="html/2aafb4cf-b35f-e7b7-c063-a1969c2cba51.htm" />
+        <HelpTOCNode Title="Server Property " Url="html/529d5518-8c13-9f93-6a49-be26cbfe5f95.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c6966be9-03be-45e9-ada0-203aa25fc878" Title="Settings.FreeDb Class" Url="html/e5e07f71-4ecd-f89a-5552-1cbf946b6fce.htm">
+      <HelpTOCNode Title="Settings.FreeDb Constructor " Url="html/adb735c4-9141-9924-af2e-be2a307ba01f.htm" />
+      <HelpTOCNode Id="92f6d496-badc-40d7-9f1d-f3119fbda880" Title="FreeDb Properties" Url="html/1080d81b-b0b3-980e-8ae1-bd92d382cdce.htm">
+        <HelpTOCNode Title="Clientname Property " Url="html/8e9ac12d-152e-6a5b-fb43-c8c36255d9d1.htm" />
+        <HelpTOCNode Title="Hostname Property " Url="html/33ae23f3-f5bc-07ac-4ca0-07c6cab6f279.htm" />
+        <HelpTOCNode Title="Level Property " Url="html/1aa088db-3758-af25-dedb-b29a82bc226d.htm" />
+        <HelpTOCNode Title="ServerUrl Property " Url="html/be474cea-8da6-0afe-a50a-b88095408939.htm" />
+        <HelpTOCNode Title="Username Property " Url="html/4a5b8d58-f105-850b-978b-d0bcfbff46cf.htm" />
+        <HelpTOCNode Title="Version Property " Url="html/d5bc9da1-3593-a261-ac1f-adec708b4d2b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2b4fe8f9-d3da-442c-95d8-9498e4cc5436" Title="Settings.GraceNote Class" Url="html/edb5c0c2-f9b9-213a-a9ff-814645d443a1.htm">
+      <HelpTOCNode Title="Settings.GraceNote Constructor " Url="html/41d95852-cbc7-7f8e-fd03-a37dc805beb4.htm" />
+      <HelpTOCNode Id="20d0b708-3fc5-4948-a1e2-ec0112a5cf6c" Title="GraceNote Properties" Url="html/bfc334b6-4fcb-0bb5-191d-c2296c13698d.htm">
+        <HelpTOCNode Title="ResponseLanguage Property " Url="html/f7223784-b6f3-803a-59d9-eae1b9316b83.htm" />
+        <HelpTOCNode Title="ServerUrl Property " Url="html/7ff5ccd8-92c2-60f6-d37a-de1f0b59efc6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="64a8f86c-ff0a-4c91-98c9-9e9be68ae96c" Title="GraceNote Fields" Url="html/bd43e2dd-d8fc-55a9-dfd4-46e66c209ab4.htm">
+        <HelpTOCNode Title="ClientId Field" Url="html/3e3ef074-a4fd-c3ef-eadd-b0549a6dfa6b.htm" />
+        <HelpTOCNode Title="UserId Field" Url="html/240acf33-ae25-f822-05ec-f4ad0c40c241.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="61be8c29-625a-4a23-8e80-b17420270b76" Title="Settings.Http Class" Url="html/b976b310-ee2f-6c64-ebf1-d93a18a53970.htm">
+      <HelpTOCNode Title="Settings.Http Constructor " Url="html/67badbdd-edca-ed78-5fe0-e0ba612e0e37.htm" />
+      <HelpTOCNode Id="f202a346-d107-4f03-8792-2937c2f1197d" Title="Http Properties" Url="html/db7707d4-f99f-527a-741a-0a7110df34ac.htm">
+        <HelpTOCNode Title="HttpWebRequestTimeout Property " Url="html/b8929205-ddbe-b2ac-0fd3-092347ab64ef.htm" />
+        <HelpTOCNode Title="UserAgent Property " Url="html/147949b5-cec9-d22f-20b0-7c280708e2c6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="75895e21-bbc9-4fd1-a03a-2a229aeb1707" Title="Settings.TheAudioDb Class" Url="html/f0480083-b191-711b-699c-d119d3093866.htm">
+      <HelpTOCNode Title="Settings.TheAudioDb Constructor " Url="html/81fd5297-12c3-edd7-a45c-bfb2c49069fc.htm" />
+      <HelpTOCNode Id="571a8dbd-7c01-4c72-95d0-8e748166ccac" Title="TheAudioDb Properties" Url="html/66b1649b-9af7-176c-a791-274f466b3991.htm">
+        <HelpTOCNode Title="ApiKey Property " Url="html/dff0b29c-627a-00f3-9cde-9c19d552abb2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="035d46a5-047e-49db-ba15-495d9fea4fb6" Title="MusicApiCollection.Events" Url="html/fbfeb7cc-7f30-0fbe-4ea4-453ae27e8994.htm">
+    <HelpTOCNode Id="2fe5f62e-615e-4ffe-bc23-fa0011e600eb" Title="EventArg Class" Url="html/671319a2-6f2f-23c6-7983-7dfd2ec2507e.htm">
+      <HelpTOCNode Title="EventArg Constructor " Url="html/fc0bd706-7fcc-8797-d539-57045c6414e9.htm" />
+      <HelpTOCNode Id="7c414b31-5cc8-4925-8ca0-aea216e1b1c8" Title="EventArg Properties" Url="html/f28732d7-3b65-7ae9-57e3-c2369cc76267.htm">
+        <HelpTOCNode Title="Exception Property " Url="html/f2b088d0-be1b-4429-5799-14bb5a246f5d.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/b3074016-e4c2-b0c7-1366-24ede7f57c3d.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="33356bf4-5822-4571-a3aa-01e196ac2a95" Title="Exceptions Class" Url="html/8560391d-50bd-066d-60c3-a59646dfbe0c.htm">
+      <HelpTOCNode Title="Exceptions Constructor " Url="html/70e9e7e0-b920-b697-0f81-55fc9e1af47f.htm" />
+      <HelpTOCNode Id="7c62799a-987d-4097-adfa-5092c28fb235" Title="Exceptions Properties" Url="html/051aed04-b0b6-f953-1771-fd4451084fde.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/a0a6f50c-3a31-d0e8-bd14-e9cb559d115f.htm" />
+        <HelpTOCNode Title="Message Property " Url="html/844ba22d-dbe4-1940-7abc-23aaa21a2569.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c93fddb3-e496-4c08-9222-8eb396fa8eb3" Title="Exceptions Methods" Url="html/ad31f449-5e7b-f13b-7aef-2fc4171288c2.htm">
+        <HelpTOCNode Title="NewException Method " Url="html/9fb03d2c-e4aa-55f9-f408-1437eb45cba8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="9b8b0023-2438-4a75-9e32-7304ec25fd00" Title="Exceptions Events" Url="html/0689c8a2-86c7-c16b-994a-977e3b87995d.htm">
+        <HelpTOCNode Title="Call Event" Url="html/eb69900b-53ab-99c2-1a2b-a4d052d8d934.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6d0701a0-4a5a-4296-9632-0a32f399cbdf" Title="Exceptions Fields" Url="html/db99e591-ed72-79dc-cbc0-f77457448bb1.htm">
+        <HelpTOCNode Title="ErrorOccurred Field" Url="html/aa26bec4-7ceb-f665-c760-a872a92dcb25.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Exceptions.EventHandler Delegate" Url="html/eca4b8b2-108b-44e7-c1eb-d815e46f0d76.htm" />
+    <HelpTOCNode Id="98cd718a-9583-4c00-a93e-01eb8f9fd1b8" Title="LogEntry Class" Url="html/af1d3f7f-ce8d-7104-4a93-fe0f297a186b.htm">
+      <HelpTOCNode Id="41e9a336-ca02-49d0-aaaa-11095a9770ee" Title="LogEntry Constructor " Url="html/4f92d740-3ddc-88cd-9257-8c1359014093.htm">
+        <HelpTOCNode Title="LogEntry Constructor (String, String, String)" Url="html/15964df7-07f0-cbc5-0636-f64af5f58805.htm" />
+        <HelpTOCNode Title="LogEntry Constructor (String, String, String, Para)" Url="html/5070b452-573b-1d47-ea16-e8ecb779c5e1.htm" />
+        <HelpTOCNode Title="LogEntry Constructor (String, String, String, List(Para))" Url="html/4669d93a-c9fd-255a-5dec-064b3a99c0b8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="db174b67-4ec4-4e66-b159-b586650fdfd6" Title="LogEntry Properties" Url="html/6e84bd96-d8a8-f3d0-6e7c-5cea13ab2367.htm">
+        <HelpTOCNode Title="Class Property " Url="html/b16732c5-1db0-6a68-b092-7da6917b53a0.htm" />
+        <HelpTOCNode Title="Function Property " Url="html/8d23b60f-8442-75ea-a13b-51972e62b6ce.htm" />
+        <HelpTOCNode Title="Namespace Property " Url="html/4335c9be-24a2-cf97-12c4-0009604e95e5.htm" />
+        <HelpTOCNode Title="Parameters Property " Url="html/86e7a90e-c4a5-be09-fa08-a4bbbb5d685c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="deacb1e3-1a9e-450b-a7f6-6209fd3db0b6" Title="Logging Class" Url="html/1d3e8252-fa26-60c0-0cb7-ca2137a2425c.htm">
+      <HelpTOCNode Title="Logging Constructor " Url="html/68f46f29-5df0-67bc-df4f-f3b1c106a877.htm" />
+      <HelpTOCNode Id="8142d7a0-3073-457f-a69d-c4ec3d539f16" Title="Logging Properties" Url="html/c916cdc9-b05b-e0ea-cf5e-632963dda3fa.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/cb6e1a1c-21f1-acfc-8b7e-9d4c059a0704.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1db2df5a-c5be-4226-a1d4-95ab32685f63" Title="Logging Methods" Url="html/e0252847-505a-2e89-79a7-3ba12198094e.htm">
+        <HelpTOCNode Title="NewLogEntry Method " Url="html/c1fb5d9b-99c5-a48c-1af0-0c41dda79de2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="70dcb75f-b5bd-45f5-af6f-a255372c09d3" Title="Logging Events" Url="html/d385f52a-6a29-6c1c-b9a7-dc64b5aa854c.htm">
+        <HelpTOCNode Title="Call Event" Url="html/a4757a8c-ee3b-d34b-2565-e31c176dd480.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Logging.EventHandler Delegate" Url="html/4a8f82ae-fb80-b4a5-e5e8-7ff90eda22f0.htm" />
+    <HelpTOCNode Id="df8b8314-7160-4282-80f0-9a7cf34f935d" Title="Para Class" Url="html/cc573e74-67a1-51ff-52ee-5b6afdab21a5.htm">
+      <HelpTOCNode Title="Para Constructor " Url="html/8dc4084d-f86d-86c0-0424-ba468e2a6144.htm" />
+      <HelpTOCNode Id="f464b9b9-555d-4c68-8073-8dfd02fad311" Title="Para Properties" Url="html/5cc1b775-ce82-6412-a885-7023299503e0.htm">
+        <HelpTOCNode Title="Name Property " Url="html/54614373-e05e-fed1-ed08-ba9a3883cc59.htm" />
+        <HelpTOCNode Title="Value Property " Url="html/ac494dca-abf4-761b-aa47-d8f52fbf686a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="7a295ad9-192b-4d35-a134-4b7748c0e2b7" Title="MusicApiCollection.Sites.AcoustID" Url="html/ec5bf9aa-8a9d-c1c7-b1b4-5392966e15a6.htm">
+    <HelpTOCNode Id="0ddf0a1a-d399-4ebb-988c-4845786a6740" Title="Search Class" Url="html/877b61f1-625c-8306-0ed0-4575e282599d.htm">
+      <HelpTOCNode Title="Search Constructor " Url="html/8df0dedc-9a91-38ad-8311-90bd695e1f1e.htm" />
+      <HelpTOCNode Id="030470f8-1760-4fde-b778-58e33153913d" Title="Search Methods" Url="html/165e143d-da82-ad67-65e6-0da99afe27e0.htm">
+        <HelpTOCNode Title="Lookup Method " Url="html/0297affc-9295-4ecf-e656-711c5c9913ba.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="c161993a-e287-4d7b-ad6b-09028243da3c" Title="MusicApiCollection.Sites.CoverArtArchive" Url="html/ce57923b-a26a-aadf-53e4-d2a763247258.htm">
+    <HelpTOCNode Id="6ce33f4d-13ee-4957-a94c-2ffe214ab16b" Title="Search Class" Url="html/09f2c3c6-7b13-50cc-0e6d-63728f8c811b.htm">
+      <HelpTOCNode Title="Search Constructor " Url="html/dad05903-700b-46c4-127a-e556421effe8.htm" />
+      <HelpTOCNode Id="6c68df46-9482-4969-96bc-44bff4e7e209" Title="Search Methods" Url="html/f0c74a5f-77ca-30bf-bfcd-709f4f9e1b66.htm">
+        <HelpTOCNode Title="Release Method " Url="html/7ef8857d-630c-196e-4878-ac5a09044846.htm" />
+        <HelpTOCNode Title="ReleaseGroup Method " Url="html/6451422b-22cb-754a-e0e6-83bfa28cee8e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="ca82402c-e0bb-4843-9376-47c7c211fe9f" Title="MusicApiCollection.Sites.Discogs" Url="html/698c51bd-df51-6c81-ce9a-0f7169138f5c.htm">
+    <HelpTOCNode Id="5e312751-75d9-4fb9-985f-961e460fdc26" Title="Search Class" Url="html/27cbaa0d-28be-e4ba-44ab-db622393a250.htm">
+      <HelpTOCNode Title="Search Constructor " Url="html/85d43f4a-33c5-77c4-188b-99456469e704.htm" />
+      <HelpTOCNode Id="4d3a9002-3639-4691-b86b-67a4449f3794" Title="Search Methods" Url="html/907dc988-37e2-5758-3d05-5afe225a553c.htm">
+        <HelpTOCNode Title="AllLabelReleases Method " Url="html/51215e41-f3e3-08cd-cf3a-a6521b484464.htm" />
+        <HelpTOCNode Title="Artist Method " Url="html/ece6fd0c-7eeb-2c76-b5b1-59bda8433aa6.htm" />
+        <HelpTOCNode Title="ArtistRelease Method " Url="html/5e1698a5-e054-1405-1b9a-d198db42ca4f.htm" />
+        <HelpTOCNode Title="Label Method " Url="html/06434bf6-a2d2-5c6a-f1bd-94a1500ba005.htm" />
+        <HelpTOCNode Title="MasterRelease Method " Url="html/a83e4cf4-fb20-66f1-c17e-074bbe13cdc2.htm" />
+        <HelpTOCNode Title="MasterReleaseVersion Method " Url="html/d0338049-b139-2fe9-cbbc-9260ba4eb7ec.htm" />
+        <HelpTOCNode Id="c1c9f92d-afcd-49c2-bfdd-77a291ab6fc1" Title="Query Method " Url="html/668b5d40-f333-0530-1730-4ca71a4cf7b8.htm">
+          <HelpTOCNode Title="Query Method (Search.Type, String, String, String, String, String)" Url="html/63e7d52e-409e-4881-2bda-d2379e3304c2.htm" />
+          <HelpTOCNode Title="Query Method (String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String, String)" Url="html/81480ef2-f11c-c366-ef03-48c0348ebd05.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Release Method " Url="html/5e550804-45fe-038c-d52b-32a339a1fa74.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Search.Type Enumeration" Url="html/280b7b6d-6ef4-aaa9-431f-63f9cef5deb2.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="ae3551bb-99b4-4c24-92c8-c41df20c164d" Title="MusicApiCollection.Sites.FanartTv" Url="html/81f379d9-7552-c7c2-5790-b9483be68810.htm">
+    <HelpTOCNode Id="4f28c646-0861-4fea-af27-390d88f866ae" Title="Search Class" Url="html/d030dbe2-f43f-3cfa-e42a-1ea5a34af7fb.htm">
+      <HelpTOCNode Title="Search Constructor " Url="html/591e9dee-c4f2-4608-bc48-d55dc17165d7.htm" />
+      <HelpTOCNode Id="bccfc500-8b0c-4793-8ca4-1f2bbdd3926e" Title="Search Methods" Url="html/fa4e2b88-cf1e-c720-166e-25d8dee5a113.htm">
+        <HelpTOCNode Title="Album Method " Url="html/f106f925-9135-db14-cdd3-5cc36730ecc5.htm" />
+        <HelpTOCNode Title="Artist Method " Url="html/ee18609f-2ee3-eae4-d76c-6b160c548b9f.htm" />
+        <HelpTOCNode Title="Label Method " Url="html/0061f601-ec88-97b2-fc58-07832f4b1228.htm" />
+        <HelpTOCNode Title="LatestArtist Method " Url="html/a80ddc29-5e32-18b5-aa05-c0f4a0ce53c0.htm" />
+        <HelpTOCNode Title="LatestMovie Method " Url="html/a71d068c-792b-e75b-9978-255cd6781b80.htm" />
+        <HelpTOCNode Title="LatestTvShow Method " Url="html/b8706450-2253-632d-dd82-0b0fe2b41f3d.htm" />
+        <HelpTOCNode Title="Movie Method " Url="html/60024c0c-b298-89df-a558-0f50b91b3cac.htm" />
+        <HelpTOCNode Title="TvShow Method " Url="html/cc3300f3-9bf2-bf22-e5fc-51d805726145.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="bc8be845-78e1-49da-b445-bcd02d739faa" Title="MusicApiCollection.Sites.FreeDB" Url="html/7f057c89-8057-e3bf-f4f4-f67e29b322c4.htm">
+    <HelpTOCNode Id="bcb1e16d-251c-49bb-9b53-963fb1e29a87" Title="Search Class" Url="html/cb6211b9-cd46-912b-9b3f-e58b42f4ffa8.htm">
+      <HelpTOCNode Id="df162197-8bd1-419f-9881-0eee012bfeca" Title="Search Methods" Url="html/5f954f25-7be4-d57f-2ed1-acfef8406fee.htm">
+        <HelpTOCNode Title="Categories Method " Url="html/26206dbd-f165-39e4-2c59-6587f0f63a5d.htm" />
+        <HelpTOCNode Title="Help Method " Url="html/9c75e1fe-0ebf-5b50-2bb8-c9dbde1547e2.htm" />
+        <HelpTOCNode Title="Query Method " Url="html/09d072bf-6ed6-d565-8e8a-e3d53b98c188.htm" />
+        <HelpTOCNode Title="Read Method " Url="html/0fcd3436-3fde-e6b3-04fc-e7526ac7f157.htm" />
+        <HelpTOCNode Title="Sites Method " Url="html/2d50366f-35ea-77ee-554e-97972183d432.htm" />
+        <HelpTOCNode Title="Version Method " Url="html/dbf10cb7-4cab-e55f-69be-72724b95c83e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="95f6e44b-209d-4655-81d0-74d18849a850" Title="MusicApiCollection.Sites.GraceNote" Url="html/78507182-499c-f636-130c-d49fcad6ae85.htm">
+    <HelpTOCNode Id="5d7f5e3c-f944-4189-bc39-4a860c7ed31a" Title="Search Class" Url="html/268ff9db-9cc1-1854-595c-7d83451bf6cd.htm">
+      <HelpTOCNode Title="Search Constructor " Url="html/bec5d1bc-38ce-58a6-6db8-7f97f1a40018.htm" />
+      <HelpTOCNode Id="351d1ecd-375d-48af-a34a-5399faae4e98" Title="Search Methods" Url="html/26335241-dcd5-9a77-f341-fe720d36a55a.htm">
+        <HelpTOCNode Id="c2d397f1-149a-4fc7-8bc6-d26ee791dfe0" Title="Album Method " Url="html/3b5ab0e8-f555-9a93-4f05-c9962af5c517.htm">
+          <HelpTOCNode Title="Album Method (String, String, String)" Url="html/4e6201ce-bca3-e5ca-12d1-ae56d4b745d8.htm" />
+          <HelpTOCNode Title="Album Method (String, String, String, Search.Mode)" Url="html/9e493c45-22a9-76f6-391c-37880525191f.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="Search.Mode Enumeration" Url="html/bfe29072-21ab-a93b-a1d1-fd0777efb2c8.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="e3b47dac-965a-4b02-ae2a-f891588c0c17" Title="MusicApiCollection.Sites.Lyrics" Url="html/009c2530-4627-db8d-1696-1e3db5c31a79.htm">
+    <HelpTOCNode Id="b72df377-f08a-43b1-9e45-148b9d61ba05" Title="Lyric Class" Url="html/189f58c6-4209-ef1c-69cb-fa7e0f610e58.htm">
+      <HelpTOCNode Id="3bbf0532-7530-4670-9022-b56c3ae27e9e" Title="Lyric Constructor " Url="html/81e91bdf-e20f-830f-6382-80a55e61f660.htm">
+        <HelpTOCNode Title="Lyric Constructor " Url="html/37fbc963-c694-5210-4d60-be3b6254868c.htm" />
+        <HelpTOCNode Title="Lyric Constructor (LyricResult)" Url="html/5cd447d1-9208-7e86-2c33-7e9923ce3ba2.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f33714c2-2582-4a9b-a0d9-1372ffb7ede3" Title="Lyric Fields" Url="html/4a015e21-f15c-f72d-8bca-6ae163cce76c.htm">
+        <HelpTOCNode Title="Data Field" Url="html/0658771e-5b98-6a0f-c00c-018517629022.htm" />
+        <HelpTOCNode Title="ErrorMessage Field" Url="html/8dab575e-f704-7ddf-88fe-e0f56c7051aa.htm" />
+        <HelpTOCNode Title="ErrorOccurred Field" Url="html/dc8e3bcf-1c81-e1d4-7ef6-bcc60c26d3eb.htm" />
+        <HelpTOCNode Title="Response Field" Url="html/13b4c830-e26a-4129-73f7-a22314d693a6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="36c14cf0-ce78-41d4-a16a-6e1697d6d2e0" Title="LyricResult Class" Url="html/f5aa34fb-8ca4-d3c3-ee0b-cf5c8506fcf6.htm">
+      <HelpTOCNode Title="LyricResult Constructor " Url="html/5f0e628c-84a8-1c61-6693-d87305c6d43c.htm" />
+      <HelpTOCNode Id="5c5c1522-f143-4927-928c-62aeac87de59" Title="LyricResult Properties" Url="html/f3344024-3dfb-bd0f-aa39-210845c3e8a8.htm">
+        <HelpTOCNode Title="Text Property " Url="html/f7bcdd85-6310-9b13-160d-d36f28c17d02.htm" />
+        <HelpTOCNode Title="Writers Property " Url="html/d6db4792-bbc9-7ce5-4242-5df5251a9cfd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="5d7d11d6-fd1f-48fe-b377-b5743ea73ae7" Title="Writer Class" Url="html/19cc5c88-b141-cbc4-8590-cd38bc38256a.htm">
+      <HelpTOCNode Title="Writer Constructor " Url="html/ea81687e-321e-7dff-aeb8-92513eeb4132.htm" />
+      <HelpTOCNode Id="2b8db62b-7670-420a-b5ea-522b5f1ae07e" Title="Writer Properties" Url="html/2cddecdf-ad81-6d7a-90ae-fc9badbeac06.htm">
+        <HelpTOCNode Title="FirstName Property " Url="html/d27f27f5-3948-c7f1-94fb-1191b4df4aa5.htm" />
+        <HelpTOCNode Title="LastName Property " Url="html/5970ca13-8e4f-92ec-14b1-66ab8e56f380.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="b1f2c1f0-ccdf-48d1-8b9c-471a9b9fa10a" Title="MusicApiCollection.Sites.MusicBrainz" Url="html/04fc752d-b54d-b998-8ed9-43c603aa714f.htm">
+    <HelpTOCNode Id="648a27a8-b232-4852-992e-d8e067e6ce10" Title="Lookup Class" Url="html/27c19a4f-6f00-f478-5498-a5e1596251a9.htm">
+      <HelpTOCNode Title="Lookup Constructor " Url="html/9bd6af21-04bc-ea93-1535-27f1d6482ac7.htm" />
+      <HelpTOCNode Id="381d6fef-f440-46f6-8779-55514886c196" Title="Lookup Methods" Url="html/7217f661-56f3-93a4-f75e-fd58c8379de2.htm">
+        <HelpTOCNode Title="Area Method " Url="html/bcb43608-49ce-73b4-d71c-b11aa76d60fe.htm" />
+        <HelpTOCNode Title="Artist Method " Url="html/04673420-ad44-c5a6-e085-9d49c1fcca78.htm" />
+        <HelpTOCNode Title="Label Method " Url="html/2e45e982-7c6f-3ba8-22a0-d6ce13a290b7.htm" />
+        <HelpTOCNode Title="Recording Method " Url="html/8ea1ee25-fe00-786e-20f1-22641be770b6.htm" />
+        <HelpTOCNode Title="Release Method " Url="html/d398f5fa-0b86-81b1-13d5-93ba0a8a4f60.htm" />
+        <HelpTOCNode Title="ReleaseGroup Method " Url="html/aba08b60-e880-ed0d-9010-8f57c064c40c.htm" />
+        <HelpTOCNode Title="Url Method " Url="html/fd28c7f1-0e41-28ee-ffc8-8b36559503d0.htm" />
+        <HelpTOCNode Title="Work Method " Url="html/698735af-99da-824d-776f-427803e9ed50.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="58b64778-be59-43d3-9464-c0d6d0a7b87c" Title="Search Class" Url="html/5b37d752-0a1e-c3db-ffc4-f52bbcbbf944.htm">
+      <HelpTOCNode Title="Search Constructor " Url="html/c498c012-a2fb-0ff6-f904-c4db43777531.htm" />
+      <HelpTOCNode Id="dee1711a-0177-4594-ae06-aa60f35f8d5f" Title="Search Methods" Url="html/a23ee4eb-8e78-305f-0628-e216c658b022.htm">
+        <HelpTOCNode Title="Annotation Method " Url="html/82b96033-c0da-166f-3f47-02fc7b9130e6.htm" />
+        <HelpTOCNode Title="Area Method " Url="html/291fbf42-08ba-8204-665a-b85bdd455482.htm" />
+        <HelpTOCNode Title="Artist Method " Url="html/571d8944-51c0-50a6-a7cf-35a99a0a55cf.htm" />
+        <HelpTOCNode Title="CdStub Method " Url="html/a0fe8739-ca60-c0d7-4bf9-92f35d0c0ad8.htm" />
+        <HelpTOCNode Title="Freedb Method " Url="html/645a8446-be19-4857-26d3-51c16813bf08.htm" />
+        <HelpTOCNode Title="Label Method " Url="html/879c700d-669b-9a0d-64c4-1aa9cdba95d8.htm" />
+        <HelpTOCNode Title="Place Method " Url="html/350c634d-673f-6573-02f7-194192c8543d.htm" />
+        <HelpTOCNode Title="Recording Method " Url="html/33de9840-f5b2-b3fe-e499-cfcead94c965.htm" />
+        <HelpTOCNode Title="Release Method " Url="html/2b87f8b9-6b16-4d2d-6fc9-2d6487b99fb2.htm" />
+        <HelpTOCNode Title="ReleaseGroup Method " Url="html/e3d5dde3-645e-f427-67a4-d1ac938dfddb.htm" />
+        <HelpTOCNode Title="Tag Method " Url="html/e0b9d498-cc17-ad40-d060-730163318d82.htm" />
+        <HelpTOCNode Title="Work Method " Url="html/57491f69-78fe-c4f6-8afd-9ef851770c8b.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="0b44017f-02c5-49eb-bc8f-f2f34a92ba73" Title="MusicApiCollection.Sites.TheAudioDB" Url="html/d2c1536e-6aba-af53-8d46-69c04210dbdf.htm">
+    <HelpTOCNode Id="33e5a981-e7d6-45c3-8873-dc1808341fa2" Title="AlbumId Class" Url="html/b25d79ba-712a-7945-2bee-44bc4004dc88.htm">
+      <HelpTOCNode Title="AlbumId Constructor " Url="html/e3587782-3ecc-7c63-0ffd-7124273c3240.htm" />
+      <HelpTOCNode Id="19f9ab8f-bdf0-4b4b-83f8-bfc9b0277cdd" Title="AlbumId Fields" Url="html/c01f9de0-057e-4e65-caa9-7698650bbf51.htm">
+        <HelpTOCNode Title="Id Field" Url="html/cf1a9b72-55de-7287-6604-52ca5ab256dd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6358a2f9-6cbe-4bcf-bd7f-01248fd7c1e1" Title="ArtistId Class" Url="html/4deecaa4-c9e5-cfed-3294-c879bef28173.htm">
+      <HelpTOCNode Title="ArtistId Constructor " Url="html/d8621d3d-c613-a304-2eae-a69b908ccd6a.htm" />
+      <HelpTOCNode Id="c1cda80f-2794-46c0-bf6a-082a37c63157" Title="ArtistId Fields" Url="html/005307fc-6e59-4ebe-eaf6-5e3509041d62.htm">
+        <HelpTOCNode Title="Id Field" Url="html/78229ae9-9356-62d2-51f8-a4b4f0421ddf.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8d729d4b-842a-40b3-a2a6-0de657efe13d" Title="Search Class" Url="html/792069ab-732b-5a61-59e9-d2ea61f0be36.htm">
+      <HelpTOCNode Title="Search Constructor " Url="html/9f4d3e8b-6e11-d9e4-b4b4-39f7526dc1bb.htm" />
+      <HelpTOCNode Id="7032d15c-bd23-4f8b-be9f-10fa439a8dc5" Title="Search Methods" Url="html/3b01c2a4-1d89-f242-3543-51d5ae4f1161.htm">
+        <HelpTOCNode Id="139e5881-6233-473f-a3f5-65e02b31acd0" Title="Album Method " Url="html/f6e9656b-3116-20f1-bf1c-faa280298cf8.htm">
+          <HelpTOCNode Title="Album Method (Guid, String)" Url="html/74d2b0f0-699f-9f1d-4a8c-62748949d14b.htm" />
+          <HelpTOCNode Title="Album Method (AlbumId, String)" Url="html/a3219569-5ade-4104-0449-65814ad66476.htm" />
+          <HelpTOCNode Title="Album Method (ArtistId, String)" Url="html/d29ed360-647c-f828-bc3a-df0fa9747517.htm" />
+          <HelpTOCNode Title="Album Method (String, String, String)" Url="html/0d509009-dcf5-1fb1-e293-dfc37bf4520d.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f4d9f7c6-cfc9-4510-be92-4d7aa446f1bf" Title="Artist Method " Url="html/ce8d44a7-ed86-f7b3-e495-8dcbe7daa60b.htm">
+          <HelpTOCNode Title="Artist Method (Guid, String)" Url="html/a658a02f-6d9c-32cd-c19b-5c7f12d063f3.htm" />
+          <HelpTOCNode Title="Artist Method (String, String)" Url="html/147f9dd3-68e8-afb7-8050-749d0a3bb9e8.htm" />
+          <HelpTOCNode Title="Artist Method (ArtistId, String)" Url="html/16559ff5-1ec2-078e-1f7c-3056a7f95fe6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a8e8b682-2098-4bbd-9820-5355c7f43889" Title="Discography Method " Url="html/e3b8a053-fb75-6a77-691b-5debe1e3c5bc.htm">
+          <HelpTOCNode Title="Discography Method (Guid, String)" Url="html/8ae743d7-738d-ffd4-a5f7-2af7ec472e1b.htm" />
+          <HelpTOCNode Title="Discography Method (String, String)" Url="html/fcbb204a-7207-9ebf-a4ce-97e23ea034ff.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d14b7cd4-3bbc-4e43-bb1c-000af7bca7a8" Title="Top10 Method " Url="html/6c64a9ec-7c3e-0e1c-55ab-544ef3e7e8ad.htm">
+          <HelpTOCNode Title="Top10 Method (Guid, String)" Url="html/8755203a-05b5-2fe9-4afb-84bb5d1c449f.htm" />
+          <HelpTOCNode Title="Top10 Method (String, String)" Url="html/a909814a-df04-552e-effd-3aeae583909b.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5b2c75d7-744b-49ce-8a7a-4f2417d82eff" Title="TrackList Method " Url="html/3631167b-3a13-0a4d-897d-1723ee5bf085.htm">
+          <HelpTOCNode Title="TrackList Method (Guid, String)" Url="html/11d5d29b-9df0-5cdd-0f37-f6aed6c4c47c.htm" />
+          <HelpTOCNode Title="TrackList Method (AlbumId, String)" Url="html/de2ba45c-f0eb-8680-024f-6178c83ac1a7.htm" />
+          <HelpTOCNode Title="TrackList Method (TrackId, String)" Url="html/1d989387-3411-25e2-0aa7-19b95a17d16d.htm" />
+          <HelpTOCNode Title="TrackList Method (String, String, String)" Url="html/e5c30881-5c8e-e83a-0095-edb1368323fb.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="92de89c6-6242-4893-a99f-24a8f9415790" Title="Video Method " Url="html/96bafdf7-1bfe-35b0-839d-9c3d98d93ba5.htm">
+          <HelpTOCNode Title="Video Method (Guid, String)" Url="html/6ab621e3-2679-41d5-0beb-147801e927f9.htm" />
+          <HelpTOCNode Title="Video Method (ArtistId, String)" Url="html/a511c18f-7e57-c4c8-1811-225255feefe9.htm" />
+          <HelpTOCNode Title="Video Method (String, String, String)" Url="html/7537028e-517a-a909-53bb-376edc070a14.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="392823f4-fb24-4236-9e87-e86288299a0e" Title="TrackId Class" Url="html/85da89fa-f912-173c-bd35-45525f717fee.htm">
+      <HelpTOCNode Title="TrackId Constructor " Url="html/6d505d66-f673-16a0-33f1-a60e98084a69.htm" />
+      <HelpTOCNode Id="43f2bc87-8347-478b-a545-45dade55eaf9" Title="TrackId Fields" Url="html/5aa93aef-f3f3-d083-d5eb-59c7a7a2a108.htm">
+        <HelpTOCNode Title="Id Field" Url="html/86fac916-af25-8c72-e427-f82ddd368675.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -29,12 +29,12 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     /// <remarks />
     public class Work
     {
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
 
         /// <summary>
         ///     All possible Data
         /// </summary>
-        public WorkResult Data = new WorkResult();
+        public WorkResult Data { get; set; }
 
         /// <summary>
         ///     Error Message
@@ -56,7 +56,6 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// </summary>
         public Work()
         {
-            Logging.Clear();
         }
 
         /// <summary>
@@ -65,6 +64,9 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
         /// <param name="data">Result</param>
         public Work(WorkResult data)
         {
+            if (data.Data == null || data.Data.Count == 0)
+                data.Data = new List<WorkData> { new WorkData() };
+
             Data = data;
             ErrorMessage = Exceptions.Message;
             ErrorOccurred = Exceptions.ErrorOccurred;
@@ -91,7 +93,7 @@ namespace MusicApiCollection.Sites.MusicBrainz.Data
     {
         /// <remarks />
         [XmlElement("work")]
-        public List<WorkData> Data { get; set; } = new List<WorkData> {new WorkData()};
+        public List<WorkData> Data { get; set; }
 
         /// <remarks />
         [XmlAttribute("count")]

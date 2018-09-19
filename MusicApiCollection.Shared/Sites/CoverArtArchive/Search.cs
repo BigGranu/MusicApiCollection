@@ -1,6 +1,6 @@
-#region Copyright (C) 2015-2016 BigGranu
+#region Copyright (C) 2015-2018 BigGranu
 /*
-    Copyright (C) 2015-2016 BigGranu
+    Copyright (C) 2015-2018 BigGranu
 
     This file is part of mInfo <https://github.com/BigGranu/MusicApiCollection>
 
@@ -28,10 +28,52 @@ namespace MusicApiCollection.Sites.CoverArtArchive
     /// <summary>
     ///     Search on CoverArtArchive
     /// </summary>
+    /// <revisionHistory visible="true">
+    ///     <revision date="2016.02.25" version="1.0.0.0" author="BigGranu" visible="true">
+    ///         erste funktionierende Version
+    ///     </revision>
+    ///     <revision date="2018.08.14" version="2.0.0.0" author="BigGranu" visible="true">
+    ///         diverse Anpassungen beim Bytehandling
+    ///     </revision>
+    /// </revisionHistory>
     public class Search
     {
-        private static readonly Logging Logging = Logging.GetInstance();
-        private static readonly Exceptions Exceptions = Exceptions.GetInstance();
+        private static readonly Logging Logging = Logging.Instance;
+        private static readonly Exceptions Exceptions = Exceptions.Instance;
+
+        /// <summary>
+        ///     <a href="https://musicbrainz.org/doc/Cover_Art_Archive/API#.2Frelease.2F.7Bmbid.7D.2F" target="_blank">Available Cover Art for a MusicBrainz release</a>
+        /// </summary>
+        /// <param name="mbid">MusicbrainzId</param>
+        /// <example>
+        ///     Example shows the typical use of the function
+        ///     <code language="vbnet">
+        /// Dim ret1 = Search.Release("03f9d988-8555-4cdf-afb1-a29c9487bb15")
+        ///     </code>
+        ///     <code language="c#">
+        /// var ret1 = Search.Release("03f9d988-8555-4cdf-afb1-a29c9487bb15");
+        ///     </code>
+        /// </example>
+        /// <returns>
+        ///     Covers
+        /// </returns>
+        public static Covers Release(string mbid)
+        {
+            Logging.NewLogEntry(new LogEntry("Sites.CoverArtArchive", "Search", "Release", new Para("mbid", mbid)));
+
+            var ret = new Covers();
+
+            try
+            {
+                ret.Data = Json.Deserialize<CoversResult>(Http.Request("http://coverartarchive.org/release/" + mbid + "/")) ?? new CoversResult();
+            }
+            catch (Exception ex)
+            {
+                Exceptions.NewException(ex);
+            }
+
+            return new Covers(ret.Data);
+        }
 
         /// <summary>
         ///     Covers for a Releasegroup
@@ -57,41 +99,7 @@ namespace MusicApiCollection.Sites.CoverArtArchive
 
             try
             {
-                ret.Data = Json.Deserialize<CoversResult>(Http.Request("http://www.coverartarchive.org/release-group/" + mbid + "/")) ?? new CoversResult();
-            }
-            catch (Exception ex)
-            {
-                Exceptions.NewException(ex);
-            }
-
-            return new Covers(ret.Data);
-        }
-
-        /// <summary>
-        ///     Covers for a Release
-        /// </summary>
-        /// <param name="mbid">MusicbrainzId</param>
-        /// <example>
-        ///     Example shows the typical use of the function
-        ///     <code language="vbnet">
-        /// Dim ret1 = Search.Release("03f9d988-8555-4cdf-afb1-a29c9487bb15")
-        ///     </code>
-        ///     <code language="c#">
-        /// var ret1 = Search.Release("03f9d988-8555-4cdf-afb1-a29c9487bb15");
-        ///     </code>
-        /// </example>
-        /// <returns>
-        ///     Covers
-        /// </returns>
-        public static Covers Release(string mbid)
-        {
-            Logging.NewLogEntry(new LogEntry("Sites.CoverArtArchive", "Search", "Release", new Para("mbid", mbid)));
-
-            var ret = new Covers();
-
-            try
-            {
-                ret.Data = Json.Deserialize<CoversResult>(Http.Request("http://www.coverartarchive.org/release/" + mbid + "/"));
+                ret.Data = Json.Deserialize<CoversResult>(Http.Request("http://coverartarchive.org/release-group/" + mbid + "/")) ?? new CoversResult();
             }
             catch (Exception ex)
             {

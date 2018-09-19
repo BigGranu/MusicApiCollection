@@ -1,0 +1,24 @@
+{
+    "name": "Evanescence",
+    "mbid_id": "f4a31f0a-51dd-4fa7-986d-3095c40c5ed9",
+    "albums": {
+        "9ba659df-5814-32f6-b95f-02b738698e7c": {
+            "albumcover": [
+                {
+                    "id": "193896",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/albumcover/anywhere-but-home-570fc737287c6.jpg",
+                    "likes": "4"
+                }
+            ],
+            "cdart": [
+                {
+                    "id": "12420",
+                    "url": "https://assets.fanart.tv/fanart/music/f4a31f0a-51dd-4fa7-986d-3095c40c5ed9/cdart/anywhere-but-home-4e9a1074d0999.png",
+                    "likes": "3",
+                    "disc": "1",
+                    "size": "1000"
+                }
+            ]
+        }
+    }
+}
