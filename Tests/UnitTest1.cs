@@ -10,6 +10,7 @@ namespace Tests
         [TestMethod]
         public void Release()
         {
+<<<<<<< HEAD
             //http://musicbrainz.org/release/c6c1b7af-9bdc-45f8-944b-5472441f543b
             //https://musicbrainz.org/release/4117e0be-2d04-4969-abf5-f92316602580
             //http://musicbrainz.org/release/26fb22a7-b673-47f4-8b58-97d2a8211aaf
@@ -23,6 +24,15 @@ namespace Tests
 
 
             ret = MusicApiCollection.Sites.CoverArtArchive.Search.Release("572785a2-aad3-4d72-a7c9-508a2e7e6e4c", MusicApiCollection.Sites.CoverArtArchive.Search.Typ.FRONT);
+=======
+            var ret = MusicApiCollection.Sites.CoverArtArchive.Search.Release("03f9d988-8555-4cdf-afb1-a29c9487bb15m");
+        }
+
+        [TestMethod]
+        public void ReleaseGroup()
+        {
+            var ret = MusicApiCollection.Sites.CoverArtArchive.Search.ReleaseGroup("c31a5e2b-0bf8-32e0-8aeb-ef4ba9973932");
+>>>>>>> 531ae5a2944ce4bd4d2b58888f48805290b9bf6b
         }
     }
 

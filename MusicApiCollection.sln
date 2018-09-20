@@ -97,6 +97,64 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FanartTv", "FanartTv", "{EB
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Documentation", "Help\Documentation\Documentation.shfbproj", "{64EEF7E3-4AA0-4C4D-8F44-288451165E19}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net 4 Client", "Net 4 Client", "{902CE409-5138-4B52-A421-ABF8AC828E0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net 4.5", "Net 4.5", "{FA27F839-9DDF-405A-BA6F-A532C2387D77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net 4.5.1", "Net 4.5.1", "{D14AA78E-6135-4F3F-93BE-896B0CB51E20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Net 4.5.2", "Net 4.5.2", "{FCCE92FD-7F9A-4CDE-A141-0009FB36B34E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Portable", "Portable", "{A9272430-09DA-402A-A456-9277D842B302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApiCollection", "MusicApiCollection.Net 4.0\MusicApiCollection.csproj", "{960771BB-1AD7-4167-A33B-D5740196A7E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApiCollection", "MusicApiCollection.Net 4.0 CP\MusicApiCollection.csproj", "{1E888729-BF82-4847-8BA6-B31219A8C7B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApiCollection", "MusicApiCollection.Net 4.6.1\MusicApiCollection.csproj", "{89DDE2FB-7C7A-4BA0-9955-873F700DCE2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApiCollection", "MusicApiCollection.Portable\MusicApiCollection.csproj", "{3A1A8339-21C7-4606-8F56-5DD4B8D4B2F9}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MusicApiCollection", "MusicApiCollection.Shared\MusicApiCollection.shproj", "{050B2EB9-758B-40A0-BAE3-07B0D126E9DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApiCollection", "MusicApiCollection.Net 4.5\MusicApiCollection.csproj", "{B574438F-6397-4053-9311-34BCC7A03909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApiCollection", "MusicApiCollection.Net 4.5.1\MusicApiCollection.csproj", "{6F7DB2AC-9035-480B-935C-6F7629446416}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicApiCollection", "MusicApiCollection.Net 4.5.2\MusicApiCollection.csproj", "{F71FA347-1128-42B3-A0E2-293E7B214ADE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicApiCollection.Net Core", "MusicApiCollection.Net Core\MusicApiCollection.Net Core.csproj", "{ADB250BE-F8FB-400B-A66A-32E04512C3AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Net_4_6_1", "Test GUIs\Net_4_6_1\Net_4_6_1.csproj", "{AA88CBDC-92E4-46E5-8836-5288AA047574}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A5091875-37D9-4198-8A6F-97C516F488DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResponseExamples", "ResponseExamples", "{11A62122-E519-4B70-9D78-AA9194A1B3FD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MusicBrainz", "MusicBrainz", "{EA7B90E3-8EF4-4F05-83C9-2B616E30C708}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{DBCF537D-6B45-498A-9DFB-C24D11426B33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lookup", "Lookup", "{8874CF69-3580-4C18-80BC-E066585AD577}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoverArtArchive", "CoverArtArchive", "{9B4CD95F-C200-4114-B6B3-49DF17313AEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{9767662C-243B-4E17-B692-9059CD9E4E86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Response Examples", "Response Examples", "{56CF9B48-D14A-486E-A8B3-79E47E6700EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FanartTv", "FanartTv", "{EB6309AE-9932-4C27-A64A-743CE77D0C7D}"
+	ProjectSection(SolutionItems) = preProject
+		Response Examples\FanartTv\album_9ba659df-5814-32f6-b95f-02b738698e7c.json = Response Examples\FanartTv\album_9ba659df-5814-32f6-b95f-02b738698e7c.json
+		Response Examples\FanartTv\artist-latest.json = Response Examples\FanartTv\artist-latest.json
+		Response Examples\FanartTv\artist_f4a31f0a-51dd-4fa7-986d-3095c40c5ed9t.json = Response Examples\FanartTv\artist_f4a31f0a-51dd-4fa7-986d-3095c40c5ed9t.json
+		Response Examples\FanartTv\label_e832b688-546b-45e3-83e5-9f8db5dcde1d.json = Response Examples\FanartTv\label_e832b688-546b-45e3-83e5-9f8db5dcde1d.json
+		Response Examples\FanartTv\movie-latest.json = Response Examples\FanartTv\movie-latest.json
+		Response Examples\FanartTv\movie_10195.json = Response Examples\FanartTv\movie_10195.json
+		Response Examples\FanartTv\show-latest.json = Response Examples\FanartTv\show-latest.json
+		Response Examples\FanartTv\show_75682.json = Response Examples\FanartTv\show_75682.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		MusicApiCollection.Shared\MusicApiCollection.projitems*{050b2eb9-758b-40a0-bae3-07b0d126e9dc}*SharedItemsImports = 13

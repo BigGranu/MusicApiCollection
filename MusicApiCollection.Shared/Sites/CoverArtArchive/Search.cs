@@ -65,7 +65,11 @@ namespace MusicApiCollection.Sites.CoverArtArchive
 
             try
             {
+<<<<<<< HEAD
                 ret.Data = Json.Deserialize<CoversResult>(Http.Request("http://coverartarchive.org/release/" + mbid + "/")) ?? new CoversResult();
+=======
+                ret.Data = Json.Deserialize<CoversResult>(Http.Request("https://coverartarchive.org/release-group/" + mbid + "/")) ?? new CoversResult();
+>>>>>>> 531ae5a2944ce4bd4d2b58888f48805290b9bf6b
             }
             catch (Exception ex)
             {
@@ -99,7 +103,11 @@ namespace MusicApiCollection.Sites.CoverArtArchive
 
             try
             {
+<<<<<<< HEAD
                 ret.Data = Json.Deserialize<CoversResult>(Http.Request("http://coverartarchive.org/release-group/" + mbid + "/")) ?? new CoversResult();
+=======
+                ret.Data = Json.Deserialize<CoversResult>(Http.Request("https://coverartarchive.org/release/" + mbid + "/")) ?? new CoversResult();
+>>>>>>> 531ae5a2944ce4bd4d2b58888f48805290b9bf6b
             }
             catch (Exception ex)
             {

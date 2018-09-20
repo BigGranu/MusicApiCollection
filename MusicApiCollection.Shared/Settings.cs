@@ -72,7 +72,7 @@ namespace MusicApiCollection
             /// <summary>
             ///     ApiKey for TheAudoDB
             /// </summary>
-            public static string ApiKey { get; set; } = "";
+            public static string ApiKey { get; set; } = "912057237373f620001833";
         }
 
         /// <summary>

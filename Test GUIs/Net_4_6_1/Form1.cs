@@ -22,6 +22,7 @@ namespace Net_4_6_1
 
         private void button1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
            // var d = MusicApiCollection.Sites.MusicBrainz.Search.Artist("Madonna");
 
             var d1 = MusicApiCollection.Sites.MusicBrainz.Search.Release(arid: "79239441-bfd5-4981-a70c-55c3f15c1287", limit: 100);
@@ -42,6 +43,9 @@ namespace Net_4_6_1
             var dd = MusicApiCollection.Sites.MusicBrainz.Search.Release(artist: "Madonna");
 
 
+=======
+            var d = MusicApiCollection.Sites.MusicBrainz.Search.Artist("Madonna");
+>>>>>>> 531ae5a2944ce4bd4d2b58888f48805290b9bf6b
         }
 
         private void button2_Click(object sender, EventArgs e)
